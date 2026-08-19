@@ -1,0 +1,2270 @@
+{
+  "project": {
+    "title": "📖 Her güne 1 hikaye",
+    "subtitle": "16 Dilli Günlük Hikayeler",
+    "totalStories": 180,
+    "masterFile": "stories.json"
+  },
+  "rules": {
+    "wordsPerStory": 20,
+    "sections": [
+      "word",
+      "wordExercise",
+      "story",
+      "storyExercise"
+    ],
+    "totalStories": 180,
+    "languageOrder": [
+      {
+        "key": "en",
+        "flag": "🇬🇧",
+        "name": "English"
+      },
+      {
+        "key": "tr",
+        "flag": "🇹🇷",
+        "name": "Türkçe"
+      },
+      {
+        "key": "de",
+        "flag": "🇩🇪",
+        "name": "Deutsch"
+      },
+      {
+        "key": "nl",
+        "flag": "🇳🇱",
+        "name": "Nederlands"
+      },
+      {
+        "key": "fr",
+        "flag": "🇫🇷",
+        "name": "Français"
+      },
+      {
+        "key": "ru",
+        "flag": "🇷🇺",
+        "name": "Русский"
+      },
+      {
+        "key": "ku",
+        "flag": "🇹🇯",
+        "name": "Kurmancî"
+      },
+      {
+        "key": "tt",
+        "flag": "🇧🇬",
+        "name": "Tatarca"
+      },
+      {
+        "key": "ar",
+        "flag": "🇸🇦",
+        "name": "العربية"
+      },
+      {
+        "key": "es",
+        "flag": "🇪🇸",
+        "name": "Español"
+      },
+      {
+        "key": "it",
+        "flag": "🇮🇹",
+        "name": "Italiano"
+      },
+      {
+        "key": "pt",
+        "flag": "🇵🇹",
+        "name": "Português"
+      },
+      {
+        "key": "ko",
+        "flag": "🇰🇷",
+        "name": "한국어"
+      },
+      {
+        "key": "vi",
+        "flag": "🇻🇳",
+        "name": "Tiếng Việt"
+      },
+      {
+        "key": "ja",
+        "flag": "🇯🇵",
+        "name": "日本語"
+      },
+      {
+        "key": "zh",
+        "flag": "🇨🇳",
+        "name": "中文"
+      }
+    ],
+    "fixedLanguageOrder": true,
+    "navigation": {
+      "questionInput": true,
+      "dayInput": true,
+      "enterToNavigate": true,
+      "questionNavigation": "previous / number input / next",
+      "dayNavigation": "previous day / number input / next day"
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "file": "book1/story-0101.json",
+      "dayTitle": {
+        "tr": "1. Hikaye",
+        "en": "Story 1"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 2,
+      "file": "book1/story-0102.json",
+      "dayTitle": {
+        "tr": "2. Hikaye",
+        "en": "Story 2"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 3,
+      "file": "book1/story-0103.json",
+      "dayTitle": {
+        "tr": "3. Hikaye",
+        "en": "Story 3"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 4,
+      "file": "book1/story-0104.json",
+      "dayTitle": {
+        "tr": "4. Hikaye",
+        "en": "Story 4"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 5,
+      "file": "book1/story-0105.json",
+      "dayTitle": {
+        "tr": "5. Hikaye",
+        "en": "Story 5"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 6,
+      "file": "book1/story-0106.json",
+      "dayTitle": {
+        "tr": "6. Hikaye",
+        "en": "Story 6"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 7,
+      "file": "book1/story-0107.json",
+      "dayTitle": {
+        "tr": "7. Hikaye",
+        "en": "Story 7"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 8,
+      "file": "book1/story-0108.json",
+      "dayTitle": {
+        "tr": "8. Hikaye",
+        "en": "Story 8"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 9,
+      "file": "book1/story-0109.json",
+      "dayTitle": {
+        "tr": "9. Hikaye",
+        "en": "Story 9"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 10,
+      "file": "book1/story-0110.json",
+      "dayTitle": {
+        "tr": "10. Hikaye",
+        "en": "Story 10"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 11,
+      "file": "book1/story-0111.json",
+      "dayTitle": {
+        "tr": "11. Hikaye",
+        "en": "Story 11"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 12,
+      "file": "book1/story-0112.json",
+      "dayTitle": {
+        "tr": "12. Hikaye",
+        "en": "Story 12"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 13,
+      "file": "book1/story-0113.json",
+      "dayTitle": {
+        "tr": "13. Hikaye",
+        "en": "Story 13"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 14,
+      "file": "book1/story-0114.json",
+      "dayTitle": {
+        "tr": "14. Hikaye",
+        "en": "Story 14"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 15,
+      "file": "book1/story-0115.json",
+      "dayTitle": {
+        "tr": "15. Hikaye",
+        "en": "Story 15"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 16,
+      "file": "book1/story-0116.json",
+      "dayTitle": {
+        "tr": "16. Hikaye",
+        "en": "Story 16"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 17,
+      "file": "book1/story-0117.json",
+      "dayTitle": {
+        "tr": "17. Hikaye",
+        "en": "Story 17"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 18,
+      "file": "book1/story-0118.json",
+      "dayTitle": {
+        "tr": "18. Hikaye",
+        "en": "Story 18"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 19,
+      "file": "book1/story-0119.json",
+      "dayTitle": {
+        "tr": "19. Hikaye",
+        "en": "Story 19"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 20,
+      "file": "book1/story-0120.json",
+      "dayTitle": {
+        "tr": "20. Hikaye",
+        "en": "Story 20"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 21,
+      "file": "book1/story-0121.json",
+      "dayTitle": {
+        "tr": "21. Hikaye",
+        "en": "Story 21"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 22,
+      "file": "book1/story-0122.json",
+      "dayTitle": {
+        "tr": "22. Hikaye",
+        "en": "Story 22"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 23,
+      "file": "book1/story-0123.json",
+      "dayTitle": {
+        "tr": "23. Hikaye",
+        "en": "Story 23"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 24,
+      "file": "book1/story-0124.json",
+      "dayTitle": {
+        "tr": "24. Hikaye",
+        "en": "Story 24"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 25,
+      "file": "book1/story-0125.json",
+      "dayTitle": {
+        "tr": "25. Hikaye",
+        "en": "Story 25"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 26,
+      "file": "book1/story-0126.json",
+      "dayTitle": {
+        "tr": "26. Hikaye",
+        "en": "Story 26"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 27,
+      "file": "book1/story-0127.json",
+      "dayTitle": {
+        "tr": "27. Hikaye",
+        "en": "Story 27"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 28,
+      "file": "book1/story-0128.json",
+      "dayTitle": {
+        "tr": "28. Hikaye",
+        "en": "Story 28"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 29,
+      "file": "book1/story-0129.json",
+      "dayTitle": {
+        "tr": "29. Hikaye",
+        "en": "Story 29"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 30,
+      "file": "book1/story-0130.json",
+      "dayTitle": {
+        "tr": "30. Hikaye",
+        "en": "Story 30"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 31,
+      "file": "book2/story-0201.json",
+      "dayTitle": {
+        "tr": "1. Hikaye",
+        "en": "Story 1"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 32,
+      "file": "book2/story-0202.json",
+      "dayTitle": {
+        "tr": "2. Hikaye",
+        "en": "Story 2"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 33,
+      "file": "book2/story-0203.json",
+      "dayTitle": {
+        "tr": "3. Hikaye",
+        "en": "Story 3"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 34,
+      "file": "book2/story-0204.json",
+      "dayTitle": {
+        "tr": "4. Hikaye",
+        "en": "Story 4"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 35,
+      "file": "book2/story-0205.json",
+      "dayTitle": {
+        "tr": "5. Hikaye",
+        "en": "Story 5"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 36,
+      "file": "book2/story-0206.json",
+      "dayTitle": {
+        "tr": "6. Hikaye",
+        "en": "Story 6"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 37,
+      "file": "book2/story-0207.json",
+      "dayTitle": {
+        "tr": "7. Hikaye",
+        "en": "Story 7"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 38,
+      "file": "book2/story-0208.json",
+      "dayTitle": {
+        "tr": "8. Hikaye",
+        "en": "Story 8"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 39,
+      "file": "book2/story-0209.json",
+      "dayTitle": {
+        "tr": "9. Hikaye",
+        "en": "Story 9"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 40,
+      "file": "book2/story-0210.json",
+      "dayTitle": {
+        "tr": "10. Hikaye",
+        "en": "Story 10"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 41,
+      "file": "book2/story-0211.json",
+      "dayTitle": {
+        "tr": "11. Hikaye",
+        "en": "Story 11"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 42,
+      "file": "book2/story-0212.json",
+      "dayTitle": {
+        "tr": "12. Hikaye",
+        "en": "Story 12"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 43,
+      "file": "book2/story-0213.json",
+      "dayTitle": {
+        "tr": "13. Hikaye",
+        "en": "Story 13"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 44,
+      "file": "book2/story-0214.json",
+      "dayTitle": {
+        "tr": "14. Hikaye",
+        "en": "Story 14"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 45,
+      "file": "book2/story-0215.json",
+      "dayTitle": {
+        "tr": "15. Hikaye",
+        "en": "Story 15"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 46,
+      "file": "book2/story-0216.json",
+      "dayTitle": {
+        "tr": "16. Hikaye",
+        "en": "Story 16"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 47,
+      "file": "book2/story-0217.json",
+      "dayTitle": {
+        "tr": "17. Hikaye",
+        "en": "Story 17"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 48,
+      "file": "book2/story-0218.json",
+      "dayTitle": {
+        "tr": "18. Hikaye",
+        "en": "Story 18"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 49,
+      "file": "book2/story-0219.json",
+      "dayTitle": {
+        "tr": "19. Hikaye",
+        "en": "Story 19"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 50,
+      "file": "book2/story-0220.json",
+      "dayTitle": {
+        "tr": "20. Hikaye",
+        "en": "Story 20"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 51,
+      "file": "book2/story-0221.json",
+      "dayTitle": {
+        "tr": "21. Hikaye",
+        "en": "Story 21"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 52,
+      "file": "book2/story-0222.json",
+      "dayTitle": {
+        "tr": "22. Hikaye",
+        "en": "Story 22"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 53,
+      "file": "book2/story-0223.json",
+      "dayTitle": {
+        "tr": "23. Hikaye",
+        "en": "Story 23"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 54,
+      "file": "book2/story-0224.json",
+      "dayTitle": {
+        "tr": "24. Hikaye",
+        "en": "Story 24"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 55,
+      "file": "book2/story-0225.json",
+      "dayTitle": {
+        "tr": "25. Hikaye",
+        "en": "Story 25"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 56,
+      "file": "book2/story-0226.json",
+      "dayTitle": {
+        "tr": "26. Hikaye",
+        "en": "Story 26"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 57,
+      "file": "book2/story-0227.json",
+      "dayTitle": {
+        "tr": "27. Hikaye",
+        "en": "Story 27"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 58,
+      "file": "book2/story-0228.json",
+      "dayTitle": {
+        "tr": "28. Hikaye",
+        "en": "Story 28"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 59,
+      "file": "book2/story-0229.json",
+      "dayTitle": {
+        "tr": "29. Hikaye",
+        "en": "Story 29"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 60,
+      "file": "book2/story-0230.json",
+      "dayTitle": {
+        "tr": "30. Hikaye",
+        "en": "Story 30"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 61,
+      "file": "book3/story-0301.json",
+      "dayTitle": {
+        "tr": "1. Hikaye",
+        "en": "Story 1"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 62,
+      "file": "book3/story-0302.json",
+      "dayTitle": {
+        "tr": "2. Hikaye",
+        "en": "Story 2"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 63,
+      "file": "book3/story-0303.json",
+      "dayTitle": {
+        "tr": "3. Hikaye",
+        "en": "Story 3"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 64,
+      "file": "book3/story-0304.json",
+      "dayTitle": {
+        "tr": "4. Hikaye",
+        "en": "Story 4"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 65,
+      "file": "book3/story-0305.json",
+      "dayTitle": {
+        "tr": "5. Hikaye",
+        "en": "Story 5"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 66,
+      "file": "book3/story-0306.json",
+      "dayTitle": {
+        "tr": "6. Hikaye",
+        "en": "Story 6"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 67,
+      "file": "book3/story-0307.json",
+      "dayTitle": {
+        "tr": "7. Hikaye",
+        "en": "Story 7"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 68,
+      "file": "book3/story-0308.json",
+      "dayTitle": {
+        "tr": "8. Hikaye",
+        "en": "Story 8"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 69,
+      "file": "book3/story-0309.json",
+      "dayTitle": {
+        "tr": "9. Hikaye",
+        "en": "Story 9"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 70,
+      "file": "book3/story-0310.json",
+      "dayTitle": {
+        "tr": "10. Hikaye",
+        "en": "Story 10"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 71,
+      "file": "book3/story-0311.json",
+      "dayTitle": {
+        "tr": "11. Hikaye",
+        "en": "Story 11"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 72,
+      "file": "book3/story-0312.json",
+      "dayTitle": {
+        "tr": "12. Hikaye",
+        "en": "Story 12"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 73,
+      "file": "book3/story-0313.json",
+      "dayTitle": {
+        "tr": "13. Hikaye",
+        "en": "Story 13"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 74,
+      "file": "book3/story-0314.json",
+      "dayTitle": {
+        "tr": "14. Hikaye",
+        "en": "Story 14"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 75,
+      "file": "book3/story-0315.json",
+      "dayTitle": {
+        "tr": "15. Hikaye",
+        "en": "Story 15"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 76,
+      "file": "book3/story-0316.json",
+      "dayTitle": {
+        "tr": "16. Hikaye",
+        "en": "Story 16"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 77,
+      "file": "book3/story-0317.json",
+      "dayTitle": {
+        "tr": "17. Hikaye",
+        "en": "Story 17"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 78,
+      "file": "book3/story-0318.json",
+      "dayTitle": {
+        "tr": "18. Hikaye",
+        "en": "Story 18"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 79,
+      "file": "book3/story-0319.json",
+      "dayTitle": {
+        "tr": "19. Hikaye",
+        "en": "Story 19"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 80,
+      "file": "book3/story-0320.json",
+      "dayTitle": {
+        "tr": "20. Hikaye",
+        "en": "Story 20"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 81,
+      "file": "book3/story-0321.json",
+      "dayTitle": {
+        "tr": "21. Hikaye",
+        "en": "Story 21"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 82,
+      "file": "book3/story-0322.json",
+      "dayTitle": {
+        "tr": "22. Hikaye",
+        "en": "Story 22"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 83,
+      "file": "book3/story-0323.json",
+      "dayTitle": {
+        "tr": "23. Hikaye",
+        "en": "Story 23"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 84,
+      "file": "book3/story-0324.json",
+      "dayTitle": {
+        "tr": "24. Hikaye",
+        "en": "Story 24"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 85,
+      "file": "book3/story-0325.json",
+      "dayTitle": {
+        "tr": "25. Hikaye",
+        "en": "Story 25"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 86,
+      "file": "book3/story-0326.json",
+      "dayTitle": {
+        "tr": "26. Hikaye",
+        "en": "Story 26"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 87,
+      "file": "book3/story-0327.json",
+      "dayTitle": {
+        "tr": "27. Hikaye",
+        "en": "Story 27"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 88,
+      "file": "book3/story-0328.json",
+      "dayTitle": {
+        "tr": "28. Hikaye",
+        "en": "Story 28"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 89,
+      "file": "book3/story-0329.json",
+      "dayTitle": {
+        "tr": "29. Hikaye",
+        "en": "Story 29"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 90,
+      "file": "book3/story-0330.json",
+      "dayTitle": {
+        "tr": "30. Hikaye",
+        "en": "Story 30"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 91,
+      "file": "book4/story-0401.json",
+      "dayTitle": {
+        "tr": "1. Hikaye",
+        "en": "Story 1"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 92,
+      "file": "book4/story-0402.json",
+      "dayTitle": {
+        "tr": "2. Hikaye",
+        "en": "Story 2"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 93,
+      "file": "book4/story-0403.json",
+      "dayTitle": {
+        "tr": "3. Hikaye",
+        "en": "Story 3"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 94,
+      "file": "book4/story-0404.json",
+      "dayTitle": {
+        "tr": "4. Hikaye",
+        "en": "Story 4"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 95,
+      "file": "book4/story-0405.json",
+      "dayTitle": {
+        "tr": "5. Hikaye",
+        "en": "Story 5"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 96,
+      "file": "book4/story-0406.json",
+      "dayTitle": {
+        "tr": "6. Hikaye",
+        "en": "Story 6"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 97,
+      "file": "book4/story-0407.json",
+      "dayTitle": {
+        "tr": "7. Hikaye",
+        "en": "Story 7"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 98,
+      "file": "book4/story-0408.json",
+      "dayTitle": {
+        "tr": "8. Hikaye",
+        "en": "Story 8"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 99,
+      "file": "book4/story-0409.json",
+      "dayTitle": {
+        "tr": "9. Hikaye",
+        "en": "Story 9"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 100,
+      "file": "book4/story-0410.json",
+      "dayTitle": {
+        "tr": "10. Hikaye",
+        "en": "Story 10"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 101,
+      "file": "book4/story-0411.json",
+      "dayTitle": {
+        "tr": "11. Hikaye",
+        "en": "Story 11"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 102,
+      "file": "book4/story-0412.json",
+      "dayTitle": {
+        "tr": "12. Hikaye",
+        "en": "Story 12"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 103,
+      "file": "book4/story-0413.json",
+      "dayTitle": {
+        "tr": "13. Hikaye",
+        "en": "Story 13"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 104,
+      "file": "book4/story-0414.json",
+      "dayTitle": {
+        "tr": "14. Hikaye",
+        "en": "Story 14"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 105,
+      "file": "book4/story-0415.json",
+      "dayTitle": {
+        "tr": "15. Hikaye",
+        "en": "Story 15"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 106,
+      "file": "book4/story-0416.json",
+      "dayTitle": {
+        "tr": "16. Hikaye",
+        "en": "Story 16"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 107,
+      "file": "book4/story-0417.json",
+      "dayTitle": {
+        "tr": "17. Hikaye",
+        "en": "Story 17"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 108,
+      "file": "book4/story-0418.json",
+      "dayTitle": {
+        "tr": "18. Hikaye",
+        "en": "Story 18"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 109,
+      "file": "book4/story-0419.json",
+      "dayTitle": {
+        "tr": "19. Hikaye",
+        "en": "Story 19"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 110,
+      "file": "book4/story-0420.json",
+      "dayTitle": {
+        "tr": "20. Hikaye",
+        "en": "Story 20"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 111,
+      "file": "book4/story-0421.json",
+      "dayTitle": {
+        "tr": "21. Hikaye",
+        "en": "Story 21"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 112,
+      "file": "book4/story-0422.json",
+      "dayTitle": {
+        "tr": "22. Hikaye",
+        "en": "Story 22"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 113,
+      "file": "book4/story-0423.json",
+      "dayTitle": {
+        "tr": "23. Hikaye",
+        "en": "Story 23"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 114,
+      "file": "book4/story-0424.json",
+      "dayTitle": {
+        "tr": "24. Hikaye",
+        "en": "Story 24"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 115,
+      "file": "book4/story-0425.json",
+      "dayTitle": {
+        "tr": "25. Hikaye",
+        "en": "Story 25"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 116,
+      "file": "book4/story-0426.json",
+      "dayTitle": {
+        "tr": "26. Hikaye",
+        "en": "Story 26"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 117,
+      "file": "book4/story-0427.json",
+      "dayTitle": {
+        "tr": "27. Hikaye",
+        "en": "Story 27"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 118,
+      "file": "book4/story-0428.json",
+      "dayTitle": {
+        "tr": "28. Hikaye",
+        "en": "Story 28"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 119,
+      "file": "book4/story-0429.json",
+      "dayTitle": {
+        "tr": "29. Hikaye",
+        "en": "Story 29"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 120,
+      "file": "book4/story-0430.json",
+      "dayTitle": {
+        "tr": "30. Hikaye",
+        "en": "Story 30"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 121,
+      "file": "book5/story-0501.json",
+      "dayTitle": {
+        "tr": "1. Hikaye",
+        "en": "Story 1"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 122,
+      "file": "book5/story-0502.json",
+      "dayTitle": {
+        "tr": "2. Hikaye",
+        "en": "Story 2"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 123,
+      "file": "book5/story-0503.json",
+      "dayTitle": {
+        "tr": "3. Hikaye",
+        "en": "Story 3"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 124,
+      "file": "book5/story-0504.json",
+      "dayTitle": {
+        "tr": "4. Hikaye",
+        "en": "Story 4"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 125,
+      "file": "book5/story-0505.json",
+      "dayTitle": {
+        "tr": "5. Hikaye",
+        "en": "Story 5"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 126,
+      "file": "book5/story-0506.json",
+      "dayTitle": {
+        "tr": "6. Hikaye",
+        "en": "Story 6"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 127,
+      "file": "book5/story-0507.json",
+      "dayTitle": {
+        "tr": "7. Hikaye",
+        "en": "Story 7"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 128,
+      "file": "book5/story-0508.json",
+      "dayTitle": {
+        "tr": "8. Hikaye",
+        "en": "Story 8"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 129,
+      "file": "book5/story-0509.json",
+      "dayTitle": {
+        "tr": "9. Hikaye",
+        "en": "Story 9"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 130,
+      "file": "book5/story-0510.json",
+      "dayTitle": {
+        "tr": "10. Hikaye",
+        "en": "Story 10"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 131,
+      "file": "book5/story-0511.json",
+      "dayTitle": {
+        "tr": "11. Hikaye",
+        "en": "Story 11"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 132,
+      "file": "book5/story-0512.json",
+      "dayTitle": {
+        "tr": "12. Hikaye",
+        "en": "Story 12"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 133,
+      "file": "book5/story-0513.json",
+      "dayTitle": {
+        "tr": "13. Hikaye",
+        "en": "Story 13"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 134,
+      "file": "book5/story-0514.json",
+      "dayTitle": {
+        "tr": "14. Hikaye",
+        "en": "Story 14"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 135,
+      "file": "book5/story-0515.json",
+      "dayTitle": {
+        "tr": "15. Hikaye",
+        "en": "Story 15"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 136,
+      "file": "book5/story-0516.json",
+      "dayTitle": {
+        "tr": "16. Hikaye",
+        "en": "Story 16"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 137,
+      "file": "book5/story-0517.json",
+      "dayTitle": {
+        "tr": "17. Hikaye",
+        "en": "Story 17"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 138,
+      "file": "book5/story-0518.json",
+      "dayTitle": {
+        "tr": "18. Hikaye",
+        "en": "Story 18"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 139,
+      "file": "book5/story-0519.json",
+      "dayTitle": {
+        "tr": "19. Hikaye",
+        "en": "Story 19"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 140,
+      "file": "book5/story-0520.json",
+      "dayTitle": {
+        "tr": "20. Hikaye",
+        "en": "Story 20"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 141,
+      "file": "book5/story-0521.json",
+      "dayTitle": {
+        "tr": "21. Hikaye",
+        "en": "Story 21"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 142,
+      "file": "book5/story-0522.json",
+      "dayTitle": {
+        "tr": "22. Hikaye",
+        "en": "Story 22"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 143,
+      "file": "book5/story-0523.json",
+      "dayTitle": {
+        "tr": "23. Hikaye",
+        "en": "Story 23"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 144,
+      "file": "book5/story-0524.json",
+      "dayTitle": {
+        "tr": "24. Hikaye",
+        "en": "Story 24"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 145,
+      "file": "book5/story-0525.json",
+      "dayTitle": {
+        "tr": "25. Hikaye",
+        "en": "Story 25"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 146,
+      "file": "book5/story-0526.json",
+      "dayTitle": {
+        "tr": "26. Hikaye",
+        "en": "Story 26"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 147,
+      "file": "book5/story-0527.json",
+      "dayTitle": {
+        "tr": "27. Hikaye",
+        "en": "Story 27"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 148,
+      "file": "book5/story-0528.json",
+      "dayTitle": {
+        "tr": "28. Hikaye",
+        "en": "Story 28"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 149,
+      "file": "book5/story-0529.json",
+      "dayTitle": {
+        "tr": "29. Hikaye",
+        "en": "Story 29"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 150,
+      "file": "book5/story-0530.json",
+      "dayTitle": {
+        "tr": "30. Hikaye",
+        "en": "Story 30"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 151,
+      "file": "book6/story-0601.json",
+      "dayTitle": {
+        "tr": "1. Hikaye",
+        "en": "Story 1"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 152,
+      "file": "book6/story-0602.json",
+      "dayTitle": {
+        "tr": "2. Hikaye",
+        "en": "Story 2"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 153,
+      "file": "book6/story-0603.json",
+      "dayTitle": {
+        "tr": "3. Hikaye",
+        "en": "Story 3"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 154,
+      "file": "book6/story-0604.json",
+      "dayTitle": {
+        "tr": "4. Hikaye",
+        "en": "Story 4"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 155,
+      "file": "book6/story-0605.json",
+      "dayTitle": {
+        "tr": "5. Hikaye",
+        "en": "Story 5"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 156,
+      "file": "book6/story-0606.json",
+      "dayTitle": {
+        "tr": "6. Hikaye",
+        "en": "Story 6"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 157,
+      "file": "book6/story-0607.json",
+      "dayTitle": {
+        "tr": "7. Hikaye",
+        "en": "Story 7"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 158,
+      "file": "book6/story-0608.json",
+      "dayTitle": {
+        "tr": "8. Hikaye",
+        "en": "Story 8"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 159,
+      "file": "book6/story-0609.json",
+      "dayTitle": {
+        "tr": "9. Hikaye",
+        "en": "Story 9"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 160,
+      "file": "book6/story-0610.json",
+      "dayTitle": {
+        "tr": "10. Hikaye",
+        "en": "Story 10"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 161,
+      "file": "book6/story-0611.json",
+      "dayTitle": {
+        "tr": "11. Hikaye",
+        "en": "Story 11"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 162,
+      "file": "book6/story-0612.json",
+      "dayTitle": {
+        "tr": "12. Hikaye",
+        "en": "Story 12"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 163,
+      "file": "book6/story-0613.json",
+      "dayTitle": {
+        "tr": "13. Hikaye",
+        "en": "Story 13"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 164,
+      "file": "book6/story-0614.json",
+      "dayTitle": {
+        "tr": "14. Hikaye",
+        "en": "Story 14"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 165,
+      "file": "book6/story-0615.json",
+      "dayTitle": {
+        "tr": "15. Hikaye",
+        "en": "Story 15"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 166,
+      "file": "book6/story-0616.json",
+      "dayTitle": {
+        "tr": "16. Hikaye",
+        "en": "Story 16"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 167,
+      "file": "book6/story-0617.json",
+      "dayTitle": {
+        "tr": "17. Hikaye",
+        "en": "Story 17"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 168,
+      "file": "book6/story-0618.json",
+      "dayTitle": {
+        "tr": "18. Hikaye",
+        "en": "Story 18"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 169,
+      "file": "book6/story-0619.json",
+      "dayTitle": {
+        "tr": "19. Hikaye",
+        "en": "Story 19"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 170,
+      "file": "book6/story-0620.json",
+      "dayTitle": {
+        "tr": "20. Hikaye",
+        "en": "Story 20"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 171,
+      "file": "book6/story-0621.json",
+      "dayTitle": {
+        "tr": "21. Hikaye",
+        "en": "Story 21"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 172,
+      "file": "book6/story-0622.json",
+      "dayTitle": {
+        "tr": "22. Hikaye",
+        "en": "Story 22"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 173,
+      "file": "book6/story-0623.json",
+      "dayTitle": {
+        "tr": "23. Hikaye",
+        "en": "Story 23"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 174,
+      "file": "book6/story-0624.json",
+      "dayTitle": {
+        "tr": "24. Hikaye",
+        "en": "Story 24"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 175,
+      "file": "book6/story-0625.json",
+      "dayTitle": {
+        "tr": "25. Hikaye",
+        "en": "Story 25"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 176,
+      "file": "book6/story-0626.json",
+      "dayTitle": {
+        "tr": "26. Hikaye",
+        "en": "Story 26"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 177,
+      "file": "book6/story-0627.json",
+      "dayTitle": {
+        "tr": "27. Hikaye",
+        "en": "Story 27"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 178,
+      "file": "book6/story-0628.json",
+      "dayTitle": {
+        "tr": "28. Hikaye",
+        "en": "Story 28"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 179,
+      "file": "book6/story-0629.json",
+      "dayTitle": {
+        "tr": "29. Hikaye",
+        "en": "Story 29"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    },
+    {
+      "day": 180,
+      "file": "book6/story-0630.json",
+      "dayTitle": {
+        "tr": "30. Hikaye",
+        "en": "Story 30"
+      },
+      "daySubtitle": {
+        "tr": "Önemli 20 kelime",
+        "en": "20 essential words"
+      }
+    }
+  ]
+}
