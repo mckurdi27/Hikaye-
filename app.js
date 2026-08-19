@@ -1,5 +1,5 @@
 /* ========================================
-   BİR MÜSLÜMANIN YOL HARİTASI
+   HER GÜNE 1 HİKAYE
    16 DİL
    APP.JS
 
@@ -24,8 +24,8 @@
 ========================================= */
 
 const LANGS = [
-  { key: "tr", flag: "🇹🇷", name: "Türkçe" },
   { key: "en", flag: "🇬🇧", name: "English" },
+  { key: "tr", flag: "🇹🇷", name: "Türkçe" },
   { key: "de", flag: "🇩🇪", name: "Deutsch" },
   { key: "nl", flag: "🇳🇱", name: "Nederlands" },
   { key: "fr", flag: "🇫🇷", name: "Français" },
@@ -49,8 +49,8 @@ const LANGS = [
 
 const UI = {
   tr: {
-    title: "Bir Müslümanın Yol Haritası",
-    subtitle: "İslâm'ı adım adım öğren",
+    title: "Her Güne 1 Hikaye",
+    subtitle: "16 dilde günlük hikayelerle kelime öğren",
     days: "Günler",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -73,8 +73,8 @@ const UI = {
     loadingShort: "Yükleniyor..."
   },
   en: {
-    title: "A Muslim's Roadmap",
-    subtitle: "Learn Islam step by step",
+    title: "One Story a Day",
+    subtitle: "Learn vocabulary through daily stories in 16 languages",
     days: "Days",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -97,8 +97,8 @@ const UI = {
     loadingShort: "Loading..."
   },
   de: {
-    title: "Der Wegweiser eines Muslims",
-    subtitle: "Den Islam Schritt für Schritt kennenlernen",
+    title: "Jeden Tag eine Geschichte",
+    subtitle: "Lerne Vokabeln mit täglichen Geschichten in 16 Sprachen",
     days: "Tage",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -121,8 +121,8 @@ const UI = {
     loadingShort: "Laden..."
   },
   nl: {
-    title: "De routekaart van een moslim",
-    subtitle: "Leer de islam stap voor stap",
+    title: "Elke Dag Eén Verhaal",
+    subtitle: "Leer woordenschat met dagelijkse verhalen in 16 talen",
     days: "Dagen",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -145,8 +145,8 @@ const UI = {
     loadingShort: "Laden..."
   },
   fr: {
-    title: "La feuille de route du musulman",
-    subtitle: "Apprendre l’islam étape par étape",
+    title: "Une Histoire par Jour",
+    subtitle: "Apprenez du vocabulaire avec des histoires quotidiennes en 16 langues",
     days: "Jours",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -169,8 +169,8 @@ const UI = {
     loadingShort: "Chargement..."
   },
   ru: {
-    title: "Путеводитель мусульманина",
-    subtitle: "Изучайте ислам шаг за шагом",
+    title: "Одна История в День",
+    subtitle: "Учите слова с ежедневными историями на 16 языках",
     days: "Дни",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -193,8 +193,8 @@ const UI = {
     loadingShort: "Загрузка..."
   },
   ku: {
-    title: "Rêbernameya Misilmanekî",
-    subtitle: "Îslamê gav bi gav fêr bibe",
+    title: "Rojê Çîrokek",
+    subtitle: "Bi çîrokên rojane bi 16 zimanan peyvan fêr bibe",
     days: "Roj",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -217,8 +217,8 @@ const UI = {
     loadingShort: "Tê barkirin..."
   },
   tt: {
-    title: "Мөселманның юл картасы",
-    subtitle: "Исламны адымлап өйрәнегез",
+    title: "Көненә бер хикәя",
+    subtitle: "16 телдә көндәлек хикәяләр белән сүзлек өйрәнегез",
     days: "Көннәр",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -241,8 +241,8 @@ const UI = {
     loadingShort: "Йөкләнә..."
   },
   ar: {
-    title: "خُطَّةُ طَرِيقِ الْمُسْلِمِ",
-    subtitle: "تَعَلَّمِ الْإِسْلَامَ خُطْوَةً خُطْوَةً",
+    title: "قِصَّةٌ كُلَّ يَوْمٍ",
+    subtitle: "تَعَلَّمِ الْمُفْرَدَاتِ بِقِصَصٍ يَوْمِيَّةٍ بِـ ١٦ لُغَةً",
     days: "الأَيَّامُ",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -265,8 +265,8 @@ const UI = {
     loadingShort: "جَارٍ التَّحْمِيلُ..."
   },
   es: {
-    title: "La hoja de ruta del musulmán",
-    subtitle: "Aprender el Islam paso a paso",
+    title: "Una Historia al Día",
+    subtitle: "Aprende vocabulario con historias diarias en 16 idiomas",
     days: "Días",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -289,8 +289,8 @@ const UI = {
     loadingShort: "Cargando..."
   },
   it: {
-    title: "La guida del musulmano",
-    subtitle: "Imparare l'Islam passo dopo passo",
+    title: "Una Storia al Giorno",
+    subtitle: "Impara il vocabolario con storie quotidiane in 16 lingue",
     days: "Giorni",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -313,8 +313,8 @@ const UI = {
     loadingShort: "Caricamento..."
   },
   pt: {
-    title: "O Roteiro de um Muçulmano",
-    subtitle: "Aprenda o Islão passo a passo",
+    title: "Uma História por Dia",
+    subtitle: "Aprenda vocabulário com histórias diárias em 16 idiomas",
     days: "Dias",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -337,8 +337,8 @@ const UI = {
     loadingShort: "A carregar..."
   },
   ko: {
-    title: "무슬림의 길잡이",
-    subtitle: "이슬람을 한 걸음씩 배우다",
+    title: "하루 한 이야기",
+    subtitle: "16개 언어로 매일 이야기를 통해 어휘 학습",
     days: "일차",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -361,8 +361,8 @@ const UI = {
     loadingShort: "로딩 중..."
   },
   vi: {
-    title: "Lộ Trình Của Người Muslim",
-    subtitle: "Học Islam từng bước một",
+    title: "Mỗi Ngày Một Câu Chuyện",
+    subtitle: "Học từ vựng qua những câu chuyện hàng ngày bằng 16 ngôn ngữ",
     days: "Ngày",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -385,8 +385,8 @@ const UI = {
     loadingShort: "Đang tải..."
   },
   ja: {
-    title: "ムスリムの道しるべ",
-    subtitle: "イスラームを一歩ずつ学ぶ",
+    title: "1日1つの物語",
+    subtitle: "16言語の毎日の物語で語彙を学ぶ",
     days: "日",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -409,8 +409,8 @@ const UI = {
     loadingShort: "読み込み中..."
   },
   zh: {
-    title: "穆斯林的路线图",
-    subtitle: "循序渐进学习伊斯兰教",
+    title: "每日一故事",
+    subtitle: "通过16种语言的每日故事学习词汇",
     days: "天数",
     previousQuestion: "←",
     nextQuestion: "→",
@@ -439,8 +439,19 @@ const UI = {
    GENEL AYARLAR
 ========================================= */
 
-let selectedLang = localStorage.getItem("selectedLang") || "tr";
-if (!UI[selectedLang]) selectedLang = "tr";
+let selectedLang = localStorage.getItem("selectedLang") || "en";
+if (!UI[selectedLang]) selectedLang = "en";
+
+/* Hikaye kartında gösterilecek diller (🏳️ popup ile seçilir). Boşsa = tüm 16 dil. */
+let displayLanguages = [];
+try {
+  const saved = JSON.parse(localStorage.getItem("displayLanguages") || "[]");
+  if (Array.isArray(saved)) {
+    displayLanguages = saved.filter(key => LANGS.some(l => l.key === key));
+  }
+} catch (e) {
+  displayLanguages = [];
+}
 
 let days = [];
 let currentDayIndex = 0;
@@ -577,90 +588,82 @@ if ("speechSynthesis" in window) {
 
 
 /* =========================================
-   GÜNLERİ YÜKLE (0 = sözlük)
+   GÜNLERİ YÜKLE
+   Kaynak: stories.json (manifest) → bookN/story-XXXX.json
+   (0 = sözlük, sanal gün olarak eklenir)
 ========================================= */
 
 async function loadDays() {
   days = [];
-  console.log("📚 Günler yükleniyor...");
+  console.log("📚 Hikayeler yükleniyor...");
 
-  const requests = [];
-
-  for (let number = 0; number <= 30; number++) {
-    const fileName = `day-${String(number).padStart(2, "0")}.json`;
-    const primaryFile = `data/${fileName}`;
-    const fallbackFile = fileName;
-    const primaryUrl = `${primaryFile}?v=${Date.now()}`;
-    const fallbackUrl = `${fallbackFile}?v=${Date.now()}`;
-
-    requests.push(
-      fetch(primaryUrl, { method: "GET", cache: "no-store" })
-        .then(async response => {
-          if (!response.ok) {
-            // Eski/yerel paket yapısı için geri dönüş yolu.
-            return fetch(fallbackUrl, { method: "GET", cache: "no-store" });
-          }
-          return response;
-        })
-        .then(async response => {
-          if (!response.ok) {
-            console.warn(`Gün ${number} mevcut değil:`, response.status);
-            return null;
-          }
-
-          const text = await response.text();
-          if (!text.trim()) {
-            console.warn(`Gün ${number} boş:`, primaryFile);
-            return null;
-          }
-
-          let data;
-          try {
-            data = JSON.parse(text);
-          } catch (error) {
-            console.error(`❌ Gün ${number} JSON hatası:`, error);
-            return null;
-          }
-
-          const type =
-            data.type === "dictionary" ||
-            (number === 0 && Array.isArray(data.entries))
-              ? "dictionary"
-              : "day";
-
-          if (type === "dictionary") {
-            const entries = Array.isArray(data.entries) ? data.entries : [];
-            console.log(`✅ Sözlük yüklendi: ${entries.length} madde`);
-            return {
-              number: 0,
-              type: "dictionary",
-              questions: [],
-              entries,
-              info: data
-            };
-          }
-
-          const questions = Array.isArray(data) ? data : data.questions;
-          if (!Array.isArray(questions) || !questions.length) {
-            console.warn(`⚠️ Gün ${number}: soru yok.`, primaryFile);
-            return null;
-          }
-
-          console.log(`✅ Gün ${number} yüklendi: ${questions.length} soru`);
-          return {
-            number,
-            type: "day",
-            questions,
-            entries: [],
-            info: Array.isArray(data) ? {} : data
-          };
-        })
-        .catch(error => {
-          console.error(`❌ Gün ${number} yüklenemedi:`, error);
-          return null;
-        })
-    );
+  let manifest;
+  try {
+    const manifestResponse = await fetch(`stories.json?v=${Date.now()}`, {
+      method: "GET",
+      cache: "no-store"
+    });
+    if (!manifestResponse.ok) {
+      console.error("❌ stories.json bulunamadı:", manifestResponse.status);
+      return;
+    }
+    manifest = await manifestResponse.json();
+  } catch (error) {
+    console.error("❌ stories.json okunamadı:", error);
+    return;
   }
+
+  const dayEntries = Array.isArray(manifest.days) ? manifest.days : [];
+  if (!dayEntries.length) {
+    console.warn("⚠️ stories.json içinde 'days' listesi boş.");
+    return;
+  }
+
+  const requests = dayEntries.map(entry =>
+    fetch(`${entry.file}?v=${Date.now()}`, { method: "GET", cache: "no-store" })
+      .then(async response => {
+        if (!response.ok) {
+          console.warn(`Gün ${entry.day} mevcut değil:`, entry.file, response.status);
+          return null;
+        }
+
+        const text = await response.text();
+        if (!text.trim()) {
+          console.warn(`Gün ${entry.day} boş:`, entry.file);
+          return null;
+        }
+
+        let data;
+        try {
+          data = JSON.parse(text);
+        } catch (error) {
+          console.error(`❌ Gün ${entry.day} JSON hatası:`, entry.file, error);
+          return null;
+        }
+
+        const questions = Array.isArray(data.questions) ? data.questions : [];
+        if (!questions.length) {
+          console.warn(`⚠️ Gün ${entry.day}: içerik yok.`, entry.file);
+          return null;
+        }
+
+        console.log(`✅ Gün ${entry.day} yüklendi: ${questions.length} bölüm`);
+        return {
+          number: entry.day,
+          type: "day",
+          questions,
+          entries: [],
+          info: {
+            dayTitle: data.dayTitle || null,
+            daySubtitle: data.daySubtitle || null
+          }
+        };
+      })
+      .catch(error => {
+        console.error(`❌ Gün ${entry.day} yüklenemedi:`, entry.file, error);
+        return null;
+      })
+  );
 
   const results = await Promise.all(requests);
   days = results
@@ -734,6 +737,7 @@ function t(key, fallback = "") {
 function renderHome() {
   stopSpeech();
   stopDictionaryMic();
+  closeDisplayLanguagePopup();
 
   const home = document.querySelector("#home-page");
   const questionPage = document.querySelector("#question-page");
@@ -864,6 +868,20 @@ function getDayTitle(dayData) {
   return `${dayData.number}. Gün`;
 }
 
+/* Hikaye günü içindeki bölüm etiketi (kelime / alıştırma / hikaye) */
+const SECTION_LABELS = {
+  word: { tr: "📘 Kelime", en: "📘 Word" },
+  wordExercise: { tr: "✍️ Kelime Alıştırması", en: "✍️ Word Exercise" },
+  story: { tr: "📖 Hikaye", en: "📖 Story" },
+  storyExercise: { tr: "❓ Hikaye Alıştırması", en: "❓ Story Exercise" }
+};
+
+function getSectionLabel(section) {
+  if (!section || !SECTION_LABELS[section]) return "";
+  const labels = SECTION_LABELS[section];
+  return labels[selectedLang] || labels.en || "";
+}
+
 function getDaySubtitle(dayData) {
   const info = dayData.info || {};
   if (info.daySubtitle && typeof info.daySubtitle === "object") {
@@ -971,23 +989,33 @@ function renderQuestion() {
   dayTitle.textContent = getDayTitle(dayData);
   content.appendChild(dayTitle);
 
+  const sectionLabel = getSectionLabel(question.section);
+  if (sectionLabel) {
+    const badge = document.createElement("div");
+    badge.className = "section-badge";
+    badge.textContent = sectionLabel;
+    content.appendChild(badge);
+  }
+
   addQuestionLanguageSelector();
   renderTTSControls({ showMicrophone: false });
 
   const card = document.createElement("article");
   card.className = "question-card";
 
-  // Seçili dil her zaman ilk sırada; diğer diller sabit sırayı korur.
-  const languageOrder = [
-    selectedLang,
-    ...LANGS.map(l => l.key).filter(key => key !== selectedLang)
-  ];
+  const activeLanguages =
+    displayLanguages.length > 0
+      ? LANGS.filter(l => displayLanguages.includes(l.key))
+      : LANGS;
 
-  let sourcesRendered = false;
+  const blocksContainer = document.createElement("div");
+  blocksContainer.className =
+    activeLanguages.length > 1
+      ? "language-blocks-grid"
+      : "language-blocks-stack";
 
-  languageOrder.forEach(languageKey => {
-    const language = LANGS.find(item => item.key === languageKey);
-    if (!language) return;
+  activeLanguages.forEach(language => {
+    const languageKey = language.key;
     const data = question[languageKey];
     if (!data) return;
 
@@ -1009,26 +1037,13 @@ function renderQuestion() {
 
     block.appendChild(q);
     block.appendChild(a);
-    card.appendChild(block);
-
-    // Kaynaklar seçili dil bloğunun hemen altında, yani her zaman 2. sırada.
-    if (languageKey === selectedLang && !sourcesRendered) {
-      if (Array.isArray(question.sources) && question.sources.length) {
-        card.appendChild(renderSources(question.sources));
-      }
-      sourcesRendered = true;
-    }
+    blocksContainer.appendChild(block);
   });
 
-  // Seçili dil veri içinde yoksa kaynakları yine en üstteki mevcut dilin altına koy.
-  if (!sourcesRendered && Array.isArray(question.sources) && question.sources.length) {
-    const firstLanguageBlock = card.querySelector('.language-block');
-    const sourcesBox = renderSources(question.sources);
-    if (firstLanguageBlock) {
-      firstLanguageBlock.insertAdjacentElement('afterend', sourcesBox);
-    } else {
-      card.appendChild(sourcesBox);
-    }
+  card.appendChild(blocksContainer);
+
+  if (Array.isArray(question.sources) && question.sources.length) {
+    card.appendChild(renderSources(question.sources));
   }
 
   content.appendChild(card);
@@ -1376,6 +1391,7 @@ function renderDictionary() {
   stopSpeech();
   stopDictionaryMic();
   closeTTSSettings();
+  closeDisplayLanguagePopup();
 
   const home = document.querySelector("#home-page");
   const page = document.querySelector("#question-page");
@@ -1648,6 +1664,114 @@ function addQuestionLanguageSelector() {
     if (page && nav) page.insertBefore(selector, nav);
   }
   renderLanguageButtons(selector);
+
+  const flagButton = document.createElement("button");
+  flagButton.type = "button";
+  flagButton.className = "language-button display-language-flag";
+  flagButton.textContent = "🏳️";
+  flagButton.title = "Gösterilecek dilleri seç";
+  flagButton.setAttribute("aria-label", "Gösterilecek dilleri seç");
+  flagButton.addEventListener("click", () => {
+    stopSpeech();
+    stopDictionaryMic();
+    closeTTSSettings();
+    openDisplayLanguagePopup();
+  });
+  selector.appendChild(flagButton);
+}
+
+
+/* =========================================
+   GÖSTERİLECEK DİL POPUP'I (🏳️)
+========================================= */
+
+function closeDisplayLanguagePopup() {
+  const existing = document.querySelector("#display-language-popup");
+  if (existing) existing.remove();
+}
+
+function openDisplayLanguagePopup() {
+  closeDisplayLanguagePopup();
+
+  const overlay = document.createElement("div");
+  overlay.id = "display-language-popup";
+  overlay.className = "popup-overlay";
+  overlay.addEventListener("click", event => {
+    if (event.target === overlay) closeDisplayLanguagePopup();
+  });
+
+  const box = document.createElement("div");
+  box.className = "popup-box";
+
+  const title = document.createElement("h3");
+  title.className = "popup-title";
+  title.textContent = "Gösterilecek diller";
+  box.appendChild(title);
+
+  const hint = document.createElement("p");
+  hint.className = "popup-hint";
+  hint.textContent = "Hiçbiri seçilmezse 16 dilin tümü gösterilir.";
+  box.appendChild(hint);
+
+  const list = document.createElement("div");
+  list.className = "popup-language-list";
+
+  LANGS.forEach(language => {
+    const label = document.createElement("label");
+    label.className = "popup-language-item";
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.checked = displayLanguages.includes(language.key);
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) {
+        if (!displayLanguages.includes(language.key)) {
+          displayLanguages.push(language.key);
+        }
+      } else {
+        displayLanguages = displayLanguages.filter(k => k !== language.key);
+      }
+      localStorage.setItem("displayLanguages", JSON.stringify(displayLanguages));
+      renderQuestion();
+      openDisplayLanguagePopup();
+    });
+
+    const span = document.createElement("span");
+    span.textContent = `${language.flag} ${language.name}`;
+
+    label.appendChild(checkbox);
+    label.appendChild(span);
+    list.appendChild(label);
+  });
+
+  box.appendChild(list);
+
+  const actions = document.createElement("div");
+  actions.className = "popup-actions";
+
+  const clearButton = document.createElement("button");
+  clearButton.type = "button";
+  clearButton.className = "popup-clear-button";
+  clearButton.textContent = "Tümünü Göster";
+  clearButton.addEventListener("click", () => {
+    displayLanguages = [];
+    localStorage.setItem("displayLanguages", JSON.stringify(displayLanguages));
+    renderQuestion();
+    openDisplayLanguagePopup();
+  });
+
+  const closeButton = document.createElement("button");
+  closeButton.type = "button";
+  closeButton.className = "popup-close-button";
+  closeButton.textContent = "Kapat";
+  closeButton.addEventListener("click", closeDisplayLanguagePopup);
+
+  actions.appendChild(clearButton);
+  actions.appendChild(closeButton);
+  box.appendChild(actions);
+
+  overlay.appendChild(box);
+  document.body.appendChild(overlay);
 }
 
 
@@ -2716,32 +2840,8 @@ function renderSources(sources) {
 }
 
 function getSourceUrl(source) {
-  const text = String(source).toLowerCase();
-  const quranMatch = text.match(
-    /(?:kur['’]an|qur['’]?an|coran|corán|коран|коръән)[^0-9]*(\d+)[\s:.-]+(\d+)(?:[-–](\d+))?/i
-  );
-  if (quranMatch) {
-    return `https://quran.com/${quranMatch[1]}?startingVerse=${quranMatch[2]}`;
-  }
-  if (text.includes("sahih müslim") || text.includes("sahih muslim")) {
-    return "https://sunnah.com/muslim";
-  }
-  if (
-    text.includes("sahih buhari") ||
-    text.includes("sahih buhârî") ||
-    text.includes("sahih bukhari")
-  ) {
-    return "https://sunnah.com/bukhari";
-  }
-  if (text.includes("ömer nasuhi bilmen")) {
-    return "https://archive.org/search?query=%C3%96mer+Nasuhi+Bilmen+B%C3%BCy%C3%BCk+%C4%B0slam+%C4%B0lmihali";
-  }
-  if (
-    text.includes("bir müslümanın yol haritası") ||
-    text.includes("akademi")
-  ) {
-    return "https://mckurdi27.github.io/yol-haritasi/";
-  }
+  // Hikaye kaynağı olarak PDF kitap referansları eklenebilir; şimdilik
+  // sadece kaynak metninin içinde geçen URL kullanılıyor (renderSources'ta).
   return "";
 }
 
@@ -2751,11 +2851,11 @@ function getSourceUrl(source) {
 ========================================= */
 
 window.addEventListener("error", event => {
-  console.error("Yol Haritası JavaScript hatası:", event.error || event.message);
+  console.error("Hikaye Sitesi JavaScript hatası:", event.error || event.message);
 });
 
 window.addEventListener("unhandledrejection", event => {
-  console.error("Yol Haritası Promise hatası:", event.reason);
+  console.error("Hikaye Sitesi Promise hatası:", event.reason);
 });
 
 /* =========================================
