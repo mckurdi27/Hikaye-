@@ -1,0 +1,420 @@
+{
+  "dayTitle": {
+    "tr": "1. Hikaye",
+    "en": "Story 1"
+  },
+  "daySubtitle": {
+    "tr": "Önemli 20 kelime (DEMO: 3 kelime)",
+    "en": "20 essential words (DEMO: 3 words)"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "section": "word",
+      "en": {
+        "q": "shelter",
+        "a": "a place that protects you from bad weather"
+      },
+      "tr": {
+        "q": "sığınak",
+        "a": "kötü havadan seni koruyan yer"
+      },
+      "de": {
+        "q": "Unterschlupf",
+        "a": "ein Ort, der dich vor schlechtem Wetter schützt"
+      },
+      "nl": {
+        "q": "schuilplaats",
+        "a": "een plek die je beschermt tegen slecht weer"
+      },
+      "fr": {
+        "q": "abri",
+        "a": "un endroit qui te protège du mauvais temps"
+      },
+      "ru": {
+        "q": "укрытие",
+        "a": "место, которое защищает тебя от плохой погоды"
+      },
+      "ku": {
+        "q": "stargeh",
+        "a": "cihek ku te ji hewayê xerab diparêze"
+      },
+      "tt": {
+        "q": "сыену урыны",
+        "a": "сине начар һавадан саклый торган урын"
+      },
+      "ar": {
+        "q": "مَأْوًى",
+        "a": "مَكَانٌ يَحْمِيكَ مِنَ الطَّقْسِ السَّيِّئِ"
+      },
+      "es": {
+        "q": "refugio",
+        "a": "un lugar que te protege del mal tiempo"
+      },
+      "it": {
+        "q": "riparo",
+        "a": "un luogo che ti protegge dal brutto tempo"
+      },
+      "pt": {
+        "q": "abrigo",
+        "a": "um lugar que te protege do mau tempo"
+      },
+      "ko": {
+        "q": "대피처",
+        "a": "나쁜 날씨로부터 너를 보호해주는 장소"
+      },
+      "vi": {
+        "q": "nơi trú ẩn",
+        "a": "một nơi bảo vệ bạn khỏi thời tiết xấu"
+      },
+      "ja": {
+        "q": "避難所",
+        "a": "悪天候からあなたを守ってくれる場所"
+      },
+      "zh": {
+        "q": "避难所",
+        "a": "保护你免受恶劣天气影响的地方"
+      }
+    },
+    {
+      "id": 2,
+      "section": "word",
+      "en": {
+        "q": "hurry",
+        "a": "to move quickly because you are late"
+      },
+      "tr": {
+        "q": "acele etmek",
+        "a": "geç kaldığın için hızlı hareket etmek"
+      },
+      "de": {
+        "q": "sich beeilen",
+        "a": "sich schnell bewegen, weil man spät dran ist"
+      },
+      "nl": {
+        "q": "haasten",
+        "a": "snel bewegen omdat je laat bent"
+      },
+      "fr": {
+        "q": "se dépêcher",
+        "a": "bouger vite parce qu'on est en retard"
+      },
+      "ru": {
+        "q": "спешить",
+        "a": "двигаться быстро, потому что ты опаздываешь"
+      },
+      "ku": {
+        "q": "lezê kirin",
+        "a": "zû livîn ji ber ku tu dereng mayî"
+      },
+      "tt": {
+        "q": "ашыгу",
+        "a": "соңга калганга тиз хәрәкәт итү"
+      },
+      "ar": {
+        "q": "يُسْرِعُ",
+        "a": "يَتَحَرَّكُ بِسُرْعَةٍ لِأَنَّهُ مُتَأَخِّرٌ"
+      },
+      "es": {
+        "q": "apresurarse",
+        "a": "moverse rápido porque llegas tarde"
+      },
+      "it": {
+        "q": "affrettarsi",
+        "a": "muoversi velocemente perché sei in ritardo"
+      },
+      "pt": {
+        "q": "apressar-se",
+        "a": "mover-se rápido porque está atrasado"
+      },
+      "ko": {
+        "q": "서두르다",
+        "a": "늦었기 때문에 빠르게 움직이다"
+      },
+      "vi": {
+        "q": "vội vàng",
+        "a": "di chuyển nhanh vì bạn bị trễ"
+      },
+      "ja": {
+        "q": "急ぐ",
+        "a": "遅れているので速く動くこと"
+      },
+      "zh": {
+        "q": "匆忙",
+        "a": "因为迟到而快速移动"
+      }
+    },
+    {
+      "id": 3,
+      "section": "word",
+      "en": {
+        "q": "smile",
+        "a": "to make a happy expression with your mouth"
+      },
+      "tr": {
+        "q": "gülümsemek",
+        "a": "ağzınla mutlu bir ifade oluşturmak"
+      },
+      "de": {
+        "q": "lächeln",
+        "a": "mit dem Mund einen glücklichen Ausdruck machen"
+      },
+      "nl": {
+        "q": "glimlachen",
+        "a": "een blije uitdrukking met je mond maken"
+      },
+      "fr": {
+        "q": "sourire",
+        "a": "faire une expression heureuse avec la bouche"
+      },
+      "ru": {
+        "q": "улыбаться",
+        "a": "делать счастливое выражение лица ртом"
+      },
+      "ku": {
+        "q": "bişirîn",
+        "a": "bi devê xwe rewşek bextewer çêkirin"
+      },
+      "tt": {
+        "q": "елмаю",
+        "a": "авыз белән бәхетле кыяфәт ясау"
+      },
+      "ar": {
+        "q": "يَبْتَسِمُ",
+        "a": "يَصْنَعُ تَعْبِيرًا سَعِيدًا بِفَمِهِ"
+      },
+      "es": {
+        "q": "sonreír",
+        "a": "hacer una expresión feliz con la boca"
+      },
+      "it": {
+        "q": "sorridere",
+        "a": "fare un'espressione felice con la bocca"
+      },
+      "pt": {
+        "q": "sorrir",
+        "a": "fazer uma expressão feliz com a boca"
+      },
+      "ko": {
+        "q": "미소짓다",
+        "a": "입으로 행복한 표정을 짓다"
+      },
+      "vi": {
+        "q": "mỉm cười",
+        "a": "tạo biểu cảm vui vẻ bằng miệng"
+      },
+      "ja": {
+        "q": "微笑む",
+        "a": "口で幸せな表情を作ること"
+      },
+      "zh": {
+        "q": "微笑",
+        "a": "用嘴做出快乐的表情"
+      }
+    },
+    {
+      "id": 4,
+      "section": "wordExercise",
+      "en": {
+        "q": "Which word means \"to move quickly because you are late\"?",
+        "a": "hurry"
+      },
+      "tr": {
+        "q": "\"Geç kaldığın için hızlı hareket etmek\" anlamına gelen kelime hangisidir?",
+        "a": "acele etmek"
+      },
+      "de": {
+        "q": "Welches Wort bedeutet \"sich schnell bewegen, weil man spät dran ist\"?",
+        "a": "sich beeilen"
+      },
+      "nl": {
+        "q": "Welk woord betekent \"snel bewegen omdat je laat bent\"?",
+        "a": "haasten"
+      },
+      "fr": {
+        "q": "Quel mot signifie \"bouger vite parce qu'on est en retard\" ?",
+        "a": "se dépêcher"
+      },
+      "ru": {
+        "q": "Какое слово означает \"двигаться быстро, потому что ты опаздываешь\"?",
+        "a": "спешить"
+      },
+      "ku": {
+        "q": "Kîjan peyv wateya \"zû livîn ji ber ku tu dereng mayî\" dide?",
+        "a": "lezê kirin"
+      },
+      "tt": {
+        "q": "\"Соңга калганга тиз хәрәкәт итү\" дигәнне аңлаткан сүз кайсы?",
+        "a": "ашыгу"
+      },
+      "ar": {
+        "q": "أَيُّ كَلِمَةٍ تَعْنِي \"يَتَحَرَّكُ بِسُرْعَةٍ لِأَنَّهُ مُتَأَخِّرٌ\"؟",
+        "a": "يُسْرِعُ"
+      },
+      "es": {
+        "q": "¿Qué palabra significa \"moverse rápido porque llegas tarde\"?",
+        "a": "apresurarse"
+      },
+      "it": {
+        "q": "Quale parola significa \"muoversi velocemente perché sei in ritardo\"?",
+        "a": "affrettarsi"
+      },
+      "pt": {
+        "q": "Que palavra significa \"mover-se rápido porque está atrasado\"?",
+        "a": "apressar-se"
+      },
+      "ko": {
+        "q": "\"늦었기 때문에 빠르게 움직이다\"를 뜻하는 단어는 무엇인가요?",
+        "a": "서두르다"
+      },
+      "vi": {
+        "q": "Từ nào có nghĩa là \"di chuyển nhanh vì bạn bị trễ\"?",
+        "a": "vội vàng"
+      },
+      "ja": {
+        "q": "「遅れているので速く動くこと」を意味する単語はどれですか?",
+        "a": "急ぐ"
+      },
+      "zh": {
+        "q": "哪个词的意思是\"因为迟到而快速移动\"？",
+        "a": "匆忙"
+      }
+    },
+    {
+      "id": 5,
+      "section": "story",
+      "en": {
+        "q": "The Rainy Day",
+        "a": "It was raining hard. Ali did not have an umbrella, so he had to hurry to find shelter. He stood under a tree, cold and wet. A kind woman stopped and shared her umbrella with him. Ali gave her a warm smile and thanked her."
+      },
+      "tr": {
+        "q": "Yağmurlu Gün",
+        "a": "Şiddetli yağmur yağıyordu. Ali'nin şemsiyesi yoktu, bu yüzden bir sığınak bulmak için acele etmesi gerekti. Bir ağacın altında durdu, üşümüş ve ıslanmıştı. Nazik bir kadın durdu ve şemsiyesini onunla paylaştı. Ali ona sıcak bir gülümseme verdi ve teşekkür etti."
+      },
+      "de": {
+        "q": "Der Regentag",
+        "a": "Es regnete stark. Ali hatte keinen Regenschirm, also musste er sich beeilen, einen Unterschlupf zu finden. Er stand unter einem Baum, kalt und nass. Eine freundliche Frau blieb stehen und teilte ihren Regenschirm mit ihm. Ali lächelte sie warm an und bedankte sich."
+      },
+      "nl": {
+        "q": "De Regenachtige Dag",
+        "a": "Het regende hard. Ali had geen paraplu, dus moest hij zich haasten om een schuilplaats te vinden. Hij stond onder een boom, koud en nat. Een vriendelijke vrouw stopte en deelde haar paraplu met hem. Ali glimlachte warm naar haar en bedankte haar."
+      },
+      "fr": {
+        "q": "Le Jour de Pluie",
+        "a": "Il pleuvait fort. Ali n'avait pas de parapluie, alors il a dû se dépêcher de trouver un abri. Il s'est tenu sous un arbre, froid et mouillé. Une femme gentille s'est arrêtée et a partagé son parapluie avec lui. Ali lui a fait un sourire chaleureux et l'a remerciée."
+      },
+      "ru": {
+        "q": "Дождливый День",
+        "a": "Шёл сильный дождь. У Али не было зонта, поэтому ему пришлось спешить, чтобы найти укрытие. Он стоял под деревом, замёрзший и мокрый. Добрая женщина остановилась и поделилась с ним зонтом. Али тепло улыбнулся ей и поблагодарил её."
+      },
+      "ku": {
+        "q": "Roja Baranê",
+        "a": "Baran bi hêz dibarî. Şemsiya Alî tune bû, ji ber vê yekê lazim bû lezê bike da ku stargehek bibîne. Li bin darekê sekinî, sar û şil bû. Jinek dilovan sekinî û şemsiya xwe pê re par kir. Alî bi germî lê bişirî û spasiya wê kir."
+      },
+      "tt": {
+        "q": "Яңгырлы Көн",
+        "a": "Көчле яңгыр ява иде. Алиның зонтигы юк иде, шуңа ул сыену урыны табар өчен ашыгырга тиеш булды. Ул агач астында, туңган һәм юешләнгән хәлдә басты. Мәрхәмәтле бер хатын туктады һәм үзенең зонтигын аның белән бүлеште. Али аңа җылы елмайды һәм рәхмәт әйтте."
+      },
+      "ar": {
+        "q": "يَوْمٌ مُمْطِرٌ",
+        "a": "كَانَتِ الْأَمْطَارُ تَهْطِلُ بِغَزَارَةٍ. لَمْ يَكُنْ لَدَى عَلِيٍّ مِظَلَّةٌ، فَاضْطُرَّ أَنْ يُسْرِعَ لِيَجِدَ مَأْوًى. وَقَفَ تَحْتَ شَجَرَةٍ، بَارِدًا وَمُبَلَّلًا. تَوَقَّفَتِ امْرَأَةٌ طَيِّبَةٌ وَشَارَكَتْهُ مِظَلَّتَهَا. ابْتَسَمَ عَلِيٌّ لَهَا بِدِفْءٍ وَشَكَرَهَا."
+      },
+      "es": {
+        "q": "El Día Lluvioso",
+        "a": "Llovía fuerte. Ali no tenía paraguas, así que tuvo que apresurarse para encontrar refugio. Se quedó bajo un árbol, frío y mojado. Una mujer amable se detuvo y compartió su paraguas con él. Ali le sonrió cálidamente y le dio las gracias."
+      },
+      "it": {
+        "q": "Il Giorno di Pioggia",
+        "a": "Pioveva forte. Ali non aveva l'ombrello, quindi dovette affrettarsi a trovare riparo. Rimase sotto un albero, freddo e bagnato. Una donna gentile si fermò e condivise il suo ombrello con lui. Ali le sorrise calorosamente e la ringraziò."
+      },
+      "pt": {
+        "q": "O Dia Chuvoso",
+        "a": "Chovia muito. Ali não tinha guarda-chuva, então teve que se apressar para encontrar abrigo. Ficou debaixo de uma árvore, frio e molhado. Uma mulher gentil parou e partilhou o seu guarda-chuva com ele. Ali sorriu calorosamente para ela e agradeceu."
+      },
+      "ko": {
+        "q": "비 오는 날",
+        "a": "비가 세차게 내리고 있었다. 알리는 우산이 없어서 대피처를 찾기 위해 서둘러야 했다. 그는 나무 아래에 서서 춥고 젖어 있었다. 친절한 한 여성이 멈춰서 자신의 우산을 그와 나눠 썼다. 알리는 그녀에게 따뜻하게 미소지으며 감사를 전했다."
+      },
+      "vi": {
+        "q": "Ngày Mưa",
+        "a": "Trời mưa rất to. Ali không có ô, vì vậy anh phải vội vàng tìm nơi trú ẩn. Anh đứng dưới một gốc cây, lạnh và ướt. Một người phụ nữ tốt bụng dừng lại và chia sẻ chiếc ô của mình với anh. Ali mỉm cười ấm áp và cảm ơn cô."
+      },
+      "ja": {
+        "q": "雨の日",
+        "a": "激しい雨が降っていた。アリは傘を持っていなかったので、急いで避難所を探さなければならなかった。彼は木の下に立ち、寒くて濡れていた。親切な女性が立ち止まり、傘を彼と分け合った。アリは彼女に温かく微笑み、感謝した。"
+      },
+      "zh": {
+        "q": "下雨天",
+        "a": "雨下得很大。阿里没有雨伞,所以他不得不匆忙寻找避难所。他站在一棵树下,又冷又湿。一位善良的女士停下来,把她的雨伞和他分享。阿里对她温暖地微笑,并感谢了她。"
+      }
+    },
+    {
+      "id": 6,
+      "section": "storyExercise",
+      "en": {
+        "q": "Why did Ali smile at the end of the story?",
+        "a": "Because a kind woman shared her umbrella with him."
+      },
+      "tr": {
+        "q": "Ali hikayenin sonunda neden gülümsedi?",
+        "a": "Çünkü nazik bir kadın şemsiyesini onunla paylaştı."
+      },
+      "de": {
+        "q": "Warum lächelte Ali am Ende der Geschichte?",
+        "a": "Weil eine freundliche Frau ihren Regenschirm mit ihm teilte."
+      },
+      "nl": {
+        "q": "Waarom glimlachte Ali aan het einde van het verhaal?",
+        "a": "Omdat een vriendelijke vrouw haar paraplu met hem deelde."
+      },
+      "fr": {
+        "q": "Pourquoi Ali a-t-il souri à la fin de l'histoire ?",
+        "a": "Parce qu'une femme gentille a partagé son parapluie avec lui."
+      },
+      "ru": {
+        "q": "Почему Али улыбнулся в конце истории?",
+        "a": "Потому что добрая женщина поделилась с ним зонтом."
+      },
+      "ku": {
+        "q": "Çima Alî di dawiya çîrokê de bişirî?",
+        "a": "Ji ber ku jinek dilovan şemsiya xwe pê re par kir."
+      },
+      "tt": {
+        "q": "Али хикәя ахырында ни өчен елмайды?",
+        "a": "Чөнки мәрхәмәтле бер хатын зонтигын аның белән бүлеште."
+      },
+      "ar": {
+        "q": "لِمَاذَا ابْتَسَمَ عَلِيٌّ فِي نِهَايَةِ الْقِصَّةِ؟",
+        "a": "لِأَنَّ امْرَأَةً طَيِّبَةً شَارَكَتْهُ مِظَلَّتَهَا."
+      },
+      "es": {
+        "q": "¿Por qué sonrió Ali al final de la historia?",
+        "a": "Porque una mujer amable compartió su paraguas con él."
+      },
+      "it": {
+        "q": "Perché Ali sorrise alla fine della storia?",
+        "a": "Perché una donna gentile condivise il suo ombrello con lui."
+      },
+      "pt": {
+        "q": "Por que Ali sorriu no final da história?",
+        "a": "Porque uma mulher gentil partilhou o seu guarda-chuva com ele."
+      },
+      "ko": {
+        "q": "이야기 끝에서 알리는 왜 미소지었나요?",
+        "a": "친절한 여성이 자신의 우산을 그와 나눠 썼기 때문이다."
+      },
+      "vi": {
+        "q": "Tại sao Ali mỉm cười ở cuối câu chuyện?",
+        "a": "Vì một người phụ nữ tốt bụng đã chia sẻ chiếc ô của mình với anh."
+      },
+      "ja": {
+        "q": "物語の最後でアリはなぜ微笑んだのですか?",
+        "a": "親切な女性が傘を彼と分け合ったから。"
+      },
+      "zh": {
+        "q": "故事结尾阿里为什么微笑？",
+        "a": "因为一位善良的女士把她的雨伞和他分享。"
+      }
+    }
+  ]
+}
