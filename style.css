@@ -1,5 +1,5 @@
 /* ==================================
-   BİR MÜSLÜMANIN YOL HARİTASI
+   HER GÜNE 1 HİKAYE
    STYLE.CSS
 ======================================= */
 
@@ -80,47 +80,116 @@ select {
   border-color: #9c8a6d;
 }
 
+.display-language-flag {
+  background: #ffffff;
+  border-color: #c9bfa9;
+}
+
 
 /* =========================================
-   KUTSAL MEKÂNLAR
-   SIRA:
-   MESCİD-İ AKSÂ → KÂBE → MESCİD-İ NEBEVÎ
+   GÖSTERİLECEK DİL POPUP'I
 ========================================= */
 
-.holy-sites {
-  width: min(100%, 900px);
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(30, 24, 16, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  z-index: 1000;
+}
+
+.popup-box {
+  width: min(100%, 420px);
+  max-height: 80vh;
+  overflow-y: auto;
+  background: #fffdf8;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+}
+
+.popup-title {
+  margin: 0 0 6px;
+  text-align: center;
+}
+
+.popup-hint {
+  margin: 0 0 14px;
+  font-size: 13px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.popup-language-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px 10px;
+}
+
+.popup-language-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.popup-language-item:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.popup-language-item input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.popup-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.popup-clear-button,
+.popup-close-button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d8d0c2;
+  background: #fffdf8;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.popup-close-button {
+  background: #e8dfcf;
+  border-color: #9c8a6d;
+  font-weight: 600;
+}
+
+
+/* =========================================
+   HERO
+   HİKAYE KİTABI SİMGESİ
+========================================= */
+
+.story-hero {
+  width: 100%;
   margin: 30px auto 0;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  gap: 15px;
-}
-
-.holy-site {
-  width: calc((100% - 30px) / 3);
-  max-width: 270px;
-  overflow: hidden;
-  border-radius: 14px;
-}
-
-.holy-site-aqsa {
   order: 1;
 }
 
-.holy-site-kaaba {
-  order: 2;
-}
-
-.holy-site-nabawi {
-  order: 3;
-}
-
-.holy-site img {
-  display: block;
-  width: 100%;
-  height: 270px;
-  object-fit: cover;
+.story-hero-icon {
+  font-size: clamp(64px, 16vw, 120px);
+  line-height: 1;
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.15));
 }
 
 
@@ -131,7 +200,7 @@ select {
 
 .roadmap-title {
   position: static;
-  order: 4;
+  order: 2;
 
   width: 100%;
   margin: 38px auto 0;
@@ -231,6 +300,18 @@ select {
   margin: 16px 0;
 }
 
+.section-badge {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 16px;
+  padding: 6px 16px;
+  border-radius: 999px;
+  background: rgba(93, 64, 55, 0.08);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
 
 /* =========================================
    NAVİGASYON
@@ -316,6 +397,23 @@ select {
   padding: 14px;
   border: 1px solid #e1d8ca;
   border-radius: 12px;
+}
+
+.language-blocks-stack {
+  display: block;
+}
+
+.language-blocks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  align-items: start;
+}
+
+.language-blocks-grid .language-block {
+  margin-bottom: 0;
+  padding: 12px 10px;
+  font-size: 0.94em;
 }
 
 .language-block.selected-language {
@@ -541,17 +639,8 @@ footer {
 
 @media (max-width: 600px) {
 
-  .holy-sites {
-    gap: 6px;
-    margin-top: 25px;
-  }
-
-  .holy-site {
-    width: calc((100% - 12px) / 3);
-  }
-
-  .holy-site img {
-    height: 200px;
+  .story-hero {
+    margin-top: 20px;
   }
 
   .roadmap-title {
@@ -612,6 +701,10 @@ footer {
 ========================================= */
 
 @media (max-width: 380px) {
+
+  .popup-language-list {
+    grid-template-columns: 1fr;
+  }
 
   #tts-controls {
     gap: 3px;
