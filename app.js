@@ -954,6 +954,63 @@ function renderLanguageButtons(container) {
    SORU SAYFASI
 ========================================= */
 
+/* =========================================
+   ÇOKTAN SEÇMELİ ALIŞTIRMA ŞIKLARI
+   options[0] = doğru cevap (veri sözleşmesi); burada karıştırılır.
+========================================= */
+
+function shuffleArray(array) {
+  const copy = array.slice();
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+function renderExerciseOptions(options) {
+  const correctText = options[0];
+  const shuffled = shuffleArray(options);
+
+  const wrap = document.createElement("div");
+  wrap.className = "exercise-options";
+
+  let answered = false;
+
+  shuffled.forEach(optionText => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "exercise-option-button";
+    btn.textContent = optionText;
+
+    btn.addEventListener("click", () => {
+      if (answered) return;
+      answered = true;
+
+      const isCorrect = optionText === correctText;
+      btn.classList.add(isCorrect ? "option-correct" : "option-incorrect");
+
+      if (!isCorrect) {
+        // doğru şıkkı da göster
+        Array.from(wrap.children).forEach(child => {
+          if (child.textContent === correctText) {
+            child.classList.add("option-correct");
+          }
+        });
+      }
+
+      // bu blok için tüm butonları kilitle
+      Array.from(wrap.children).forEach(child => {
+        child.disabled = true;
+      });
+    });
+
+    wrap.appendChild(btn);
+  });
+
+  return wrap;
+}
+
 function renderQuestion() {
   stopSpeech();
   stopDictionaryMic();
@@ -1014,6 +1071,8 @@ function renderQuestion() {
       ? "language-blocks-grid"
       : "language-blocks-stack";
 
+  const isExercise = question.section === "wordExercise" || question.section === "storyExercise";
+
   activeLanguages.forEach(language => {
     const languageKey = language.key;
     const data = question[languageKey];
@@ -1030,13 +1089,17 @@ function renderQuestion() {
     const q = document.createElement("div");
     q.className = "question-line";
     q.textContent = `${language.flag} ${question.id}. ${data.q}`;
-
-    const a = document.createElement("div");
-    a.className = "answer-line";
-    a.textContent = `${language.flag} ${question.id}. ${data.a}`;
-
     block.appendChild(q);
-    block.appendChild(a);
+
+    if (isExercise && Array.isArray(data.options)) {
+      block.appendChild(renderExerciseOptions(data.options));
+    } else {
+      const a = document.createElement("div");
+      a.className = "answer-line";
+      a.textContent = `${language.flag} ${question.id}. ${data.a}`;
+      block.appendChild(a);
+    }
+
     blocksContainer.appendChild(block);
   });
 
@@ -2365,7 +2428,11 @@ function playSelectedText() {
   if (!question) return;
   const data = question[selectedLang];
   if (!data) return;
-  const text = `${data.q}. ${data.a}`;
+  const isExerciseSection =
+    question.section === "wordExercise" || question.section === "storyExercise";
+  const text = isExerciseSection
+    ? `${data.q}. ${(data.options || []).join(". ")}`
+    : `${data.q}. ${data.a}`;
 
   speechRate = 1;
   slowLevel = 0;
