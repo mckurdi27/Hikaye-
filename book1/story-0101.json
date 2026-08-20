@@ -1713,67 +1713,163 @@
       "section": "wordExercise",
       "en": {
         "q": "Which word means \"feeling scared of something\"?",
-        "a": "afraid"
+        "options": [
+          "afraid",
+          "angry",
+          "clever",
+          "safe"
+        ],
+        "answer": "afraid"
       },
       "tr": {
         "q": "\"Bir şeyden korku duymak\" anlamına gelen kelime hangisidir?",
-        "a": "korkmuş"
+        "options": [
+          "korkmuş",
+          "kızgın",
+          "zeki",
+          "güvende"
+        ],
+        "answer": "korkmuş"
       },
       "de": {
         "q": "Welches Wort bedeutet \"Angst vor etwas haben\"?",
-        "a": "ängstlich"
+        "options": [
+          "ängstlich",
+          "wütend",
+          "klug",
+          "sicher"
+        ],
+        "answer": "ängstlich"
       },
       "nl": {
         "q": "Welk woord betekent \"angst voelen voor iets\"?",
-        "a": "bang"
+        "options": [
+          "bang",
+          "boos",
+          "slim",
+          "veilig"
+        ],
+        "answer": "bang"
       },
       "fr": {
         "q": "Quel mot signifie \"ressentir de la peur face à quelque chose\" ?",
-        "a": "effrayé"
+        "options": [
+          "effrayé",
+          "en colère",
+          "astucieux",
+          "en sécurité"
+        ],
+        "answer": "effrayé"
       },
       "ru": {
         "q": "Какое слово означает \"чувствовать страх перед чем-то\"?",
-        "a": "испуганный"
+        "options": [
+          "испуганный",
+          "сердитый",
+          "умный / хитрый",
+          "в безопасности"
+        ],
+        "answer": "испуганный"
       },
       "ku": {
         "q": "Kîjan peyv wateya \"ji tiştekî tirsîn\" dide?",
-        "a": "tirsiyayî"
+        "options": [
+          "tirsiyayî",
+          "hêrs",
+          "zîrek",
+          "ewle"
+        ],
+        "answer": "tirsiyayî"
       },
       "tt": {
         "q": "\"Нәрсәдәндер курку хисе кичерү\" дигәнне аңлаткан сүз кайсы?",
-        "a": "курыккан"
+        "options": [
+          "курыккан",
+          "ачулы",
+          "акыллы",
+          "имин"
+        ],
+        "answer": "курыккан"
       },
       "ar": {
         "q": "أَيُّ كَلِمَةٍ تَعْنِي \"الشُّعُورُ بِالْخَوْفِ مِنْ شَيْءٍ مَا\"؟",
-        "a": "خَائِف"
+        "options": [
+          "خَائِف",
+          "غَاضِب",
+          "ذَكِيّ",
+          "آمِن"
+        ],
+        "answer": "خَائِف"
       },
       "es": {
         "q": "¿Qué palabra significa \"sentir miedo de algo\"?",
-        "a": "asustado"
+        "options": [
+          "asustado",
+          "enojado",
+          "astuto",
+          "seguro"
+        ],
+        "answer": "asustado"
       },
       "it": {
         "q": "Quale parola significa \"provare paura di qualcosa\"?",
-        "a": "spaventato"
+        "options": [
+          "spaventato",
+          "arrabbiato",
+          "astuto",
+          "sicuro"
+        ],
+        "answer": "spaventato"
       },
       "pt": {
         "q": "Que palavra significa \"sentir medo de algo\"?",
-        "a": "assustado"
+        "options": [
+          "assustado",
+          "zangado",
+          "astuto",
+          "seguro"
+        ],
+        "answer": "assustado"
       },
       "ko": {
         "q": "\"어떤 것에 대해 두려움을 느끼는 것\"을 뜻하는 단어는?",
-        "a": "무서운"
+        "options": [
+          "무서운",
+          "화난",
+          "영리한",
+          "안전한"
+        ],
+        "answer": "무서운"
       },
       "vi": {
         "q": "Từ nào có nghĩa là \"cảm thấy sợ điều gì đó\"?",
-        "a": "sợ hãi"
+        "options": [
+          "sợ hãi",
+          "tức giận",
+          "khôn ngoan",
+          "an toàn"
+        ],
+        "answer": "sợ hãi"
       },
       "ja": {
         "q": "「何かに恐怖を感じること」を意味する単語はどれですか?",
-        "a": "怖い"
+        "options": [
+          "怖い",
+          "怒った",
+          "賢い",
+          "安全な"
+        ],
+        "answer": "怖い"
       },
       "zh": {
         "q": "哪个词的意思是\"对某事感到恐惧\"？",
-        "a": "害怕"
+        "options": [
+          "害怕",
+          "生气",
+          "聪明的",
+          "安全"
+        ],
+        "answer": "害怕"
       }
     },
     {
@@ -1781,67 +1877,163 @@
       "section": "wordExercise",
       "en": {
         "q": "Which word means \"to reach a place after traveling\"?",
-        "a": "arrive"
+        "options": [
+          "arrive",
+          "hide",
+          "hunt",
+          "promise"
+        ],
+        "answer": "arrive"
       },
       "tr": {
         "q": "\"Yolculuktan sonra bir yere ulaşmak\" anlamına gelen kelime hangisidir?",
-        "a": "varmak"
+        "options": [
+          "varmak",
+          "saklanmak",
+          "avlanmak",
+          "söz vermek"
+        ],
+        "answer": "varmak"
       },
       "de": {
         "q": "Welches Wort bedeutet \"nach einer Reise einen Ort erreichen\"?",
-        "a": "ankommen"
+        "options": [
+          "ankommen",
+          "sich verstecken",
+          "jagen",
+          "versprechen"
+        ],
+        "answer": "ankommen"
       },
       "nl": {
         "q": "Welk woord betekent \"een plaats bereiken na een reis\"?",
-        "a": "aankomen"
+        "options": [
+          "aankomen",
+          "zich verstoppen",
+          "jagen",
+          "beloven"
+        ],
+        "answer": "aankomen"
       },
       "fr": {
         "q": "Quel mot signifie \"atteindre un lieu après un voyage\" ?",
-        "a": "arriver"
+        "options": [
+          "arriver",
+          "se cacher",
+          "chasser",
+          "promettre"
+        ],
+        "answer": "arriver"
       },
       "ru": {
         "q": "Какое слово означает \"достичь места после путешествия\"?",
-        "a": "прибывать"
+        "options": [
+          "прибывать",
+          "прятаться",
+          "охотиться",
+          "обещать"
+        ],
+        "answer": "прибывать"
       },
       "ku": {
         "q": "Kîjan peyv wateya \"piştî rêwîtiyê gihîştina cihekî\" dide?",
-        "a": "gihîştin"
+        "options": [
+          "gihîştin",
+          "veşartin",
+          "nêçîr kirin",
+          "soz dan"
+        ],
+        "answer": "gihîştin"
       },
       "tt": {
         "q": "\"Сәяхәттән соң урынга ирешү\" дигәнне аңлаткан сүз кайсы?",
-        "a": "килеп җитү"
+        "options": [
+          "килеп җитү",
+          "яшеренү",
+          "аулау",
+          "вәгъдә бирү"
+        ],
+        "answer": "килеп җитү"
       },
       "ar": {
         "q": "أَيُّ كَلِمَةٍ تَعْنِي \"الْوُصُولُ إِلَى مَكَانٍ بَعْدَ السَّفَرِ\"؟",
-        "a": "يَصِلُ"
+        "options": [
+          "يَصِلُ",
+          "يَخْتَبِئُ",
+          "يَصْطَادُ",
+          "يَعِدُ"
+        ],
+        "answer": "يَصِلُ"
       },
       "es": {
         "q": "¿Qué palabra significa \"alcanzar un lugar después de viajar\"?",
-        "a": "llegar"
+        "options": [
+          "llegar",
+          "esconderse",
+          "cazar",
+          "prometer"
+        ],
+        "answer": "llegar"
       },
       "it": {
         "q": "Quale parola significa \"raggiungere un luogo dopo un viaggio\"?",
-        "a": "arrivare"
+        "options": [
+          "arrivare",
+          "nascondersi",
+          "cacciare",
+          "promettere"
+        ],
+        "answer": "arrivare"
       },
       "pt": {
         "q": "Que palavra significa \"alcançar um lugar depois de viajar\"?",
-        "a": "chegar"
+        "options": [
+          "chegar",
+          "esconder-se",
+          "caçar",
+          "prometer"
+        ],
+        "answer": "chegar"
       },
       "ko": {
         "q": "\"여행 후에 장소에 이르는 것\"을 뜻하는 단어는?",
-        "a": "도착하다"
+        "options": [
+          "도착하다",
+          "숨다",
+          "사냥하다",
+          "약속하다"
+        ],
+        "answer": "도착하다"
       },
       "vi": {
         "q": "Từ nào có nghĩa là \"tới một nơi sau khi di chuyển\"?",
-        "a": "đến nơi"
+        "options": [
+          "đến nơi",
+          "trốn",
+          "săn",
+          "hứa"
+        ],
+        "answer": "đến nơi"
       },
       "ja": {
         "q": "「旅の後に場所に着くこと」を意味する単語はどれですか?",
-        "a": "到着する"
+        "options": [
+          "到着する",
+          "隠れる",
+          "狩る",
+          "約束する"
+        ],
+        "answer": "到着する"
       },
       "zh": {
         "q": "哪个词的意思是\"旅行后到达一个地方\"？",
-        "a": "到达"
+        "options": [
+          "到达",
+          "躲藏",
+          "捕猎",
+          "承诺"
+        ],
+        "answer": "到达"
       }
     },
     {
@@ -1849,67 +2041,163 @@
       "section": "wordExercise",
       "en": {
         "q": "Which word means \"after a long time, at last\"?",
-        "a": "finally"
+        "options": [
+          "finally",
+          "carefully",
+          "bottom",
+          "trick"
+        ],
+        "answer": "finally"
       },
       "tr": {
         "q": "\"Uzun bir süre sonra, en sonunda\" anlamına gelen kelime hangisidir?",
-        "a": "sonunda"
+        "options": [
+          "sonunda",
+          "dikkatlice",
+          "dip / en alt",
+          "hile / numara"
+        ],
+        "answer": "sonunda"
       },
       "de": {
         "q": "Welches Wort bedeutet \"nach langer Zeit, endlich\"?",
-        "a": "schließlich"
+        "options": [
+          "schließlich",
+          "sorgfältig",
+          "Boden / unterster Teil",
+          "Trick"
+        ],
+        "answer": "schließlich"
       },
       "nl": {
         "q": "Welk woord betekent \"na lange tijd, ten slotte\"?",
-        "a": "eindelijk"
+        "options": [
+          "eindelijk",
+          "zorgvuldig",
+          "bodem",
+          "truc"
+        ],
+        "answer": "eindelijk"
       },
       "fr": {
         "q": "Quel mot signifie \"après longtemps, finalement\" ?",
-        "a": "enfin"
+        "options": [
+          "enfin",
+          "soigneusement",
+          "fond",
+          "astuce"
+        ],
+        "answer": "enfin"
       },
       "ru": {
         "q": "Какое слово означает \"после долгого времени, в конце концов\"?",
-        "a": "наконец"
+        "options": [
+          "наконец",
+          "осторожно",
+          "дно / низ",
+          "хитрость / трюк"
+        ],
+        "answer": "наконец"
       },
       "ku": {
         "q": "Kîjan peyv wateya \"piştî demek dirêj, li dawiyê\" dide?",
-        "a": "di dawiyê de"
+        "options": [
+          "di dawiyê de",
+          "bi baldarî",
+          "bin",
+          "hîle"
+        ],
+        "answer": "di dawiyê de"
       },
       "tt": {
         "q": "\"Озак вакыттан соң, ахырда\" дигәнне аңлаткан сүз кайсы?",
-        "a": "ниһаять"
+        "options": [
+          "ниһаять",
+          "сак кына",
+          "төп / иң түбән өлеше",
+          "хәйлә"
+        ],
+        "answer": "ниһаять"
       },
       "ar": {
         "q": "أَيُّ كَلِمَةٍ تَعْنِي \"بَعْدَ وَقْتٍ طَوِيلٍ، فِي النِّهَايَةِ\"؟",
-        "a": "أَخِيرًا"
+        "options": [
+          "أَخِيرًا",
+          "بِعِنَايَةٍ",
+          "قَاع / أَسْفَل",
+          "حِيلَة"
+        ],
+        "answer": "أَخِيرًا"
       },
       "es": {
         "q": "¿Qué palabra significa \"después de mucho tiempo, al fin\"?",
-        "a": "finalmente"
+        "options": [
+          "finalmente",
+          "cuidadosamente",
+          "fondo",
+          "truco"
+        ],
+        "answer": "finalmente"
       },
       "it": {
         "q": "Quale parola significa \"dopo molto tempo, alla fine\"?",
-        "a": "finalmente"
+        "options": [
+          "finalmente",
+          "con attenzione",
+          "fondo",
+          "trucco"
+        ],
+        "answer": "finalmente"
       },
       "pt": {
         "q": "Que palavra significa \"depois de muito tempo, por fim\"?",
-        "a": "finalmente"
+        "options": [
+          "finalmente",
+          "cuidadosamente",
+          "fundo",
+          "truque"
+        ],
+        "answer": "finalmente"
       },
       "ko": {
         "q": "\"오랜 시간 후에, 결국\"을 뜻하는 단어는?",
-        "a": "마침내"
+        "options": [
+          "마침내",
+          "조심스럽게",
+          "바닥",
+          "속임수"
+        ],
+        "answer": "마침내"
       },
       "vi": {
         "q": "Từ nào có nghĩa là \"sau một thời gian dài, rốt cuộc\"?",
-        "a": "cuối cùng"
+        "options": [
+          "cuối cùng",
+          "cẩn thận",
+          "đáy",
+          "mẹo"
+        ],
+        "answer": "cuối cùng"
       },
       "ja": {
         "q": "「長い時間の後に、最後に」を意味する単語はどれですか?",
-        "a": "ついに"
+        "options": [
+          "ついに",
+          "注意深く",
+          "底",
+          "トリック"
+        ],
+        "answer": "ついに"
       },
       "zh": {
         "q": "哪个词的意思是\"经过很长时间后,最后\"？",
-        "a": "终于"
+        "options": [
+          "终于",
+          "小心地",
+          "底部",
+          "把戏"
+        ],
+        "answer": "终于"
       }
     },
     {
@@ -1917,67 +2205,163 @@
       "section": "wordExercise",
       "en": {
         "q": "Which word means \"a large amount or number\"?",
-        "a": "a lot"
+        "options": [
+          "a lot",
+          "middle",
+          "moment",
+          "well"
+        ],
+        "answer": "a lot"
       },
       "tr": {
         "q": "\"Büyük bir miktar veya sayı\" anlamına gelen kelime hangisidir?",
-        "a": "bir sürü"
+        "options": [
+          "bir sürü",
+          "orta",
+          "an",
+          "iyi (bir şekilde)"
+        ],
+        "answer": "bir sürü"
       },
       "de": {
         "q": "Welches Wort bedeutet \"eine große Menge oder Anzahl\"?",
-        "a": "viele"
+        "options": [
+          "viele / eine Menge",
+          "Mitte",
+          "Moment",
+          "gut"
+        ],
+        "answer": "viele / eine Menge"
       },
       "nl": {
         "q": "Welk woord betekent \"een grote hoeveelheid of aantal\"?",
-        "a": "veel"
+        "options": [
+          "veel",
+          "midden",
+          "moment",
+          "goed"
+        ],
+        "answer": "veel"
       },
       "fr": {
         "q": "Quel mot signifie \"une grande quantité ou un grand nombre\" ?",
-        "a": "beaucoup"
+        "options": [
+          "beaucoup",
+          "milieu",
+          "moment",
+          "bien"
+        ],
+        "answer": "beaucoup"
       },
       "ru": {
         "q": "Какое слово означает \"большое количество чего-либо\"?",
-        "a": "много"
+        "options": [
+          "много",
+          "середина",
+          "момент",
+          "хорошо"
+        ],
+        "answer": "много"
       },
       "ku": {
         "q": "Kîjan peyv wateya \"hejmarek mezin\" dide?",
-        "a": "gelek"
+        "options": [
+          "gelek",
+          "nav",
+          "kêliyek",
+          "baş"
+        ],
+        "answer": "gelek"
       },
       "tt": {
         "q": "\"Зур сан яки күләм\" дигәнне аңлаткан сүз кайсы?",
-        "a": "күп"
+        "options": [
+          "күп",
+          "уртасы",
+          "мизгел",
+          "яхшы"
+        ],
+        "answer": "күп"
       },
       "ar": {
         "q": "أَيُّ كَلِمَةٍ تَعْنِي \"كَمِّيَّةٌ أَوْ عَدَدٌ كَبِيرٌ\"؟",
-        "a": "كَثِيرٌ"
+        "options": [
+          "كَثِيرٌ",
+          "وَسَط",
+          "لَحْظَة",
+          "جَيِّدًا"
+        ],
+        "answer": "كَثِيرٌ"
       },
       "es": {
         "q": "¿Qué palabra significa \"una gran cantidad o número\"?",
-        "a": "muchos"
+        "options": [
+          "muchos/as",
+          "medio",
+          "momento",
+          "bien"
+        ],
+        "answer": "muchos/as"
       },
       "it": {
         "q": "Quale parola significa \"una grande quantità o numero\"?",
-        "a": "molti"
+        "options": [
+          "molti/e",
+          "mezzo",
+          "momento",
+          "bene"
+        ],
+        "answer": "molti/e"
       },
       "pt": {
         "q": "Que palavra significa \"uma grande quantidade ou número\"?",
-        "a": "muitos"
+        "options": [
+          "muitos/as",
+          "meio",
+          "momento",
+          "bem"
+        ],
+        "answer": "muitos/as"
       },
       "ko": {
         "q": "\"많은 양이나 수\"를 뜻하는 단어는?",
-        "a": "많은"
+        "options": [
+          "많은",
+          "가운데",
+          "순간",
+          "잘"
+        ],
+        "answer": "많은"
       },
       "vi": {
         "q": "Từ nào có nghĩa là \"một số lượng lớn\"?",
-        "a": "nhiều"
+        "options": [
+          "nhiều",
+          "giữa",
+          "khoảnh khắc",
+          "giỏi"
+        ],
+        "answer": "nhiều"
       },
       "ja": {
         "q": "「多い量や数」を意味する単語はどれですか?",
-        "a": "たくさん"
+        "options": [
+          "たくさん",
+          "真ん中",
+          "瞬間",
+          "上手に"
+        ],
+        "answer": "たくさん"
       },
       "zh": {
         "q": "哪个词的意思是\"大量或大数目\"？",
-        "a": "很多"
+        "options": [
+          "很多",
+          "中间",
+          "片刻",
+          "好"
+        ],
+        "answer": "很多"
       }
     },
     {
@@ -1985,67 +2369,163 @@
       "section": "wordExercise",
       "en": {
         "q": "Which word means \"not in danger\"?",
-        "a": "safe"
+        "options": [
+          "safe",
+          "cruel",
+          "pleased",
+          "angry"
+        ],
+        "answer": "safe"
       },
       "tr": {
         "q": "\"Tehlikede olmamak\" anlamına gelen kelime hangisidir?",
-        "a": "güvende"
+        "options": [
+          "güvende",
+          "acımasız",
+          "memnun",
+          "kızgın"
+        ],
+        "answer": "güvende"
       },
       "de": {
         "q": "Welches Wort bedeutet \"nicht in Gefahr\"?",
-        "a": "sicher"
+        "options": [
+          "sicher",
+          "grausam",
+          "erfreut",
+          "wütend"
+        ],
+        "answer": "sicher"
       },
       "nl": {
         "q": "Welk woord betekent \"niet in gevaar\"?",
-        "a": "veilig"
+        "options": [
+          "veilig",
+          "wreed",
+          "blij",
+          "boos"
+        ],
+        "answer": "veilig"
       },
       "fr": {
         "q": "Quel mot signifie \"ne pas être en danger\" ?",
-        "a": "en sécurité"
+        "options": [
+          "en sécurité",
+          "cruel",
+          "content",
+          "en colère"
+        ],
+        "answer": "en sécurité"
       },
       "ru": {
         "q": "Какое слово означает \"не в опасности\"?",
-        "a": "в безопасности"
+        "options": [
+          "в безопасности",
+          "жестокий",
+          "довольный",
+          "сердитый"
+        ],
+        "answer": "в безопасности"
       },
       "ku": {
         "q": "Kîjan peyv wateya \"ne di xetereyê de\" dide?",
-        "a": "ewle"
+        "options": [
+          "ewle",
+          "zalim",
+          "kêfxweş",
+          "hêrs"
+        ],
+        "answer": "ewle"
       },
       "tt": {
         "q": "\"Куркыныч астында түгел\" дигәнне аңлаткан сүз кайсы?",
-        "a": "имин"
+        "options": [
+          "имин",
+          "явыз",
+          "канәгать",
+          "ачулы"
+        ],
+        "answer": "имин"
       },
       "ar": {
         "q": "أَيُّ كَلِمَةٍ تَعْنِي \"لَيْسَ فِي خَطَرٍ\"؟",
-        "a": "آمِن"
+        "options": [
+          "آمِن",
+          "قَاسٍ",
+          "مَسْرُور",
+          "غَاضِب"
+        ],
+        "answer": "آمِن"
       },
       "es": {
         "q": "¿Qué palabra significa \"no estar en peligro\"?",
-        "a": "seguro"
+        "options": [
+          "seguro",
+          "cruel",
+          "contento",
+          "enojado"
+        ],
+        "answer": "seguro"
       },
       "it": {
         "q": "Quale parola significa \"non in pericolo\"?",
-        "a": "sicuro"
+        "options": [
+          "sicuro",
+          "crudele",
+          "contento",
+          "arrabbiato"
+        ],
+        "answer": "sicuro"
       },
       "pt": {
         "q": "Que palavra significa \"fora de perigo\"?",
-        "a": "seguro"
+        "options": [
+          "seguro",
+          "cruel",
+          "contente",
+          "zangado"
+        ],
+        "answer": "seguro"
       },
       "ko": {
         "q": "\"위험하지 않은\"을 뜻하는 단어는?",
-        "a": "안전한"
+        "options": [
+          "안전한",
+          "잔인한",
+          "기쁜",
+          "화난"
+        ],
+        "answer": "안전한"
       },
       "vi": {
         "q": "Từ nào có nghĩa là \"không gặp nguy hiểm\"?",
-        "a": "an toàn"
+        "options": [
+          "an toàn",
+          "tàn nhẫn",
+          "hài lòng",
+          "tức giận"
+        ],
+        "answer": "an toàn"
       },
       "ja": {
         "q": "「危険がない」を意味する単語はどれですか?",
-        "a": "安全な"
+        "options": [
+          "安全な",
+          "残酷な",
+          "嬉しい",
+          "怒った"
+        ],
+        "answer": "安全な"
       },
       "zh": {
         "q": "哪个词的意思是\"没有危险\"？",
-        "a": "安全"
+        "options": [
+          "安全",
+          "残忍的",
+          "高兴",
+          "生气"
+        ],
+        "answer": "安全"
       }
     },
     {
@@ -2121,67 +2601,163 @@
       "section": "storyExercise",
       "en": {
         "q": "Why was the farmer angry at the beginning of the story?",
-        "a": "Because the fox kept stealing his chickens."
+        "options": [
+          "Because the fox kept stealing his chickens.",
+          "Because the fox was too clever.",
+          "Because he lost his umbrella.",
+          "Because his crops were ruined by rain."
+        ],
+        "answer": "Because the fox kept stealing his chickens."
       },
       "tr": {
         "q": "Çiftçi hikayenin başında neden kızgındı?",
-        "a": "Çünkü tilki sürekli tavuklarını çalıyordu."
+        "options": [
+          "Çünkü tilki sürekli tavuklarını çalıyordu.",
+          "Çünkü tilki çok zekiydi.",
+          "Çünkü şemsiyesini kaybetmişti.",
+          "Çünkü ürünleri yağmurdan zarar görmüştü."
+        ],
+        "answer": "Çünkü tilki sürekli tavuklarını çalıyordu."
       },
       "de": {
         "q": "Warum war der Bauer am Anfang der Geschichte wütend?",
-        "a": "Weil der Fuchs ständig seine Hühner stahl."
+        "options": [
+          "Weil der Fuchs ständig seine Hühner stahl.",
+          "Weil der Fuchs zu klug war.",
+          "Weil er seinen Regenschirm verloren hatte.",
+          "Weil seine Ernte vom Regen ruiniert wurde."
+        ],
+        "answer": "Weil der Fuchs ständig seine Hühner stahl."
       },
       "nl": {
         "q": "Waarom was de boer boos aan het begin van het verhaal?",
-        "a": "Omdat de vos steeds zijn kippen stal."
+        "options": [
+          "Omdat de vos steeds zijn kippen stal.",
+          "Omdat de vos te slim was.",
+          "Omdat hij zijn paraplu was kwijtgeraakt.",
+          "Omdat zijn oogst door de regen was verwoest."
+        ],
+        "answer": "Omdat de vos steeds zijn kippen stal."
       },
       "fr": {
         "q": "Pourquoi le fermier était-il en colère au début de l'histoire ?",
-        "a": "Parce que le renard continuait à voler ses poules."
+        "options": [
+          "Parce que le renard continuait à voler ses poules.",
+          "Parce que le renard était trop rusé.",
+          "Parce qu'il avait perdu son parapluie.",
+          "Parce que ses récoltes avaient été ruinées par la pluie."
+        ],
+        "answer": "Parce que le renard continuait à voler ses poules."
       },
       "ru": {
         "q": "Почему фермер был зол в начале истории?",
-        "a": "Потому что лиса постоянно крала его кур."
+        "options": [
+          "Потому что лиса постоянно крала его кур.",
+          "Потому что лиса была слишком умной.",
+          "Потому что он потерял зонт.",
+          "Потому что его урожай был испорчен дождём."
+        ],
+        "answer": "Потому что лиса постоянно крала его кур."
       },
       "ku": {
         "q": "Çima cotkar li destpêka çîrokê hêrs bû?",
-        "a": "Ji ber ku rovî mirîşkên wî didizîn."
+        "options": [
+          "Ji ber ku rovî mirîşkên wî didizîn.",
+          "Ji ber ku rovî pir zîrek bû.",
+          "Ji ber ku şemsiya xwe winda kiribû.",
+          "Ji ber ku hasîlata wî ji baranê xera bûbû."
+        ],
+        "answer": "Ji ber ku rovî mirîşkên wî didizîn."
       },
       "tt": {
         "q": "Игенче хикәя башында ни өчен ачуланган иде?",
-        "a": "Чөнки төлке аның тавыкларын өзлексез урлый иде."
+        "options": [
+          "Чөнки төлке аның тавыкларын өзлексез урлый иде.",
+          "Чөнки төлке артык акыллы иде.",
+          "Чөнки ул зонтигын югалткан иде.",
+          "Чөнки аның уңышы яңгырдан бозылган иде."
+        ],
+        "answer": "Чөнки төлке аның тавыкларын өзлексез урлый иде."
       },
       "ar": {
         "q": "لِمَاذَا كَانَ الْمُزَارِعُ غَاضِبًا فِي بِدَايَةِ الْقِصَّةِ؟",
-        "a": "لِأَنَّ الثَّعْلَبَ كَانَ يَسْرِقُ دَجَاجَهُ بِاسْتِمْرَارٍ."
+        "options": [
+          "لِأَنَّ الثَّعْلَبَ كَانَ يَسْرِقُ دَجَاجَهُ بِاسْتِمْرَارٍ.",
+          "لِأَنَّ الثَّعْلَبَ كَانَ ذَكِيًّا جِدًّا.",
+          "لِأَنَّهُ فَقَدَ مِظَلَّتَهُ.",
+          "لِأَنَّ مَحْصُولَهُ تَلِفَ بِسَبَبِ الْمَطَرِ."
+        ],
+        "answer": "لِأَنَّ الثَّعْلَبَ كَانَ يَسْرِقُ دَجَاجَهُ بِاسْتِمْرَارٍ."
       },
       "es": {
         "q": "¿Por qué estaba enojado el granjero al principio de la historia?",
-        "a": "Porque el zorro seguía robándole las gallinas."
+        "options": [
+          "Porque el zorro seguía robándole las gallinas.",
+          "Porque el zorro era demasiado astuto.",
+          "Porque perdió su paraguas.",
+          "Porque sus cultivos fueron arruinados por la lluvia."
+        ],
+        "answer": "Porque el zorro seguía robándole las gallinas."
       },
       "it": {
         "q": "Perché il contadino era arrabbiato all'inizio della storia?",
-        "a": "Perché la volpe continuava a rubargli le galline."
+        "options": [
+          "Perché la volpe continuava a rubargli le galline.",
+          "Perché la volpe era troppo astuta.",
+          "Perché aveva perso il suo ombrello.",
+          "Perché il suo raccolto era stato rovinato dalla pioggia."
+        ],
+        "answer": "Perché la volpe continuava a rubargli le galline."
       },
       "pt": {
         "q": "Por que o fazendeiro estava zangado no início da história?",
-        "a": "Porque a raposa continuava roubando suas galinhas."
+        "options": [
+          "Porque a raposa continuava roubando suas galinhas.",
+          "Porque a raposa era esperta demais.",
+          "Porque ele perdeu seu guarda-chuva.",
+          "Porque sua colheita foi arruinada pela chuva."
+        ],
+        "answer": "Porque a raposa continuava roubando suas galinhas."
       },
       "ko": {
         "q": "이야기 초반에 농부는 왜 화가 났나요?",
-        "a": "여우가 계속 그의 닭을 훔쳤기 때문이다."
+        "options": [
+          "여우가 계속 그의 닭을 훔쳤기 때문이다.",
+          "여우가 너무 영리했기 때문이다.",
+          "우산을 잃어버렸기 때문이다.",
+          "비 때문에 농작물이 망가졌기 때문이다."
+        ],
+        "answer": "여우가 계속 그의 닭을 훔쳤기 때문이다."
       },
       "vi": {
         "q": "Tại sao người nông dân tức giận ở đầu câu chuyện?",
-        "a": "Vì con cáo cứ trộm gà của ông."
+        "options": [
+          "Vì con cáo cứ trộm gà của ông.",
+          "Vì con cáo quá khôn ngoan.",
+          "Vì ông ấy làm mất chiếc ô.",
+          "Vì mùa màng của ông bị mưa phá hỏng."
+        ],
+        "answer": "Vì con cáo cứ trộm gà của ông."
       },
       "ja": {
         "q": "物語の最初に農夫はなぜ怒っていましたか?",
-        "a": "キツネが彼の鶏をずっと盗んでいたから。"
+        "options": [
+          "キツネが彼の鶏をずっと盗んでいたから。",
+          "キツネがあまりにも賢かったから。",
+          "傘をなくしたから。",
+          "作物が雨で台無しになったから。"
+        ],
+        "answer": "キツネが彼の鶏をずっと盗んでいたから。"
       },
       "zh": {
         "q": "故事开始时农夫为什么生气?",
-        "a": "因为狐狸一直在偷他的鸡。"
+        "options": [
+          "因为狐狸一直在偷他的鸡。",
+          "因为狐狸太聪明了。",
+          "因为他弄丢了雨伞。",
+          "因为他的庄稼被雨水毁坏了。"
+        ],
+        "answer": "因为狐狸一直在偷他的鸡。"
       }
     },
     {
@@ -2189,67 +2765,163 @@
       "section": "storyExercise",
       "en": {
         "q": "What did the fox promise to do?",
-        "a": "It promised to stop stealing the farmer's chickens."
+        "options": [
+          "It promised to stop stealing the farmer's chickens.",
+          "It promised to guard the farm at night.",
+          "It promised to bring the farmer gifts.",
+          "It promised to leave the forest forever."
+        ],
+        "answer": "It promised to stop stealing the farmer's chickens."
       },
       "tr": {
         "q": "Tilki ne yapmaya söz verdi?",
-        "a": "Çiftçinin tavuklarını çalmayı bırakmaya söz verdi."
+        "options": [
+          "Çiftçinin tavuklarını çalmayı bırakmaya söz verdi.",
+          "Geceleri çiftliği koruyacağına söz verdi.",
+          "Çiftçiye hediyeler getireceğine söz verdi.",
+          "Ormanı sonsuza dek terk edeceğine söz verdi."
+        ],
+        "answer": "Çiftçinin tavuklarını çalmayı bırakmaya söz verdi."
       },
       "de": {
         "q": "Was versprach der Fuchs zu tun?",
-        "a": "Er versprach, keine Hühner des Bauern mehr zu stehlen."
+        "options": [
+          "Er versprach, keine Hühner des Bauern mehr zu stehlen.",
+          "Er versprach, den Hof nachts zu bewachen.",
+          "Er versprach, dem Bauern Geschenke zu bringen.",
+          "Er versprach, den Wald für immer zu verlassen."
+        ],
+        "answer": "Er versprach, keine Hühner des Bauern mehr zu stehlen."
       },
       "nl": {
         "q": "Wat beloofde de vos te doen?",
-        "a": "Hij beloofde te stoppen met het stelen van de kippen van de boer."
+        "options": [
+          "Hij beloofde te stoppen met het stelen van de kippen van de boer.",
+          "Hij beloofde de boerderij 's nachts te bewaken.",
+          "Hij beloofde de boer cadeaus te brengen.",
+          "Hij beloofde het bos voor altijd te verlaten."
+        ],
+        "answer": "Hij beloofde te stoppen met het stelen van de kippen van de boer."
       },
       "fr": {
         "q": "Qu'a promis de faire le renard ?",
-        "a": "Il a promis d'arrêter de voler les poules du fermier."
+        "options": [
+          "Il a promis d'arrêter de voler les poules du fermier.",
+          "Il a promis de garder la ferme la nuit.",
+          "Il a promis d'apporter des cadeaux au fermier.",
+          "Il a promis de quitter la forêt pour toujours."
+        ],
+        "answer": "Il a promis d'arrêter de voler les poules du fermier."
       },
       "ru": {
         "q": "Что пообещала сделать лиса?",
-        "a": "Она пообещала перестать красть кур фермера."
+        "options": [
+          "Она пообещала перестать красть кур фермера.",
+          "Она обещала охранять ферму по ночам.",
+          "Она обещала приносить фермеру подарки.",
+          "Она обещала навсегда покинуть лес."
+        ],
+        "answer": "Она пообещала перестать красть кур фермера."
       },
       "ku": {
         "q": "Rovî soz da ku çi bike?",
-        "a": "Wî soz da ku dev ji dizîna mirîşkên cotkar berde."
+        "options": [
+          "Wî soz da ku dev ji dizîna mirîşkên cotkar berde.",
+          "Wî soz da ku şevan çandiniyê biparêze.",
+          "Wî soz da ku diyariyan bide cotkar.",
+          "Wî soz da ku daristanê her û her berde."
+        ],
+        "answer": "Wî soz da ku dev ji dizîna mirîşkên cotkar berde."
       },
       "tt": {
         "q": "Төлке нәрсә эшләргә вәгъдә бирде?",
-        "a": "Ул игенченең тавыкларын урлауны туктатырга вәгъдә бирде."
+        "options": [
+          "Ул игенченең тавыкларын урлауны туктатырга вәгъдә бирде.",
+          "Ул төнлә фермерны сакларга вәгъдә бирде.",
+          "Ул игенчегә бүләкләр китерергә вәгъдә бирде.",
+          "Ул урманны мәңгегә ташлап китәргә вәгъдә бирде."
+        ],
+        "answer": "Ул игенченең тавыкларын урлауны туктатырга вәгъдә бирде."
       },
       "ar": {
         "q": "بِمَاذَا وَعَدَ الثَّعْلَبُ؟",
-        "a": "وَعَدَ بِالتَّوَقُّفِ عَنْ سَرِقَةِ دَجَاجِ الْمُزَارِعِ."
+        "options": [
+          "وَعَدَ بِالتَّوَقُّفِ عَنْ سَرِقَةِ دَجَاجِ الْمُزَارِعِ.",
+          "وَعَدَ بِحِرَاسَةِ الْمَزْرَعَةِ لَيْلًا.",
+          "وَعَدَ بِإِحْضَارِ هَدَايَا لِلْمُزَارِعِ.",
+          "وَعَدَ بِمُغَادَرَةِ الْغَابَةِ إِلَى الْأَبَدِ."
+        ],
+        "answer": "وَعَدَ بِالتَّوَقُّفِ عَنْ سَرِقَةِ دَجَاجِ الْمُزَارِعِ."
       },
       "es": {
         "q": "¿Qué prometió hacer el zorro?",
-        "a": "Prometió dejar de robar las gallinas del granjero."
+        "options": [
+          "Prometió dejar de robar las gallinas del granjero.",
+          "Prometió vigilar la granja por la noche.",
+          "Prometió traerle regalos al granjero.",
+          "Prometió irse del bosque para siempre."
+        ],
+        "answer": "Prometió dejar de robar las gallinas del granjero."
       },
       "it": {
         "q": "Cosa promise di fare la volpe?",
-        "a": "Promise di smettere di rubare le galline del contadino."
+        "options": [
+          "Promise di smettere di rubare le galline del contadino.",
+          "Promise di sorvegliare la fattoria di notte.",
+          "Promise di portare regali al contadino.",
+          "Promise di lasciare la foresta per sempre."
+        ],
+        "answer": "Promise di smettere di rubare le galline del contadino."
       },
       "pt": {
         "q": "O que a raposa prometeu fazer?",
-        "a": "Prometeu parar de roubar as galinhas do fazendeiro."
+        "options": [
+          "Prometeu parar de roubar as galinhas do fazendeiro.",
+          "Prometeu vigiar a fazenda à noite.",
+          "Prometeu trazer presentes para o fazendeiro.",
+          "Prometeu deixar a floresta para sempre."
+        ],
+        "answer": "Prometeu parar de roubar as galinhas do fazendeiro."
       },
       "ko": {
         "q": "여우는 무엇을 하겠다고 약속했나요?",
-        "a": "농부의 닭을 훔치는 것을 그만두겠다고 약속했다."
+        "options": [
+          "농부의 닭을 훔치는 것을 그만두겠다고 약속했다.",
+          "밤에 농장을 지키겠다고 약속했다.",
+          "농부에게 선물을 가져다주겠다고 약속했다.",
+          "숲을 영원히 떠나겠다고 약속했다."
+        ],
+        "answer": "농부의 닭을 훔치는 것을 그만두겠다고 약속했다."
       },
       "vi": {
         "q": "Con cáo đã hứa sẽ làm gì?",
-        "a": "Nó hứa sẽ ngừng trộm gà của người nông dân."
+        "options": [
+          "Nó hứa sẽ ngừng trộm gà của người nông dân.",
+          "Nó hứa sẽ canh gác trang trại vào ban đêm.",
+          "Nó hứa sẽ mang quà cho người nông dân.",
+          "Nó hứa sẽ rời khu rừng mãi mãi."
+        ],
+        "answer": "Nó hứa sẽ ngừng trộm gà của người nông dân."
       },
       "ja": {
         "q": "キツネは何をすると約束しましたか?",
-        "a": "農夫の鶏を盗むのをやめると約束した。"
+        "options": [
+          "農夫の鶏を盗むのをやめると約束した。",
+          "夜に農場を見張ると約束した。",
+          "農夫に贈り物を持ってくると約束した。",
+          "森を永遠に去ると約束した。"
+        ],
+        "answer": "農夫の鶏を盗むのをやめると約束した。"
       },
       "zh": {
         "q": "狐狸承诺做什么?",
-        "a": "它承诺不再偷农夫的鸡。"
+        "options": [
+          "它承诺不再偷农夫的鸡。",
+          "它承诺在夜里看守农场。",
+          "它承诺给农夫带礼物。",
+          "它承诺永远离开森林。"
+        ],
+        "answer": "它承诺不再偷农夫的鸡。"
       }
     },
     {
@@ -2257,67 +2929,163 @@
       "section": "storyExercise",
       "en": {
         "q": "Where did the farmer leave food for the fox?",
-        "a": "At the bottom of the old well near the field."
+        "options": [
+          "At the bottom of the old well near the field.",
+          "Behind the old barn.",
+          "In the middle of the field.",
+          "Near the farmhouse door."
+        ],
+        "answer": "At the bottom of the old well near the field."
       },
       "tr": {
         "q": "Çiftçi tilki için yiyeceği nereye bıraktı?",
-        "a": "Tarlanın yanındaki eski kuyunun dibine."
+        "options": [
+          "Tarlanın yanındaki eski kuyunun dibine.",
+          "Eski ahırın arkasına.",
+          "Tarlanın ortasına.",
+          "Çiftlik evinin kapısının yakınına."
+        ],
+        "answer": "Tarlanın yanındaki eski kuyunun dibine."
       },
       "de": {
         "q": "Wo legte der Bauer Futter für den Fuchs ab?",
-        "a": "Am Boden des alten Brunnens neben dem Feld."
+        "options": [
+          "Am Boden des alten Brunnens neben dem Feld.",
+          "Hinter der alten Scheune.",
+          "In der Mitte des Feldes.",
+          "In der Nähe der Haustür des Bauernhofs."
+        ],
+        "answer": "Am Boden des alten Brunnens neben dem Feld."
       },
       "nl": {
         "q": "Waar legde de boer voedsel voor de vos?",
-        "a": "Op de bodem van de oude put naast het veld."
+        "options": [
+          "Op de bodem van de oude put naast het veld.",
+          "Achter de oude schuur.",
+          "In het midden van het veld.",
+          "Bij de deur van het boerderijhuis."
+        ],
+        "answer": "Op de bodem van de oude put naast het veld."
       },
       "fr": {
         "q": "Où le fermier a-t-il laissé de la nourriture pour le renard ?",
-        "a": "Au fond du vieux puits près du champ."
+        "options": [
+          "Au fond du vieux puits près du champ.",
+          "Derrière la vieille grange.",
+          "Au milieu du champ.",
+          "Près de la porte de la ferme."
+        ],
+        "answer": "Au fond du vieux puits près du champ."
       },
       "ru": {
         "q": "Где фермер оставлял еду для лисы?",
-        "a": "На дне старого колодца рядом с полем."
+        "options": [
+          "На дне старого колодца рядом с полем.",
+          "За старым сараем.",
+          "Посреди поля.",
+          "Возле двери фермерского дома."
+        ],
+        "answer": "На дне старого колодца рядом с полем."
       },
       "ku": {
         "q": "Cotkar xwarin li ku derê ji bo rovî dihişt?",
-        "a": "Li bin bîra kevn a nêzî zeviyê."
+        "options": [
+          "Li bin bîra kevn a nêzî zeviyê.",
+          "Li paş embara kevn.",
+          "Li nav zeviyê.",
+          "Nêzî deriyê xanîyê çandiniyê."
+        ],
+        "answer": "Li bin bîra kevn a nêzî zeviyê."
       },
       "tt": {
         "q": "Игенче төлке өчен ризыкны кайда калдыра иде?",
-        "a": "Кыр янындагы иске коеның төбенә."
+        "options": [
+          "Кыр янындагы иске коеның төбенә.",
+          "Иске амбар артында.",
+          "Кыр уртасында.",
+          "Фермер йортының ишеге янында."
+        ],
+        "answer": "Кыр янындагы иске коеның төбенә."
       },
       "ar": {
         "q": "أَيْنَ تَرَكَ الْمُزَارِعُ الطَّعَامَ لِلثَّعْلَبِ؟",
-        "a": "فِي قَاعِ الْبِئْرِ الْقَدِيمَةِ بِالْقُرْبِ مِنَ الْحَقْلِ."
+        "options": [
+          "فِي قَاعِ الْبِئْرِ الْقَدِيمَةِ بِالْقُرْبِ مِنَ الْحَقْلِ.",
+          "خَلْفَ الْحَظِيرَةِ الْقَدِيمَةِ.",
+          "فِي وَسَطِ الْحَقْلِ.",
+          "بِالْقُرْبِ مِنْ بَابِ الْمَزْرَعَةِ."
+        ],
+        "answer": "فِي قَاعِ الْبِئْرِ الْقَدِيمَةِ بِالْقُرْبِ مِنَ الْحَقْلِ."
       },
       "es": {
         "q": "¿Dónde dejaba el granjero la comida para el zorro?",
-        "a": "En el fondo del viejo pozo cerca del campo."
+        "options": [
+          "En el fondo del viejo pozo cerca del campo.",
+          "Detrás del viejo granero.",
+          "En medio del campo.",
+          "Cerca de la puerta de la granja."
+        ],
+        "answer": "En el fondo del viejo pozo cerca del campo."
       },
       "it": {
         "q": "Dove lasciava il contadino il cibo per la volpe?",
-        "a": "Sul fondo del vecchio pozzo vicino al campo."
+        "options": [
+          "Sul fondo del vecchio pozzo vicino al campo.",
+          "Dietro il vecchio fienile.",
+          "Nel mezzo del campo.",
+          "Vicino alla porta della fattoria."
+        ],
+        "answer": "Sul fondo del vecchio pozzo vicino al campo."
       },
       "pt": {
         "q": "Onde o fazendeiro deixava comida para a raposa?",
-        "a": "No fundo do velho poço perto do campo."
+        "options": [
+          "No fundo do velho poço perto do campo.",
+          "Atrás do velho celeiro.",
+          "No meio do campo.",
+          "Perto da porta da fazenda."
+        ],
+        "answer": "No fundo do velho poço perto do campo."
       },
       "ko": {
         "q": "농부는 여우를 위해 먹이를 어디에 두었나요?",
-        "a": "밭 근처 오래된 우물 바닥에."
+        "options": [
+          "밭 근처 오래된 우물 바닥에.",
+          "오래된 헛간 뒤에.",
+          "밭 한가운데에.",
+          "농가 문 근처에."
+        ],
+        "answer": "밭 근처 오래된 우물 바닥에."
       },
       "vi": {
         "q": "Người nông dân để thức ăn cho con cáo ở đâu?",
-        "a": "Ở đáy cái giếng cũ gần cánh đồng."
+        "options": [
+          "Ở đáy cái giếng cũ gần cánh đồng.",
+          "Sau kho thóc cũ.",
+          "Ở giữa cánh đồng.",
+          "Gần cửa nhà nông trại."
+        ],
+        "answer": "Ở đáy cái giếng cũ gần cánh đồng."
       },
       "ja": {
         "q": "農夫はキツネのためにどこに食べ物を置きましたか?",
-        "a": "畑の近くの古い井戸の底に。"
+        "options": [
+          "畑の近くの古い井戸の底に。",
+          "古い納屋の後ろに。",
+          "畑の真ん中に。",
+          "農家のドアの近くに。"
+        ],
+        "answer": "畑の近くの古い井戸の底に。"
       },
       "zh": {
         "q": "农夫把食物放在哪里给狐狸?",
-        "a": "放在田边那口老井的底部。"
+        "options": [
+          "放在田边那口老井的底部。",
+          "旧谷仓后面。",
+          "田地中间。",
+          "农舍门口附近。"
+        ],
+        "answer": "放在田边那口老井的底部。"
       }
     }
   ]
