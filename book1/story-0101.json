@@ -4,8 +4,8 @@
     "en": "Story 1"
   },
   "daySubtitle": {
-    "tr": "Önemli 20 kelime",
-    "en": "20 essential words"
+    "tr": "Önemli 25 kelime",
+    "en": "25 essential words"
   },
   "questions": [
     {
@@ -1370,6 +1370,346 @@
     },
     {
       "id": 21,
+      "section": "word",
+      "en": {
+        "q": "adventure",
+        "a": "An exciting or unusual experience. Climbing the mountain was a great adventure."
+      },
+      "tr": {
+        "q": "macera",
+        "a": "Heyecan verici veya alışılmadık bir deneyim. Dağa tırmanmak büyük bir maceraydı."
+      },
+      "de": {
+        "q": "Abenteuer",
+        "a": "Eine aufregende oder ungewöhnliche Erfahrung. Der Aufstieg auf den Berg war ein großes Abenteuer."
+      },
+      "nl": {
+        "q": "avontuur",
+        "a": "Een spannende of ongewone ervaring. De berg beklimmen was een groot avontuur."
+      },
+      "fr": {
+        "q": "aventure",
+        "a": "Une expérience excitante ou inhabituelle. Grimper la montagne fut une grande aventure."
+      },
+      "ru": {
+        "q": "приключение",
+        "a": "Захватывающий или необычный опыт. Восхождение на гору было настоящим приключением."
+      },
+      "ku": {
+        "q": "serpêhatî",
+        "a": "Ezmûnek heyecanbar an ne asayî. Hilkişîna çiyê serpêhatiyek mezin bû."
+      },
+      "tt": {
+        "q": "маҗара",
+        "a": "Кызыклы яки гадәттән тыш тәҗрибә. Тауга менү зур маҗара иде."
+      },
+      "ar": {
+        "q": "مُغَامَرَة",
+        "a": "تَجْرِبَةٌ مُثِيرَةٌ أَوْ غَيْرُ عَادِيَّةٍ. كَانَ تَسَلُّقُ الْجَبَلِ مُغَامَرَةً رَائِعَةً."
+      },
+      "es": {
+        "q": "aventura",
+        "a": "Una experiencia emocionante o inusual. Escalar la montaña fue una gran aventura."
+      },
+      "it": {
+        "q": "avventura",
+        "a": "Un'esperienza emozionante o insolita. Scalare la montagna fu una grande avventura."
+      },
+      "pt": {
+        "q": "aventura",
+        "a": "Uma experiência emocionante ou incomum. Escalar a montanha foi uma grande aventura."
+      },
+      "ko": {
+        "q": "모험",
+        "a": "흥미롭거나 특이한 경험. 산을 오르는 것은 큰 모험이었다."
+      },
+      "vi": {
+        "q": "cuộc phiêu lưu",
+        "a": "Một trải nghiệm thú vị hoặc khác thường. Leo núi là một cuộc phiêu lưu tuyệt vời."
+      },
+      "ja": {
+        "q": "冒険",
+        "a": "刺激的または珍しい経験。山に登ることは大きな冒険だった。"
+      },
+      "zh": {
+        "q": "冒险",
+        "a": "一种令人兴奋或不寻常的经历。爬山是一次伟大的冒险。"
+      }
+    },
+    {
+      "id": 22,
+      "section": "word",
+      "en": {
+        "q": "approach",
+        "a": "To move closer to something or someone. The cat slowly began to approach the bird."
+      },
+      "tr": {
+        "q": "yaklaşmak",
+        "a": "Bir şeye veya birine doğru yaklaşmak. Kedi yavaşça kuşa yaklaşmaya başladı."
+      },
+      "de": {
+        "q": "sich nähern",
+        "a": "Sich einer Sache oder Person annähern. Die Katze begann sich langsam dem Vogel zu nähern."
+      },
+      "nl": {
+        "q": "naderen",
+        "a": "Dichter bij iets of iemand komen. De kat begon langzaam de vogel te naderen."
+      },
+      "fr": {
+        "q": "s'approcher",
+        "a": "Se rapprocher de quelque chose ou de quelqu'un. Le chat commença lentement à s'approcher de l'oiseau."
+      },
+      "ru": {
+        "q": "приближаться",
+        "a": "Двигаться ближе к чему-то или кому-то. Кошка медленно начала приближаться к птице."
+      },
+      "ku": {
+        "q": "nêzîk bûn",
+        "a": "Nêzî tiştekî an kesekî bûn. Pisîkê hêdî hêdî dest bi nêzîkbûna çûk kir."
+      },
+      "tt": {
+        "q": "якынлашу",
+        "a": "Нәрсәгәдер яки кемгәдер якынлашу. Мәче акрынлап кошка якынлаша башлады."
+      },
+      "ar": {
+        "q": "يَقْتَرِبُ",
+        "a": "التَّحَرُّكُ أَقْرَبَ إِلَى شَيْءٍ أَوْ شَخْصٍ. بَدَأَتِ الْقِطَّةُ بِبُطْءٍ فِي الِاقْتِرَابِ مِنَ الْعُصْفُورِ."
+      },
+      "es": {
+        "q": "acercarse",
+        "a": "Moverse más cerca de algo o alguien. El gato empezó lentamente a acercarse al pájaro."
+      },
+      "it": {
+        "q": "avvicinarsi",
+        "a": "Muoversi più vicino a qualcosa o qualcuno. Il gatto iniziò lentamente ad avvicinarsi all'uccello."
+      },
+      "pt": {
+        "q": "aproximar-se",
+        "a": "Mover-se mais perto de algo ou alguém. O gato começou lentamente a se aproximar do pássaro."
+      },
+      "ko": {
+        "q": "다가가다",
+        "a": "무언가나 누군가에게 더 가까이 가는 것. 고양이는 천천히 새에게 다가가기 시작했다."
+      },
+      "vi": {
+        "q": "tiến lại gần",
+        "a": "Di chuyển gần hơn đến điều gì đó hoặc ai đó. Con mèo bắt đầu từ từ tiến lại gần con chim."
+      },
+      "ja": {
+        "q": "近づく",
+        "a": "何かや誰かに近づいて行くこと。猫はゆっくりと鳥に近づき始めた。"
+      },
+      "zh": {
+        "q": "靠近",
+        "a": "更靠近某物或某人。猫慢慢开始靠近那只鸟。"
+      }
+    },
+    {
+      "id": 23,
+      "section": "word",
+      "en": {
+        "q": "carefully",
+        "a": "In a careful way, paying close attention. She carefully carried the glass of water."
+      },
+      "tr": {
+        "q": "dikkatlice",
+        "a": "Dikkatli bir şekilde, özen göstererek. Su bardağını dikkatlice taşıdı."
+      },
+      "de": {
+        "q": "sorgfältig",
+        "a": "Auf eine vorsichtige, aufmerksame Weise. Sie trug das Wasserglas sorgfältig."
+      },
+      "nl": {
+        "q": "zorgvuldig",
+        "a": "Op een voorzichtige manier, met veel aandacht. Ze droeg het glas water zorgvuldig."
+      },
+      "fr": {
+        "q": "soigneusement",
+        "a": "D'une manière prudente, en faisant très attention. Elle portait soigneusement le verre d'eau."
+      },
+      "ru": {
+        "q": "осторожно",
+        "a": "Осторожным образом, уделяя пристальное внимание. Она осторожно несла стакан воды."
+      },
+      "ku": {
+        "q": "bi baldarî",
+        "a": "Bi awayekî hişyar, bi baldarî meraq dan. Wê glasa avê bi baldarî hilgirt."
+      },
+      "tt": {
+        "q": "сак кына",
+        "a": "Сак рәвештә, игътибарлы булып. Ул су стаканын сак кына күтәрде."
+      },
+      "ar": {
+        "q": "بِعِنَايَةٍ",
+        "a": "بِطَرِيقَةٍ حَذِرَةٍ، مَعَ الِانْتِبَاهِ الشَّدِيدِ. حَمَلَتْ كَأْسَ الْمَاءِ بِعِنَايَةٍ."
+      },
+      "es": {
+        "q": "cuidadosamente",
+        "a": "De manera cuidadosa, prestando mucha atención. Ella llevó el vaso de agua cuidadosamente."
+      },
+      "it": {
+        "q": "con attenzione",
+        "a": "In modo prudente, prestando molta attenzione. Ha portato il bicchiere d'acqua con attenzione."
+      },
+      "pt": {
+        "q": "cuidadosamente",
+        "a": "De maneira cuidadosa, prestando muita atenção. Ela carregou o copo de água cuidadosamente."
+      },
+      "ko": {
+        "q": "조심스럽게",
+        "a": "조심스러운 방식으로, 세심한 주의를 기울여서. 그녀는 물잔을 조심스럽게 들었다."
+      },
+      "vi": {
+        "q": "cẩn thận",
+        "a": "Theo cách thận trọng, chú ý kỹ lưỡng. Cô ấy cẩn thận mang cốc nước."
+      },
+      "ja": {
+        "q": "注意深く",
+        "a": "注意深い方法で、細心の注意を払って。彼女は水のコップを注意深く運んだ。"
+      },
+      "zh": {
+        "q": "小心地",
+        "a": "以谨慎的方式,非常注意。她小心地端着那杯水。"
+      }
+    },
+    {
+      "id": 24,
+      "section": "word",
+      "en": {
+        "q": "chemical",
+        "a": "A substance used or made in chemistry. Some farmers use chemical products to grow food faster."
+      },
+      "tr": {
+        "q": "kimyasal",
+        "a": "Kimyada kullanılan veya üretilen bir madde. Bazı çiftçiler yiyeceği daha hızlı yetiştirmek için kimyasal ürünler kullanır."
+      },
+      "de": {
+        "q": "Chemikalie",
+        "a": "Ein in der Chemie verwendeter oder hergestellter Stoff. Manche Bauern verwenden chemische Produkte, um Nahrung schneller anzubauen."
+      },
+      "nl": {
+        "q": "chemisch",
+        "a": "Een stof gebruikt of gemaakt in de scheikunde. Sommige boeren gebruiken chemische producten om voedsel sneller te laten groeien."
+      },
+      "fr": {
+        "q": "chimique",
+        "a": "Une substance utilisée ou fabriquée en chimie. Certains agriculteurs utilisent des produits chimiques pour faire pousser la nourriture plus vite."
+      },
+      "ru": {
+        "q": "химическое вещество",
+        "a": "Вещество, используемое или произведённое в химии. Некоторые фермеры используют химические продукты, чтобы быстрее выращивать еду."
+      },
+      "ku": {
+        "q": "kîmyewî",
+        "a": "Maddeyek ku di kîmyayê de tê bikaranîn an çêkirin. Hin cotkar ji bo mezinkirina xwarinê zûtir hêmanên kîmyewî bikar tînin."
+      },
+      "tt": {
+        "q": "химик матдә",
+        "a": "Химиядә кулланыла торган яки ясала торган матдә. Кайбер игенчеләр ризыкны тизрәк үстерү өчен химик продуктлар куллана."
+      },
+      "ar": {
+        "q": "مَادَّة كِيمِيَائِيَّة",
+        "a": "مَادَّةٌ تُسْتَخْدَمُ أَوْ تُصْنَعُ فِي الْكِيمْيَاءِ. يَسْتَخْدِمُ بَعْضُ الْمُزَارِعِينَ مَوَادَّ كِيمِيَائِيَّةً لِزِرَاعَةِ الطَّعَامِ بِسُرْعَةٍ أَكْبَرَ."
+      },
+      "es": {
+        "q": "químico",
+        "a": "Una sustancia usada o fabricada en química. Algunos agricultores usan productos químicos para cultivar alimentos más rápido."
+      },
+      "it": {
+        "q": "chimico",
+        "a": "Una sostanza usata o prodotta in chimica. Alcuni agricoltori usano prodotti chimici per far crescere il cibo più velocemente."
+      },
+      "pt": {
+        "q": "químico",
+        "a": "Uma substância usada ou feita em química. Alguns agricultores usam produtos químicos para cultivar alimentos mais rápido."
+      },
+      "ko": {
+        "q": "화학 물질",
+        "a": "화학에서 사용되거나 만들어지는 물질. 일부 농부들은 식량을 더 빨리 기르기 위해 화학 제품을 사용한다."
+      },
+      "vi": {
+        "q": "hóa chất",
+        "a": "Một chất được sử dụng hoặc tạo ra trong hóa học. Một số nông dân sử dụng sản phẩm hóa học để trồng thực phẩm nhanh hơn."
+      },
+      "ja": {
+        "q": "化学物質",
+        "a": "化学で使用または作られる物質。一部の農家は食料を早く育てるために化学製品を使う。"
+      },
+      "zh": {
+        "q": "化学物质",
+        "a": "化学中使用或制造的物质。一些农民使用化学产品来更快地种植食物。"
+      }
+    },
+    {
+      "id": 25,
+      "section": "word",
+      "en": {
+        "q": "create",
+        "a": "To make something new. The artist wanted to create something beautiful."
+      },
+      "tr": {
+        "q": "yaratmak",
+        "a": "Yeni bir şey ortaya koymak. Sanatçı güzel bir şey yaratmak istiyordu."
+      },
+      "de": {
+        "q": "erschaffen",
+        "a": "Etwas Neues machen. Der Künstler wollte etwas Schönes erschaffen."
+      },
+      "nl": {
+        "q": "creëren",
+        "a": "Iets nieuws maken. De kunstenaar wilde iets moois creëren."
+      },
+      "fr": {
+        "q": "créer",
+        "a": "Faire quelque chose de nouveau. L'artiste voulait créer quelque chose de beau."
+      },
+      "ru": {
+        "q": "создавать",
+        "a": "Делать что-то новое. Художник хотел создать что-то прекрасное."
+      },
+      "ku": {
+        "q": "afirandin",
+        "a": "Tiştekî nû çêkirin. Hunermend dixwest tiştekî xweşik biafirîne."
+      },
+      "tt": {
+        "q": "тудыру",
+        "a": "Яңа нәрсә ясау. Рәссам матур бер нәрсә тудырырга тели иде."
+      },
+      "ar": {
+        "q": "يَخْلُقُ",
+        "a": "صُنْعُ شَيْءٍ جَدِيدٍ. أَرَادَ الْفَنَّانُ أَنْ يَخْلُقَ شَيْئًا جَمِيلًا."
+      },
+      "es": {
+        "q": "crear",
+        "a": "Hacer algo nuevo. El artista quería crear algo hermoso."
+      },
+      "it": {
+        "q": "creare",
+        "a": "Fare qualcosa di nuovo. L'artista voleva creare qualcosa di bello."
+      },
+      "pt": {
+        "q": "criar",
+        "a": "Fazer algo novo. O artista queria criar algo bonito."
+      },
+      "ko": {
+        "q": "창조하다",
+        "a": "새로운 것을 만드는 것. 그 예술가는 아름다운 것을 창조하고 싶었다."
+      },
+      "vi": {
+        "q": "tạo ra",
+        "a": "Làm ra thứ gì đó mới. Người nghệ sĩ muốn tạo ra một thứ gì đó đẹp đẽ."
+      },
+      "ja": {
+        "q": "創造する",
+        "a": "新しい何かを作ること。その芸術家は美しい何かを創造したいと思った。"
+      },
+      "zh": {
+        "q": "创造",
+        "a": "制作新的东西。这位艺术家想创造一些美丽的东西。"
+      }
+    },
+    {
+      "id": 26,
       "section": "wordExercise",
       "en": {
         "q": "Which word means \"feeling scared of something\"?",
@@ -1437,7 +1777,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 27,
       "section": "wordExercise",
       "en": {
         "q": "Which word means \"to reach a place after traveling\"?",
@@ -1505,7 +1845,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 28,
       "section": "wordExercise",
       "en": {
         "q": "Which word means \"after a long time, at last\"?",
@@ -1573,7 +1913,7 @@
       }
     },
     {
-      "id": 24,
+      "id": 29,
       "section": "wordExercise",
       "en": {
         "q": "Which word means \"a large amount or number\"?",
@@ -1641,7 +1981,7 @@
       }
     },
     {
-      "id": 25,
+      "id": 30,
       "section": "wordExercise",
       "en": {
         "q": "Which word means \"not in danger\"?",
@@ -1709,75 +2049,75 @@
       }
     },
     {
-      "id": 26,
+      "id": 31,
       "section": "story",
       "en": {
         "q": "The Fox and the Farmer",
-        "a": "Every night, a clever fox came to the farmer's field and stole chickens. The farmer was angry, and he was afraid that soon he would have no chickens left.\n\nOne evening, the farmer had an idea. He decided to hide behind the barn and wait.\n\nA lot of stars filled the sky when the fox finally arrived. The fox walked straight to the middle of the field, ready to attack the chicken house.\n\nAt that moment, the farmer jumped out and shouted, \"Stop!\" The fox froze, but it did not run away. \"Please don't hurt me,\" it said. \"I only hunt because I am hungry.\"\n\nThe farmer felt sorry for the fox. \"I promise not to hurt you,\" he said, \"if you agree to stop stealing my chickens.\"\n\nThe fox thought for a moment and replied, \"I agree. But will you help me find food another way?\"\n\nThe farmer was not cruel, and he wanted the fox to be safe too. So every day after that, he left food at the bottom of the old well near the field.\n\nThe fox never stole chickens again. The animals on the farm were pleased with this clever trick, and the farmer and the fox lived well together from that day on."
+        "a": "Every night, a clever fox came to the farmer's field and stole chickens. The farmer was angry, and he was afraid that soon he would have no chickens left.\n\nOne evening, the farmer had an idea. He decided to hide behind the barn and wait.\n\nA lot of stars filled the sky when the fox finally arrived. The fox walked straight to the middle of the field, ready to attack the chicken house.\n\nAt that moment, the farmer jumped out and shouted, \"Stop!\" The fox froze, but it did not run away. \"Please don't hurt me,\" it said. \"I only hunt because I am hungry.\"\n\nThe farmer felt sorry for the fox. \"I promise not to hurt you,\" he said, \"if you agree to stop stealing my chickens.\"\n\nThe fox thought for a moment and replied, \"I agree. But will you help me find food another way?\"\n\nThe farmer was not cruel, and he wanted the fox to be safe too. So every day after that, he left food at the bottom of the old well near the field.\n\nThe fox never stole chickens again. The animals on the farm were pleased with this clever trick, and the farmer and the fox lived well together from that day on.\n\nAfter that day, the farmer and the fox began a new adventure together. Every morning, the fox would carefully approach the farmhouse to help in the garden. They decided to create a garden without any chemical products, growing food the natural way."
       },
       "tr": {
         "q": "Tilki ve Çiftçi",
-        "a": "Her gece zeki bir tilki çiftçinin tarlasına gelip tavuklarını çalıyordu. Çiftçi çok kızgındı ve yakında hiç tavuğu kalmayacağından korkuyordu.\n\nBir akşam çiftçinin aklına bir fikir geldi. Ahırın arkasına saklanıp beklemeye karar verdi.\n\nGökyüzü bir sürü yıldızla doluyken tilki sonunda geldi. Tilki, tavuk kümesine saldırmaya hazır şekilde doğruca tarlanın ortasına yürüdü.\n\nTam o anda çiftçi ortaya fırlayıp \"Dur!\" diye bağırdı. Tilki donup kaldı ama kaçmadı. \"Lütfen bana zarar verme,\" dedi. \"Sadece aç olduğum için avlanıyorum.\"\n\nÇiftçi tilkiye acıdı. \"Tavuklarımı çalmayı bırakmayı kabul edersen,\" dedi, \"sana zarar vermeyeceğime söz veriyorum.\"\n\nTilki bir an düşündü ve \"Kabul ediyorum. Ama bana başka bir şekilde yiyecek bulmama yardım eder misin?\" diye cevap verdi.\n\nÇiftçi acımasız biri değildi ve tilkinin de güvende olmasını istiyordu. Bundan sonra her gün tarlanın yanındaki eski kuyunun dibine yiyecek bırakmaya başladı.\n\nTilki bir daha hiç tavuk çalmadı. Çiftlikteki hayvanlar bu zekice hileden memnun kaldılar ve o günden sonra çiftçi ile tilki birlikte iyi bir hayat sürdüler."
+        "a": "Her gece zeki bir tilki çiftçinin tarlasına gelip tavuklarını çalıyordu. Çiftçi çok kızgındı ve yakında hiç tavuğu kalmayacağından korkuyordu.\n\nBir akşam çiftçinin aklına bir fikir geldi. Ahırın arkasına saklanıp beklemeye karar verdi.\n\nGökyüzü bir sürü yıldızla doluyken tilki sonunda geldi. Tilki, tavuk kümesine saldırmaya hazır şekilde doğruca tarlanın ortasına yürüdü.\n\nTam o anda çiftçi ortaya fırlayıp \"Dur!\" diye bağırdı. Tilki donup kaldı ama kaçmadı. \"Lütfen bana zarar verme,\" dedi. \"Sadece aç olduğum için avlanıyorum.\"\n\nÇiftçi tilkiye acıdı. \"Tavuklarımı çalmayı bırakmayı kabul edersen,\" dedi, \"sana zarar vermeyeceğime söz veriyorum.\"\n\nTilki bir an düşündü ve \"Kabul ediyorum. Ama bana başka bir şekilde yiyecek bulmama yardım eder misin?\" diye cevap verdi.\n\nÇiftçi acımasız biri değildi ve tilkinin de güvende olmasını istiyordu. Bundan sonra her gün tarlanın yanındaki eski kuyunun dibine yiyecek bırakmaya başladı.\n\nTilki bir daha hiç tavuk çalmadı. Çiftlikteki hayvanlar bu zekice hileden memnun kaldılar ve o günden sonra çiftçi ile tilki birlikte iyi bir hayat sürdüler.\n\nO günden sonra çiftçi ve tilki birlikte yeni bir maceraya başladılar. Her sabah tilki bahçede yardım etmek için çiftlik evine dikkatlice yaklaşırdı. Hiç kimyasal ürün kullanmadan, yiyeceği doğal yoldan yetiştiren bir bahçe yaratmaya karar verdiler."
       },
       "de": {
         "q": "Der Fuchs und der Bauer",
-        "a": "Jede Nacht kam ein kluger Fuchs auf das Feld des Bauern und stahl Hühner. Der Bauer war wütend und hatte Angst, dass er bald keine Hühner mehr haben würde.\n\nEines Abends hatte der Bauer eine Idee. Er beschloss, sich hinter der Scheune zu verstecken und zu warten.\n\nViele Sterne füllten den Himmel, als der Fuchs schließlich ankam. Der Fuchs ging direkt zur Mitte des Feldes, bereit, das Hühnerhaus anzugreifen.\n\nIn diesem Moment sprang der Bauer heraus und rief: \"Halt!\" Der Fuchs erstarrte, lief aber nicht weg. \"Bitte tu mir nichts\", sagte er. \"Ich jage nur, weil ich hungrig bin.\"\n\nDer Bauer hatte Mitleid mit dem Fuchs. \"Ich verspreche, dir nichts zu tun\", sagte er, \"wenn du zustimmst, keine Hühner mehr zu stehlen.\"\n\nDer Fuchs dachte einen Moment nach und antwortete: \"Ich stimme zu. Aber hilfst du mir, auf andere Weise Nahrung zu finden?\"\n\nDer Bauer war nicht grausam, und er wollte, dass der Fuchs auch sicher war. Von da an legte er jeden Tag Futter am Boden des alten Brunnens neben dem Feld ab.\n\nDer Fuchs stahl nie wieder Hühner. Die Tiere auf dem Hof waren erfreut über diesen klugen Trick, und der Bauer und der Fuchs lebten von diesem Tag an gut zusammen."
+        "a": "Jede Nacht kam ein kluger Fuchs auf das Feld des Bauern und stahl Hühner. Der Bauer war wütend und hatte Angst, dass er bald keine Hühner mehr haben würde.\n\nEines Abends hatte der Bauer eine Idee. Er beschloss, sich hinter der Scheune zu verstecken und zu warten.\n\nViele Sterne füllten den Himmel, als der Fuchs schließlich ankam. Der Fuchs ging direkt zur Mitte des Feldes, bereit, das Hühnerhaus anzugreifen.\n\nIn diesem Moment sprang der Bauer heraus und rief: \"Halt!\" Der Fuchs erstarrte, lief aber nicht weg. \"Bitte tu mir nichts\", sagte er. \"Ich jage nur, weil ich hungrig bin.\"\n\nDer Bauer hatte Mitleid mit dem Fuchs. \"Ich verspreche, dir nichts zu tun\", sagte er, \"wenn du zustimmst, keine Hühner mehr zu stehlen.\"\n\nDer Fuchs dachte einen Moment nach und antwortete: \"Ich stimme zu. Aber hilfst du mir, auf andere Weise Nahrung zu finden?\"\n\nDer Bauer war nicht grausam, und er wollte, dass der Fuchs auch sicher war. Von da an legte er jeden Tag Futter am Boden des alten Brunnens neben dem Feld ab.\n\nDer Fuchs stahl nie wieder Hühner. Die Tiere auf dem Hof waren erfreut über diesen klugen Trick, und der Bauer und der Fuchs lebten von diesem Tag an gut zusammen.\n\nNach diesem Tag begannen der Bauer und der Fuchs gemeinsam ein neues Abenteuer. Jeden Morgen näherte sich der Fuchs sorgfältig dem Bauernhaus, um im Garten zu helfen. Sie beschlossen, einen Garten ohne jegliche chemische Produkte zu erschaffen und Nahrung auf natürliche Weise anzubauen."
       },
       "nl": {
         "q": "De Vos en de Boer",
-        "a": "Elke nacht kwam een slimme vos naar het veld van de boer en stal kippen. De boer was boos en bang dat hij binnenkort geen kippen meer zou hebben.\n\nOp een avond had de boer een idee. Hij besloot zich achter de schuur te verstoppen en te wachten.\n\nVeel sterren vulden de lucht toen de vos eindelijk aankwam. De vos liep recht naar het midden van het veld, klaar om de kippenren aan te vallen.\n\nOp dat moment sprong de boer tevoorschijn en riep: \"Stop!\" De vos verstijfde, maar rende niet weg. \"Doe me alsjeblieft geen pijn,\" zei hij. \"Ik jaag alleen omdat ik honger heb.\"\n\nDe boer had medelijden met de vos. \"Ik beloof je geen pijn te doen,\" zei hij, \"als je ermee instemt geen kippen meer te stelen.\"\n\nDe vos dacht een moment na en antwoordde: \"Ik ga akkoord. Maar help je me op een andere manier voedsel te vinden?\"\n\nDe boer was niet wreed en wilde dat de vos ook veilig was. Dus legde hij vanaf die dag elke dag voedsel op de bodem van de oude put naast het veld.\n\nDe vos stal nooit meer kippen. De dieren op de boerderij waren blij met deze slimme truc, en de boer en de vos leefden vanaf die dag goed samen."
+        "a": "Elke nacht kwam een slimme vos naar het veld van de boer en stal kippen. De boer was boos en bang dat hij binnenkort geen kippen meer zou hebben.\n\nOp een avond had de boer een idee. Hij besloot zich achter de schuur te verstoppen en te wachten.\n\nVeel sterren vulden de lucht toen de vos eindelijk aankwam. De vos liep recht naar het midden van het veld, klaar om de kippenren aan te vallen.\n\nOp dat moment sprong de boer tevoorschijn en riep: \"Stop!\" De vos verstijfde, maar rende niet weg. \"Doe me alsjeblieft geen pijn,\" zei hij. \"Ik jaag alleen omdat ik honger heb.\"\n\nDe boer had medelijden met de vos. \"Ik beloof je geen pijn te doen,\" zei hij, \"als je ermee instemt geen kippen meer te stelen.\"\n\nDe vos dacht een moment na en antwoordde: \"Ik ga akkoord. Maar help je me op een andere manier voedsel te vinden?\"\n\nDe boer was niet wreed en wilde dat de vos ook veilig was. Dus legde hij vanaf die dag elke dag voedsel op de bodem van de oude put naast het veld.\n\nDe vos stal nooit meer kippen. De dieren op de boerderij waren blij met deze slimme truc, en de boer en de vos leefden vanaf die dag goed samen.\n\nNa die dag begonnen de boer en de vos samen aan een nieuw avontuur. Elke ochtend naderde de vos zorgvuldig de boerderij om in de tuin te helpen. Ze besloten een tuin te creëren zonder chemische producten, waarin voedsel op natuurlijke wijze werd verbouwd."
       },
       "fr": {
         "q": "Le Renard et le Fermier",
-        "a": "Chaque nuit, un renard astucieux venait dans le champ du fermier et volait des poules. Le fermier était en colère et avait peur de bientôt ne plus avoir de poules.\n\nUn soir, le fermier eut une idée. Il décida de se cacher derrière la grange et d'attendre.\n\nBeaucoup d'étoiles remplissaient le ciel quand le renard arriva enfin. Le renard marcha droit vers le milieu du champ, prêt à attaquer le poulailler.\n\nÀ ce moment-là, le fermier bondit et cria : \"Arrête !\" Le renard se figea, mais ne s'enfuit pas. \"Ne me fais pas de mal, s'il te plaît,\" dit-il. \"Je chasse seulement parce que j'ai faim.\"\n\nLe fermier eut pitié du renard. \"Je promets de ne pas te faire de mal,\" dit-il, \"si tu es d'accord d'arrêter de voler mes poules.\"\n\nLe renard réfléchit un moment et répondit : \"Je suis d'accord. Mais m'aideras-tu à trouver de la nourriture autrement ?\"\n\nLe fermier n'était pas cruel, et il voulait aussi que le renard soit en sécurité. Alors, chaque jour à partir de ce moment-là, il laissa de la nourriture au fond du vieux puits près du champ.\n\nLe renard ne vola plus jamais de poules. Les animaux de la ferme étaient contents de cette astuce intelligente, et le fermier et le renard vécurent bien ensemble à partir de ce jour."
+        "a": "Chaque nuit, un renard astucieux venait dans le champ du fermier et volait des poules. Le fermier était en colère et avait peur de bientôt ne plus avoir de poules.\n\nUn soir, le fermier eut une idée. Il décida de se cacher derrière la grange et d'attendre.\n\nBeaucoup d'étoiles remplissaient le ciel quand le renard arriva enfin. Le renard marcha droit vers le milieu du champ, prêt à attaquer le poulailler.\n\nÀ ce moment-là, le fermier bondit et cria : \"Arrête !\" Le renard se figea, mais ne s'enfuit pas. \"Ne me fais pas de mal, s'il te plaît,\" dit-il. \"Je chasse seulement parce que j'ai faim.\"\n\nLe fermier eut pitié du renard. \"Je promets de ne pas te faire de mal,\" dit-il, \"si tu es d'accord d'arrêter de voler mes poules.\"\n\nLe renard réfléchit un moment et répondit : \"Je suis d'accord. Mais m'aideras-tu à trouver de la nourriture autrement ?\"\n\nLe fermier n'était pas cruel, et il voulait aussi que le renard soit en sécurité. Alors, chaque jour à partir de ce moment-là, il laissa de la nourriture au fond du vieux puits près du champ.\n\nLe renard ne vola plus jamais de poules. Les animaux de la ferme étaient contents de cette astuce intelligente, et le fermier et le renard vécurent bien ensemble à partir de ce jour.\n\nAprès ce jour, le fermier et le renard commencèrent une nouvelle aventure ensemble. Chaque matin, le renard s'approchait soigneusement de la ferme pour aider dans le jardin. Ils décidèrent de créer un jardin sans aucun produit chimique, cultivant la nourriture de façon naturelle."
       },
       "ru": {
         "q": "Лиса и Фермер",
-        "a": "Каждую ночь умная лиса приходила на поле фермера и крала кур. Фермер был зол и боялся, что скоро у него совсем не останется кур.\n\nОднажды вечером у фермера появилась идея. Он решил спрятаться за сараем и подождать.\n\nНебо было полно звёзд, когда лиса наконец пришла. Лиса пошла прямо к середине поля, готовая напасть на курятник.\n\nВ этот момент фермер выскочил и закричал: \"Стой!\" Лиса замерла, но не убежала. \"Пожалуйста, не причиняй мне вреда,\" — сказала она. \"Я охочусь только потому, что голодна.\"\n\nФермеру стало жаль лису. \"Я обещаю не причинять тебе вреда,\" — сказал он, \"если ты согласишься перестать красть моих кур.\"\n\nЛиса на момент задумалась и ответила: \"Я согласна. Но поможешь ли ты мне найти еду по-другому?\"\n\nФермер не был жестоким и хотел, чтобы лиса тоже была в безопасности. С того дня он каждый день оставлял еду на дне старого колодца рядом с полем.\n\nЛиса больше никогда не крала кур. Животные на ферме были довольны этой умной хитростью, и с того дня фермер и лиса жили хорошо вместе."
+        "a": "Каждую ночь умная лиса приходила на поле фермера и крала кур. Фермер был зол и боялся, что скоро у него совсем не останется кур.\n\nОднажды вечером у фермера появилась идея. Он решил спрятаться за сараем и подождать.\n\nНебо было полно звёзд, когда лиса наконец пришла. Лиса пошла прямо к середине поля, готовая напасть на курятник.\n\nВ этот момент фермер выскочил и закричал: \"Стой!\" Лиса замерла, но не убежала. \"Пожалуйста, не причиняй мне вреда,\" — сказала она. \"Я охочусь только потому, что голодна.\"\n\nФермеру стало жаль лису. \"Я обещаю не причинять тебе вреда,\" — сказал он, \"если ты согласишься перестать красть моих кур.\"\n\nЛиса на момент задумалась и ответила: \"Я согласна. Но поможешь ли ты мне найти еду по-другому?\"\n\nФермер не был жестоким и хотел, чтобы лиса тоже была в безопасности. С того дня он каждый день оставлял еду на дне старого колодца рядом с полем.\n\nЛиса больше никогда не крала кур. Животные на ферме были довольны этой умной хитростью, и с того дня фермер и лиса жили хорошо вместе.\n\nПосле этого дня фермер и лиса начали новое приключение вместе. Каждое утро лиса осторожно приближалась к дому фермера, чтобы помочь в саду. Они решили создать сад без каких-либо химических веществ, выращивая еду естественным образом."
       },
       "ku": {
         "q": "Rovî û Cotkar",
-        "a": "Her şev rovîyek zîrek dihat zeviya cotkar û mirîşkan didizî. Cotkar hêrs bû û ditirsiya ku zûtirîn wê êdî mirîşkên wî tune bin.\n\nÊvarekê raman ket serê cotkar. Wî biryar da ku li paş embarê veşêre û bisekine.\n\nGava rovî di dawiyê de gihîşt, ezman bi gelek stêrkan tijî bû. Rovî rasterast ber bi nav zeviyê ve meşiya, amade bû ku êrîşî mirîşkxaneyê bike.\n\nDi wê kêliyê de cotkar derket û bang kir: \"Rawestin!\" Rovî sist bû, lê nereviya. Wê got: \"Ji kerema xwe zirarê nedin min. Ez tenê ji ber ku birçî me nêçîr dikim.\"\n\nCotkar li rovî dilovan bû. Wî got: \"Ez soz didim zirarê nadim te, heke tu li hev bikî ku dev ji dizîna mirîşkên min berdî.\"\n\nRovî kêliyek fikirî û bersiv da: \"Ez li hev dikim. Lê ma tu dê alîkariya min bikî ku bi rengekî din xwarinê bibînim?\"\n\nCotkar ne zalim bû, û wî dixwest ku rovî jî ewle be. Ji wê rojê pê ve, wî her roj li bin bîra kevn a nêzî zeviyê xwarin dihişt.\n\nRovî careke din mirîşk nedizî. Heywanên li ser kotê ji vê hîleya zîrek kêfxweş bûn, û cotkar û rovî ji wê rojê pê ve bi hev re baş jiyan."
+        "a": "Her şev rovîyek zîrek dihat zeviya cotkar û mirîşkan didizî. Cotkar hêrs bû û ditirsiya ku zûtirîn wê êdî mirîşkên wî tune bin.\n\nÊvarekê raman ket serê cotkar. Wî biryar da ku li paş embarê veşêre û bisekine.\n\nGava rovî di dawiyê de gihîşt, ezman bi gelek stêrkan tijî bû. Rovî rasterast ber bi nav zeviyê ve meşiya, amade bû ku êrîşî mirîşkxaneyê bike.\n\nDi wê kêliyê de cotkar derket û bang kir: \"Rawestin!\" Rovî sist bû, lê nereviya. Wê got: \"Ji kerema xwe zirarê nedin min. Ez tenê ji ber ku birçî me nêçîr dikim.\"\n\nCotkar li rovî dilovan bû. Wî got: \"Ez soz didim zirarê nadim te, heke tu li hev bikî ku dev ji dizîna mirîşkên min berdî.\"\n\nRovî kêliyek fikirî û bersiv da: \"Ez li hev dikim. Lê ma tu dê alîkariya min bikî ku bi rengekî din xwarinê bibînim?\"\n\nCotkar ne zalim bû, û wî dixwest ku rovî jî ewle be. Ji wê rojê pê ve, wî her roj li bin bîra kevn a nêzî zeviyê xwarin dihişt.\n\nRovî careke din mirîşk nedizî. Heywanên li ser kotê ji vê hîleya zîrek kêfxweş bûn, û cotkar û rovî ji wê rojê pê ve bi hev re baş jiyan.\n\nPiştî wê rojê, cotkar û rovî bi hev re serpêhatiyek nû dest pê kirin. Her sibeh, rovî bi baldarî nêzî xanîyê çandiniyê dibû da ku li baxçe alîkariyê bike. Wan biryar da ku baxçeyek bêyî tu hêmanên kîmyewî biafirînin, xwarinê bi awayê xwezayî mezin bikin."
       },
       "tt": {
         "q": "Төлке һәм Игенче",
-        "a": "Һәр төнне акыллы төлке игенченең кырына килеп тавыклар урлый иде. Игенче ачуланган иде һәм тиздән бөтенләй тавыгы калмаячагыннан курка иде.\n\nБер кичне игенчегә бер фикер килде. Ул амбар артына яшеренеп көтәргә булды.\n\nКүк йөзе күп йолдыз белән тулган иде, төлке ниһаять килгәндә. Төлке туры кыр уртасына китте, тавык абзарына һөҗүм итәргә әзер булып.\n\nШул мизгелдә игенче сикереп чыгып: \"Тукта!\" — дип кычкырды. Төлке катып калды, әмма качмады. \"Зинһар, миңа зыян китермә,\" — диде ул. \"Мин ач булганга гына аулыйм.\"\n\nИгенче төлкегә кызганды. \"Мин сиңа зыян китермәскә вәгъдә бирәм,\" — диде ул, \"әгәр дә минем тавыкларымны урлауны туктатырга килешсәң.\"\n\nТөлке бер мизгел уйлап торды да җавап бирде: \"Мин килешәм. Әмма син миңа ризыкны башка юл белән табарга ярдәм итәрсеңме?\"\n\nИгенче явыз түгел иде, һәм ул төлкенең дә имин булуын тели иде. Шул көннән башлап ул һәр көн кыр янындагы иске коеның төбенә ризык калдыра иде.\n\nТөлке башка беркайчан да тавык урламады. Фермадагы хайваннар бу акыллы хәйләдән канәгать калдылар, һәм шул көннән игенче белән төлке бергә яхшы яшәделәр."
+        "a": "Һәр төнне акыллы төлке игенченең кырына килеп тавыклар урлый иде. Игенче ачуланган иде һәм тиздән бөтенләй тавыгы калмаячагыннан курка иде.\n\nБер кичне игенчегә бер фикер килде. Ул амбар артына яшеренеп көтәргә булды.\n\nКүк йөзе күп йолдыз белән тулган иде, төлке ниһаять килгәндә. Төлке туры кыр уртасына китте, тавык абзарына һөҗүм итәргә әзер булып.\n\nШул мизгелдә игенче сикереп чыгып: \"Тукта!\" — дип кычкырды. Төлке катып калды, әмма качмады. \"Зинһар, миңа зыян китермә,\" — диде ул. \"Мин ач булганга гына аулыйм.\"\n\nИгенче төлкегә кызганды. \"Мин сиңа зыян китермәскә вәгъдә бирәм,\" — диде ул, \"әгәр дә минем тавыкларымны урлауны туктатырга килешсәң.\"\n\nТөлке бер мизгел уйлап торды да җавап бирде: \"Мин килешәм. Әмма син миңа ризыкны башка юл белән табарга ярдәм итәрсеңме?\"\n\nИгенче явыз түгел иде, һәм ул төлкенең дә имин булуын тели иде. Шул көннән башлап ул һәр көн кыр янындагы иске коеның төбенә ризык калдыра иде.\n\nТөлке башка беркайчан да тавык урламады. Фермадагы хайваннар бу акыллы хәйләдән канәгать калдылар, һәм шул көннән игенче белән төлке бергә яхшы яшәделәр.\n\nШул көннән соң игенче белән төлке бергә яңа маҗарага башладылар. Һәр иртә төлке бакчада ярдәм итәр өчен фермер йортына сак кына якынлаша иде. Алар бернинди химик матдәләр кулланмыйча, ризыкны табигый юл белән үстерә торган бакча тудырырга булдылар."
       },
       "ar": {
         "q": "الثَّعْلَبُ وَالْمُزَارِعُ",
-        "a": "كُلَّ لَيْلَةٍ، كَانَ ثَعْلَبٌ ذَكِيٌّ يَأْتِي إِلَى حَقْلِ الْمُزَارِعِ وَيَسْرِقُ الدَّجَاجَ. كَانَ الْمُزَارِعُ غَاضِبًا، وَكَانَ خَائِفًا مِنْ أَنْ لَا يَبْقَى لَدَيْهِ دَجَاجٌ قَرِيبًا.\n\nفِي أَحَدِ الْأَمْسِيَاتِ، خَطَرَتْ لِلْمُزَارِعِ فِكْرَةٌ. قَرَّرَ أَنْ يَخْتَبِئَ خَلْفَ الْحَظِيرَةِ وَيَنْتَظِرَ.\n\nامْتَلَأَتِ السَّمَاءُ بِكَثِيرٍ مِنَ النُّجُومِ عِنْدَمَا وَصَلَ الثَّعْلَبُ أَخِيرًا. مَشَى الثَّعْلَبُ مُبَاشَرَةً إِلَى وَسَطِ الْحَقْلِ، مُسْتَعِدًّا لِمُهَاجَمَةِ قَنِّ الدَّجَاجِ.\n\nفِي تِلْكَ اللَّحْظَةِ، قَفَزَ الْمُزَارِعُ وَصَرَخَ: \"قِفْ!\" تَجَمَّدَ الثَّعْلَبُ، لَكِنَّهُ لَمْ يَهْرُبْ. قَالَ: \"مِنْ فَضْلِكَ لَا تُؤْذِنِي. أَنَا أَصْطَادُ فَقَطْ لِأَنَّنِي جَائِعٌ.\"\n\nشَعَرَ الْمُزَارِعُ بِالشَّفَقَةِ عَلَى الثَّعْلَبِ. قَالَ: \"أَعِدُ بِأَلَّا أُؤْذِيَكَ، إِذَا وَافَقْتَ عَلَى التَّوَقُّفِ عَنْ سَرِقَةِ دَجَاجِي.\"\n\nفَكَّرَ الثَّعْلَبُ لَحْظَةً وَرَدَّ: \"أُوَافِقُ. لَكِنْ هَلْ سَتُسَاعِدُنِي فِي إِيجَادِ طَعَامٍ بِطَرِيقَةٍ أُخْرَى؟\"\n\nلَمْ يَكُنِ الْمُزَارِعُ قَاسِيًا، وَأَرَادَ أَنْ يَكُونَ الثَّعْلَبُ آمِنًا أَيْضًا. لِذَا، كُلَّ يَوْمٍ بَعْدَ ذَلِكَ، كَانَ يَتْرُكُ طَعَامًا فِي قَاعِ الْبِئْرِ الْقَدِيمَةِ بِالْقُرْبِ مِنَ الْحَقْلِ.\n\nلَمْ يَسْرِقِ الثَّعْلَبُ الدَّجَاجَ مَرَّةً أُخْرَى أَبَدًا. كَانَتِ الْحَيَوَانَاتُ فِي الْمَزْرَعَةِ مَسْرُورَةً بِهَذِهِ الْحِيلَةِ الذَّكِيَّةِ، وَعَاشَ الْمُزَارِعُ وَالثَّعْلَبُ جَيِّدًا مَعًا مُنْذُ ذَلِكَ الْيَوْمِ."
+        "a": "كُلَّ لَيْلَةٍ، كَانَ ثَعْلَبٌ ذَكِيٌّ يَأْتِي إِلَى حَقْلِ الْمُزَارِعِ وَيَسْرِقُ الدَّجَاجَ. كَانَ الْمُزَارِعُ غَاضِبًا، وَكَانَ خَائِفًا مِنْ أَنْ لَا يَبْقَى لَدَيْهِ دَجَاجٌ قَرِيبًا.\n\nفِي أَحَدِ الْأَمْسِيَاتِ، خَطَرَتْ لِلْمُزَارِعِ فِكْرَةٌ. قَرَّرَ أَنْ يَخْتَبِئَ خَلْفَ الْحَظِيرَةِ وَيَنْتَظِرَ.\n\nامْتَلَأَتِ السَّمَاءُ بِكَثِيرٍ مِنَ النُّجُومِ عِنْدَمَا وَصَلَ الثَّعْلَبُ أَخِيرًا. مَشَى الثَّعْلَبُ مُبَاشَرَةً إِلَى وَسَطِ الْحَقْلِ، مُسْتَعِدًّا لِمُهَاجَمَةِ قَنِّ الدَّجَاجِ.\n\nفِي تِلْكَ اللَّحْظَةِ، قَفَزَ الْمُزَارِعُ وَصَرَخَ: \"قِفْ!\" تَجَمَّدَ الثَّعْلَبُ، لَكِنَّهُ لَمْ يَهْرُبْ. قَالَ: \"مِنْ فَضْلِكَ لَا تُؤْذِنِي. أَنَا أَصْطَادُ فَقَطْ لِأَنَّنِي جَائِعٌ.\"\n\nشَعَرَ الْمُزَارِعُ بِالشَّفَقَةِ عَلَى الثَّعْلَبِ. قَالَ: \"أَعِدُ بِأَلَّا أُؤْذِيَكَ، إِذَا وَافَقْتَ عَلَى التَّوَقُّفِ عَنْ سَرِقَةِ دَجَاجِي.\"\n\nفَكَّرَ الثَّعْلَبُ لَحْظَةً وَرَدَّ: \"أُوَافِقُ. لَكِنْ هَلْ سَتُسَاعِدُنِي فِي إِيجَادِ طَعَامٍ بِطَرِيقَةٍ أُخْرَى؟\"\n\nلَمْ يَكُنِ الْمُزَارِعُ قَاسِيًا، وَأَرَادَ أَنْ يَكُونَ الثَّعْلَبُ آمِنًا أَيْضًا. لِذَا، كُلَّ يَوْمٍ بَعْدَ ذَلِكَ، كَانَ يَتْرُكُ طَعَامًا فِي قَاعِ الْبِئْرِ الْقَدِيمَةِ بِالْقُرْبِ مِنَ الْحَقْلِ.\n\nلَمْ يَسْرِقِ الثَّعْلَبُ الدَّجَاجَ مَرَّةً أُخْرَى أَبَدًا. كَانَتِ الْحَيَوَانَاتُ فِي الْمَزْرَعَةِ مَسْرُورَةً بِهَذِهِ الْحِيلَةِ الذَّكِيَّةِ، وَعَاشَ الْمُزَارِعُ وَالثَّعْلَبُ جَيِّدًا مَعًا مُنْذُ ذَلِكَ الْيَوْمِ.\n\nبَعْدَ ذَلِكَ الْيَوْمِ، بَدَأَ الْمُزَارِعُ وَالثَّعْلَبُ مُغَامَرَةً جَدِيدَةً مَعًا. كُلَّ صَبَاحٍ، كَانَ الثَّعْلَبُ يَقْتَرِبُ بِعِنَايَةٍ مِنَ الْمَزْرَعَةِ لِلْمُسَاعَدَةِ فِي الْحَدِيقَةِ. قَرَّرَا أَنْ يَخْلُقَا حَدِيقَةً بِلَا أَيِّ مَوَادَّ كِيمِيَائِيَّةٍ، يُزْرَعُ فِيهَا الطَّعَامُ بِطَرِيقَةٍ طَبِيعِيَّةٍ."
       },
       "es": {
         "q": "El Zorro y el Granjero",
-        "a": "Cada noche, un zorro astuto venía al campo del granjero y robaba gallinas. El granjero estaba enojado y temía que pronto no le quedarían gallinas.\n\nUna tarde, al granjero se le ocurrió una idea. Decidió esconderse detrás del granero y esperar.\n\nMuchas estrellas llenaban el cielo cuando el zorro finalmente llegó. El zorro caminó directo al medio del campo, listo para atacar el gallinero.\n\nEn ese momento, el granjero saltó y gritó: \"¡Alto!\" El zorro se quedó quieto, pero no huyó. \"Por favor, no me hagas daño\", dijo. \"Solo cazo porque tengo hambre.\"\n\nEl granjero sintió pena por el zorro. \"Prometo no hacerte daño\", dijo, \"si estás de acuerdo en dejar de robar mis gallinas.\"\n\nEl zorro pensó un momento y respondió: \"Estoy de acuerdo. Pero ¿me ayudarás a encontrar comida de otra manera?\"\n\nEl granjero no era cruel, y también quería que el zorro estuviera seguro. Así que, desde ese día, cada día dejaba comida en el fondo del viejo pozo cerca del campo.\n\nEl zorro nunca más robó gallinas. Los animales de la granja estaban contentos con este truco astuto, y desde ese día el granjero y el zorro vivieron bien juntos."
+        "a": "Cada noche, un zorro astuto venía al campo del granjero y robaba gallinas. El granjero estaba enojado y temía que pronto no le quedarían gallinas.\n\nUna tarde, al granjero se le ocurrió una idea. Decidió esconderse detrás del granero y esperar.\n\nMuchas estrellas llenaban el cielo cuando el zorro finalmente llegó. El zorro caminó directo al medio del campo, listo para atacar el gallinero.\n\nEn ese momento, el granjero saltó y gritó: \"¡Alto!\" El zorro se quedó quieto, pero no huyó. \"Por favor, no me hagas daño\", dijo. \"Solo cazo porque tengo hambre.\"\n\nEl granjero sintió pena por el zorro. \"Prometo no hacerte daño\", dijo, \"si estás de acuerdo en dejar de robar mis gallinas.\"\n\nEl zorro pensó un momento y respondió: \"Estoy de acuerdo. Pero ¿me ayudarás a encontrar comida de otra manera?\"\n\nEl granjero no era cruel, y también quería que el zorro estuviera seguro. Así que, desde ese día, cada día dejaba comida en el fondo del viejo pozo cerca del campo.\n\nEl zorro nunca más robó gallinas. Los animales de la granja estaban contentos con este truco astuto, y desde ese día el granjero y el zorro vivieron bien juntos.\n\nDespués de ese día, el granjero y el zorro comenzaron una nueva aventura juntos. Cada mañana, el zorro se acercaba cuidadosamente a la granja para ayudar en el jardín. Decidieron crear un jardín sin ningún producto químico, cultivando alimentos de forma natural."
       },
       "it": {
         "q": "La Volpe e il Contadino",
-        "a": "Ogni notte, una volpe astuta veniva nel campo del contadino e rubava le galline. Il contadino era arrabbiato e temeva che presto non gli sarebbero rimaste galline.\n\nUna sera, al contadino venne un'idea. Decise di nascondersi dietro il fienile e aspettare.\n\nMolte stelle riempivano il cielo quando la volpe finalmente arrivò. La volpe camminò dritta verso il mezzo del campo, pronta ad attaccare il pollaio.\n\nIn quel momento, il contadino saltò fuori e gridò: \"Fermati!\" La volpe si bloccò, ma non scappò. \"Per favore non farmi del male\", disse. \"Caccio solo perché ho fame.\"\n\nIl contadino provò pena per la volpe. \"Prometto di non farti del male\", disse, \"se sei d'accordo a smettere di rubare le mie galline.\"\n\nLa volpe pensò un momento e rispose: \"Sono d'accordo. Ma mi aiuterai a trovare cibo in un altro modo?\"\n\nIl contadino non era crudele, e voleva che anche la volpe fosse al sicuro. Così, da quel giorno, lasciava ogni giorno del cibo sul fondo del vecchio pozzo vicino al campo.\n\nLa volpe non rubò mai più galline. Gli animali della fattoria erano contenti di questo trucco astuto, e da quel giorno il contadino e la volpe vissero bene insieme."
+        "a": "Ogni notte, una volpe astuta veniva nel campo del contadino e rubava le galline. Il contadino era arrabbiato e temeva che presto non gli sarebbero rimaste galline.\n\nUna sera, al contadino venne un'idea. Decise di nascondersi dietro il fienile e aspettare.\n\nMolte stelle riempivano il cielo quando la volpe finalmente arrivò. La volpe camminò dritta verso il mezzo del campo, pronta ad attaccare il pollaio.\n\nIn quel momento, il contadino saltò fuori e gridò: \"Fermati!\" La volpe si bloccò, ma non scappò. \"Per favore non farmi del male\", disse. \"Caccio solo perché ho fame.\"\n\nIl contadino provò pena per la volpe. \"Prometto di non farti del male\", disse, \"se sei d'accordo a smettere di rubare le mie galline.\"\n\nLa volpe pensò un momento e rispose: \"Sono d'accordo. Ma mi aiuterai a trovare cibo in un altro modo?\"\n\nIl contadino non era crudele, e voleva che anche la volpe fosse al sicuro. Così, da quel giorno, lasciava ogni giorno del cibo sul fondo del vecchio pozzo vicino al campo.\n\nLa volpe non rubò mai più galline. Gli animali della fattoria erano contenti di questo trucco astuto, e da quel giorno il contadino e la volpe vissero bene insieme.\n\nDopo quel giorno, il contadino e la volpe iniziarono una nuova avventura insieme. Ogni mattina, la volpe si avvicinava con attenzione alla fattoria per aiutare nell'orto. Decisero di creare un orto senza alcun prodotto chimico, coltivando cibo in modo naturale."
       },
       "pt": {
         "q": "A Raposa e o Fazendeiro",
-        "a": "Toda noite, uma raposa astuta ia até o campo do fazendeiro e roubava galinhas. O fazendeiro estava zangado e com medo de que logo não teria mais galinhas.\n\nCerta noite, o fazendeiro teve uma ideia. Decidiu se esconder atrás do celeiro e esperar.\n\nMuitas estrelas enchiam o céu quando a raposa finalmente chegou. A raposa caminhou direto para o meio do campo, pronta para atacar o galinheiro.\n\nNaquele momento, o fazendeiro pulou e gritou: \"Pare!\" A raposa congelou, mas não fugiu. \"Por favor, não me machuque\", disse ela. \"Eu só caço porque estou com fome.\"\n\nO fazendeiro sentiu pena da raposa. \"Prometo não te machucar\", disse ele, \"se você concordar em parar de roubar minhas galinhas.\"\n\nA raposa pensou por um momento e respondeu: \"Concordo. Mas você vai me ajudar a encontrar comida de outra forma?\"\n\nO fazendeiro não era cruel, e também queria que a raposa estivesse segura. Então, a partir daquele dia, ele deixava comida no fundo do velho poço perto do campo todos os dias.\n\nA raposa nunca mais roubou galinhas. Os animais da fazenda ficaram contentes com esse truque astuto, e desde aquele dia o fazendeiro e a raposa viveram bem juntos."
+        "a": "Toda noite, uma raposa astuta ia até o campo do fazendeiro e roubava galinhas. O fazendeiro estava zangado e com medo de que logo não teria mais galinhas.\n\nCerta noite, o fazendeiro teve uma ideia. Decidiu se esconder atrás do celeiro e esperar.\n\nMuitas estrelas enchiam o céu quando a raposa finalmente chegou. A raposa caminhou direto para o meio do campo, pronta para atacar o galinheiro.\n\nNaquele momento, o fazendeiro pulou e gritou: \"Pare!\" A raposa congelou, mas não fugiu. \"Por favor, não me machuque\", disse ela. \"Eu só caço porque estou com fome.\"\n\nO fazendeiro sentiu pena da raposa. \"Prometo não te machucar\", disse ele, \"se você concordar em parar de roubar minhas galinhas.\"\n\nA raposa pensou por um momento e respondeu: \"Concordo. Mas você vai me ajudar a encontrar comida de outra forma?\"\n\nO fazendeiro não era cruel, e também queria que a raposa estivesse segura. Então, a partir daquele dia, ele deixava comida no fundo do velho poço perto do campo todos os dias.\n\nA raposa nunca mais roubou galinhas. Os animais da fazenda ficaram contentes com esse truque astuto, e desde aquele dia o fazendeiro e a raposa viveram bem juntos.\n\nDepois daquele dia, o fazendeiro e a raposa começaram uma nova aventura juntos. Toda manhã, a raposa se aproximava cuidadosamente da fazenda para ajudar na horta. Eles decidiram criar uma horta sem nenhum produto químico, cultivando comida de forma natural."
       },
       "ko": {
         "q": "여우와 농부",
-        "a": "매일 밤, 영리한 여우가 농부의 밭에 와서 닭을 훔쳐 갔다. 농부는 화가 났고, 곧 닭이 하나도 남지 않을까 봐 무서웠다.\n\n어느 날 저녁, 농부에게 좋은 생각이 떠올랐다. 그는 헛간 뒤에 숨어서 기다리기로 했다.\n\n여우가 마침내 도착했을 때, 하늘에는 별이 많이 떠 있었다. 여우는 닭장을 공격할 준비를 하며 곧장 밭 가운데로 걸어갔다.\n\n그 순간, 농부가 뛰쳐나오며 \"멈춰!\"라고 외쳤다. 여우는 얼어붙었지만 도망가지 않았다. \"제발 해치지 마세요,\" 여우가 말했다. \"저는 배가 고파서 사냥할 뿐이에요.\"\n\n농부는 여우가 안쓰러웠다. \"네가 내 닭을 훔치는 것을 그만두겠다고 동의하면, 너를 해치지 않겠다고 약속할게,\" 그가 말했다.\n\n여우는 잠시 생각하더니 대답했다. \"동의해요. 하지만 다른 방법으로 먹이를 찾도록 도와주실래요?\"\n\n농부는 잔인하지 않았고, 여우도 안전하기를 바랐다. 그래서 그날부터 매일 밭 근처 오래된 우물 바닥에 먹이를 남겨 두었다.\n\n여우는 다시는 닭을 훔치지 않았다. 농장의 동물들은 이 영리한 속임수에 기뻐했고, 그날부터 농부와 여우는 함께 잘 지냈다."
+        "a": "매일 밤, 영리한 여우가 농부의 밭에 와서 닭을 훔쳐 갔다. 농부는 화가 났고, 곧 닭이 하나도 남지 않을까 봐 무서웠다.\n\n어느 날 저녁, 농부에게 좋은 생각이 떠올랐다. 그는 헛간 뒤에 숨어서 기다리기로 했다.\n\n여우가 마침내 도착했을 때, 하늘에는 별이 많이 떠 있었다. 여우는 닭장을 공격할 준비를 하며 곧장 밭 가운데로 걸어갔다.\n\n그 순간, 농부가 뛰쳐나오며 \"멈춰!\"라고 외쳤다. 여우는 얼어붙었지만 도망가지 않았다. \"제발 해치지 마세요,\" 여우가 말했다. \"저는 배가 고파서 사냥할 뿐이에요.\"\n\n농부는 여우가 안쓰러웠다. \"네가 내 닭을 훔치는 것을 그만두겠다고 동의하면, 너를 해치지 않겠다고 약속할게,\" 그가 말했다.\n\n여우는 잠시 생각하더니 대답했다. \"동의해요. 하지만 다른 방법으로 먹이를 찾도록 도와주실래요?\"\n\n농부는 잔인하지 않았고, 여우도 안전하기를 바랐다. 그래서 그날부터 매일 밭 근처 오래된 우물 바닥에 먹이를 남겨 두었다.\n\n여우는 다시는 닭을 훔치지 않았다. 농장의 동물들은 이 영리한 속임수에 기뻐했고, 그날부터 농부와 여우는 함께 잘 지냈다.\n\n그날 이후, 농부와 여우는 함께 새로운 모험을 시작했다. 매일 아침, 여우는 정원에서 돕기 위해 농가에 조심스럽게 다가갔다. 그들은 화학 제품 없이 자연스러운 방식으로 식량을 기르는 정원을 만들기로 했다."
       },
       "vi": {
         "q": "Cáo và Người Nông Dân",
-        "a": "Mỗi đêm, một con cáo khôn ngoan đến cánh đồng của người nông dân và trộm gà. Người nông dân tức giận và sợ rằng chẳng bao lâu nữa ông sẽ không còn con gà nào.\n\nMột buổi tối, người nông dân nảy ra một ý tưởng. Ông quyết định trốn sau kho thóc và chờ đợi.\n\nNhiều ngôi sao lấp đầy bầu trời khi con cáo cuối cùng cũng đến. Con cáo đi thẳng đến giữa cánh đồng, sẵn sàng tấn công chuồng gà.\n\nNgay khoảnh khắc đó, người nông dân nhảy ra và hét lên: \"Dừng lại!\" Con cáo đứng sững, nhưng không bỏ chạy. \"Xin đừng làm hại tôi,\" nó nói. \"Tôi chỉ săn vì tôi đói.\"\n\nNgười nông dân cảm thấy thương hại con cáo. \"Tôi hứa sẽ không làm hại ngươi,\" ông nói, \"nếu ngươi đồng ý ngừng trộm gà của ta.\"\n\nCon cáo suy nghĩ một khoảnh khắc rồi trả lời: \"Tôi đồng ý. Nhưng ông có giúp tôi tìm thức ăn bằng cách khác không?\"\n\nNgười nông dân không tàn nhẫn, và ông cũng muốn con cáo được an toàn. Vì vậy, kể từ ngày đó, mỗi ngày ông để thức ăn ở đáy cái giếng cũ gần cánh đồng.\n\nCon cáo không bao giờ trộm gà nữa. Các con vật trong trang trại hài lòng với mẹo khôn ngoan này, và từ ngày đó người nông dân và con cáo sống giỏi giang cùng nhau."
+        "a": "Mỗi đêm, một con cáo khôn ngoan đến cánh đồng của người nông dân và trộm gà. Người nông dân tức giận và sợ rằng chẳng bao lâu nữa ông sẽ không còn con gà nào.\n\nMột buổi tối, người nông dân nảy ra một ý tưởng. Ông quyết định trốn sau kho thóc và chờ đợi.\n\nNhiều ngôi sao lấp đầy bầu trời khi con cáo cuối cùng cũng đến. Con cáo đi thẳng đến giữa cánh đồng, sẵn sàng tấn công chuồng gà.\n\nNgay khoảnh khắc đó, người nông dân nhảy ra và hét lên: \"Dừng lại!\" Con cáo đứng sững, nhưng không bỏ chạy. \"Xin đừng làm hại tôi,\" nó nói. \"Tôi chỉ săn vì tôi đói.\"\n\nNgười nông dân cảm thấy thương hại con cáo. \"Tôi hứa sẽ không làm hại ngươi,\" ông nói, \"nếu ngươi đồng ý ngừng trộm gà của ta.\"\n\nCon cáo suy nghĩ một khoảnh khắc rồi trả lời: \"Tôi đồng ý. Nhưng ông có giúp tôi tìm thức ăn bằng cách khác không?\"\n\nNgười nông dân không tàn nhẫn, và ông cũng muốn con cáo được an toàn. Vì vậy, kể từ ngày đó, mỗi ngày ông để thức ăn ở đáy cái giếng cũ gần cánh đồng.\n\nCon cáo không bao giờ trộm gà nữa. Các con vật trong trang trại hài lòng với mẹo khôn ngoan này, và từ ngày đó người nông dân và con cáo sống giỏi giang cùng nhau.\n\nSau ngày đó, người nông dân và con cáo bắt đầu một cuộc phiêu lưu mới cùng nhau. Mỗi sáng, con cáo cẩn thận tiến lại gần trang trại để giúp đỡ trong vườn. Họ quyết định tạo ra một khu vườn không có bất kỳ hóa chất nào, trồng thực phẩm theo cách tự nhiên."
       },
       "ja": {
         "q": "キツネと農夫",
-        "a": "毎晩、賢いキツネが農夫の畑にやって来て鶏を盗んでいった。農夫は怒っていて、もうすぐ鶏が一羽もいなくなってしまうのではないかと怖かった。\n\nある晩、農夫に考えが浮かんだ。彼は納屋の後ろに隠れて待つことにした。\n\nキツネがついにやって来たとき、空にはたくさんの星が輝いていた。キツネは鶏小屋を攻撃する準備をして、まっすぐ畑の真ん中へ歩いて行った。\n\nその瞬間、農夫が飛び出して「止まれ!」と叫んだ。キツネは固まったが、逃げなかった。「どうか私を傷つけないでください」とキツネは言った。「お腹が空いているから狩りをしているだけです。」\n\n農夫はキツネを気の毒に思った。「もし私の鶏を盗むのをやめると同意するなら、傷つけないと約束する」と彼は言った。\n\nキツネは少しの間考えてから答えた。「同意します。でも別の方法で食べ物を見つけるのを手伝ってくれますか?」\n\n農夫は残酷ではなく、キツネにも安全でいてほしいと思った。それでその日から、彼は毎日畑の近くの古い井戸の底に食べ物を置いた。\n\nキツネは二度と鶏を盗まなかった。農場の動物たちはこの賢いトリックに嬉しくなり、その日から農夫とキツネは仲良く暮らした。"
+        "a": "毎晩、賢いキツネが農夫の畑にやって来て鶏を盗んでいった。農夫は怒っていて、もうすぐ鶏が一羽もいなくなってしまうのではないかと怖かった。\n\nある晩、農夫に考えが浮かんだ。彼は納屋の後ろに隠れて待つことにした。\n\nキツネがついにやって来たとき、空にはたくさんの星が輝いていた。キツネは鶏小屋を攻撃する準備をして、まっすぐ畑の真ん中へ歩いて行った。\n\nその瞬間、農夫が飛び出して「止まれ!」と叫んだ。キツネは固まったが、逃げなかった。「どうか私を傷つけないでください」とキツネは言った。「お腹が空いているから狩りをしているだけです。」\n\n農夫はキツネを気の毒に思った。「もし私の鶏を盗むのをやめると同意するなら、傷つけないと約束する」と彼は言った。\n\nキツネは少しの間考えてから答えた。「同意します。でも別の方法で食べ物を見つけるのを手伝ってくれますか?」\n\n農夫は残酷ではなく、キツネにも安全でいてほしいと思った。それでその日から、彼は毎日畑の近くの古い井戸の底に食べ物を置いた。\n\nキツネは二度と鶏を盗まなかった。農場の動物たちはこの賢いトリックに嬉しくなり、その日から農夫とキツネは仲良く暮らした。\n\nその日以降、農夫とキツネは一緒に新しい冒険を始めた。毎朝、キツネは庭仕事を手伝うために注意深く農家に近づいていった。彼らは化学物質を一切使わず、自然な方法で食べ物を育てる庭を創造することに決めた。"
       },
       "zh": {
         "q": "狐狸和农夫",
-        "a": "每天晚上,一只聪明的狐狸都会来到农夫的田里偷鸡。农夫很生气,也害怕很快就没有鸡了。\n\n一天晚上,农夫想到了一个办法。他决定躲在谷仓后面等着。\n\n狐狸终于来的时候,天空中布满了很多星星。狐狸径直走到田地中间,准备攻击鸡舍。\n\n就在那一刻,农夫跳出来大喊:\"站住!\"狐狸僵住了,但没有逃跑。\"请不要伤害我,\"它说。\"我只是因为饿了才捕猎的。\"\n\n农夫可怜起狐狸来。\"如果你同意不再偷我的鸡,\"他说,\"我承诺不会伤害你。\"\n\n狐狸想了片刻,回答说:\"我同意。但你能帮我用别的方法找食物吗?\"\n\n农夫并不残忍,他也希望狐狸能安全。所以从那天起,他每天都在田边那口老井的底部留下食物。\n\n狐狸再也没有偷过鸡。农场里的动物们对这个聪明的把戏感到高兴,从那天起,农夫和狐狸就好好地生活在了一起。"
+        "a": "每天晚上,一只聪明的狐狸都会来到农夫的田里偷鸡。农夫很生气,也害怕很快就没有鸡了。\n\n一天晚上,农夫想到了一个办法。他决定躲在谷仓后面等着。\n\n狐狸终于来的时候,天空中布满了很多星星。狐狸径直走到田地中间,准备攻击鸡舍。\n\n就在那一刻,农夫跳出来大喊:\"站住!\"狐狸僵住了,但没有逃跑。\"请不要伤害我,\"它说。\"我只是因为饿了才捕猎的。\"\n\n农夫可怜起狐狸来。\"如果你同意不再偷我的鸡,\"他说,\"我承诺不会伤害你。\"\n\n狐狸想了片刻,回答说:\"我同意。但你能帮我用别的方法找食物吗?\"\n\n农夫并不残忍,他也希望狐狸能安全。所以从那天起,他每天都在田边那口老井的底部留下食物。\n\n狐狸再也没有偷过鸡。农场里的动物们对这个聪明的把戏感到高兴,从那天起,农夫和狐狸就好好地生活在了一起。\n\n从那天起,农夫和狐狸一起开始了新的冒险。每天早上,狐狸都会小心地靠近农舍去帮忙打理花园。他们决定创造一个不使用任何化学物质、以自然方式种植食物的花园。"
       }
     },
     {
-      "id": 27,
+      "id": 32,
       "section": "storyExercise",
       "en": {
         "q": "Why was the farmer angry at the beginning of the story?",
@@ -1845,7 +2185,7 @@
       }
     },
     {
-      "id": 28,
+      "id": 33,
       "section": "storyExercise",
       "en": {
         "q": "What did the fox promise to do?",
@@ -1913,7 +2253,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 34,
       "section": "storyExercise",
       "en": {
         "q": "Where did the farmer leave food for the fox?",
