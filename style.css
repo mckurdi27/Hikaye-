@@ -430,6 +430,51 @@ select {
   line-height: 1.7;
 }
 
+.exercise-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.exercise-option-button {
+  text-align: left;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #d8d0c2;
+  background: #fffdf8;
+  font-size: 0.98em;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.exercise-option-button:hover:not(:disabled) {
+  background: #f3ede1;
+}
+
+.exercise-option-button:disabled {
+  cursor: default;
+}
+
+.option-correct {
+  background: #dff0d8 !important;
+  border-color: #4caf50 !important;
+  color: #256029;
+  font-weight: 600;
+}
+
+.option-incorrect {
+  background: #fbe0e0 !important;
+  border-color: #e05353 !important;
+  color: #7a1f1f;
+  font-weight: 600;
+}
+
+.arabic-language .exercise-option-button {
+  text-align: right;
+}
+
 .arabic-language {
   font-family: "Amiri", "Noto Naskh Arabic", serif;
   text-align: right;
