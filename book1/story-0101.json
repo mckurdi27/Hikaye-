@@ -4,416 +4,1980 @@
     "en": "Story 1"
   },
   "daySubtitle": {
-    "tr": "Önemli 20 kelime (DEMO: 3 kelime)",
-    "en": "20 essential words (DEMO: 3 words)"
+    "tr": "Önemli 20 kelime",
+    "en": "20 essential words"
   },
   "questions": [
     {
       "id": 1,
       "section": "word",
       "en": {
-        "q": "shelter",
-        "a": "a place that protects you from bad weather"
+        "q": "afraid",
+        "a": "Feeling scared or worried about something. The little boy was afraid of the dark."
       },
       "tr": {
-        "q": "sığınak",
-        "a": "kötü havadan seni koruyan yer"
+        "q": "korkmuş",
+        "a": "Bir şeyden korku duymak. Küçük çocuk karanlıktan korkuyordu."
       },
       "de": {
-        "q": "Unterschlupf",
-        "a": "ein Ort, der dich vor schlechtem Wetter schützt"
+        "q": "ängstlich",
+        "a": "Angst vor etwas haben. Der kleine Junge hatte Angst vor der Dunkelheit."
       },
       "nl": {
-        "q": "schuilplaats",
-        "a": "een plek die je beschermt tegen slecht weer"
+        "q": "bang",
+        "a": "Angst voelen voor iets. De kleine jongen was bang in het donker."
       },
       "fr": {
-        "q": "abri",
-        "a": "un endroit qui te protège du mauvais temps"
+        "q": "effrayé",
+        "a": "Ressentir de la peur face à quelque chose. Le petit garçon avait peur du noir."
       },
       "ru": {
-        "q": "укрытие",
-        "a": "место, которое защищает тебя от плохой погоды"
+        "q": "испуганный",
+        "a": "Чувствовать страх перед чем-то. Маленький мальчик боялся темноты."
       },
       "ku": {
-        "q": "stargeh",
-        "a": "cihek ku te ji hewayê xerab diparêze"
+        "q": "tirsiyayî",
+        "a": "Ji tiştekî tirsîn. Kurikê biçûk ji tariyê ditirsiya."
       },
       "tt": {
-        "q": "сыену урыны",
-        "a": "сине начар һавадан саклый торган урын"
+        "q": "курыккан",
+        "a": "Нәрсәдәндер курку хисе кичерү. Кечкенә малай караңгылыктан курка иде."
       },
       "ar": {
-        "q": "مَأْوًى",
-        "a": "مَكَانٌ يَحْمِيكَ مِنَ الطَّقْسِ السَّيِّئِ"
+        "q": "خَائِف",
+        "a": "الشُّعُورُ بِالْخَوْفِ مِنْ شَيْءٍ مَا. كَانَ الصَّبِيُّ الصَّغِيرُ خَائِفًا مِنَ الظَّلَامِ."
       },
       "es": {
-        "q": "refugio",
-        "a": "un lugar que te protege del mal tiempo"
+        "q": "asustado",
+        "a": "Sentir miedo de algo. El niño pequeño estaba asustado de la oscuridad."
       },
       "it": {
-        "q": "riparo",
-        "a": "un luogo che ti protegge dal brutto tempo"
+        "q": "spaventato",
+        "a": "Provare paura di qualcosa. Il bambino piccolo era spaventato dal buio."
       },
       "pt": {
-        "q": "abrigo",
-        "a": "um lugar que te protege do mau tempo"
+        "q": "assustado",
+        "a": "Sentir medo de algo. O menino pequeno estava assustado com o escuro."
       },
       "ko": {
-        "q": "대피처",
-        "a": "나쁜 날씨로부터 너를 보호해주는 장소"
+        "q": "무서운",
+        "a": "어떤 것에 대해 두려움을 느끼는 것. 어린 소년은 어둠을 무서워했다."
       },
       "vi": {
-        "q": "nơi trú ẩn",
-        "a": "một nơi bảo vệ bạn khỏi thời tiết xấu"
+        "q": "sợ hãi",
+        "a": "Cảm thấy sợ điều gì đó. Cậu bé nhỏ sợ bóng tối."
       },
       "ja": {
-        "q": "避難所",
-        "a": "悪天候からあなたを守ってくれる場所"
+        "q": "怖い",
+        "a": "何かに恐怖を感じること。小さな男の子は暗闇を怖がっていた。"
       },
       "zh": {
-        "q": "避难所",
-        "a": "保护你免受恶劣天气影响的地方"
+        "q": "害怕",
+        "a": "对某事感到恐惧。小男孩害怕黑暗。"
       }
     },
     {
       "id": 2,
       "section": "word",
       "en": {
-        "q": "hurry",
-        "a": "to move quickly because you are late"
+        "q": "agree",
+        "a": "To have the same opinion as someone else. My sister and I agree that the movie was great."
       },
       "tr": {
-        "q": "acele etmek",
-        "a": "geç kaldığın için hızlı hareket etmek"
+        "q": "aynı fikirde olmak",
+        "a": "Başka biriyle aynı görüşü paylaşmak. Kardeşimle ben filmin harika olduğu konusunda aynı fikirdeyiz."
       },
       "de": {
-        "q": "sich beeilen",
-        "a": "sich schnell bewegen, weil man spät dran ist"
+        "q": "zustimmen",
+        "a": "Die gleiche Meinung wie jemand anderes haben. Meine Schwester und ich sind uns einig, dass der Film großartig war."
       },
       "nl": {
-        "q": "haasten",
-        "a": "snel bewegen omdat je laat bent"
+        "q": "het eens zijn",
+        "a": "Dezelfde mening hebben als iemand anders. Mijn zus en ik zijn het erover eens dat de film geweldig was."
       },
       "fr": {
-        "q": "se dépêcher",
-        "a": "bouger vite parce qu'on est en retard"
+        "q": "être d'accord",
+        "a": "Avoir la même opinion que quelqu'un d'autre. Ma sœur et moi sommes d'accord que le film était génial."
       },
       "ru": {
-        "q": "спешить",
-        "a": "двигаться быстро, потому что ты опаздываешь"
+        "q": "соглашаться",
+        "a": "Иметь такое же мнение, как у кого-то другого. Мы с сестрой согласны, что фильм был отличным."
       },
       "ku": {
-        "q": "lezê kirin",
-        "a": "zû livîn ji ber ku tu dereng mayî"
+        "q": "li hev kirin",
+        "a": "Bi kesekî din re heman raman hebûn. Xwişka min û ez li hev dikin ku fîlm gelek xweş bû."
       },
       "tt": {
-        "q": "ашыгу",
-        "a": "соңга калганга тиз хәрәкәт итү"
+        "q": "килешү",
+        "a": "Башка кеше белән бер фикердә булу. Мин апам белән фильм бик яхшы дигән фикердәбез."
       },
       "ar": {
-        "q": "يُسْرِعُ",
-        "a": "يَتَحَرَّكُ بِسُرْعَةٍ لِأَنَّهُ مُتَأَخِّرٌ"
+        "q": "يُوَافِقُ",
+        "a": "أَنْ يَكُونَ لَدَيْكَ نَفْسُ رَأْيِ شَخْصٍ آخَرَ. أَنَا وَأُخْتِي نُوَافِقُ عَلَى أَنَّ الْفِيلْمَ كَانَ رَائِعًا."
       },
       "es": {
-        "q": "apresurarse",
-        "a": "moverse rápido porque llegas tarde"
+        "q": "estar de acuerdo",
+        "a": "Tener la misma opinión que otra persona. Mi hermana y yo estamos de acuerdo en que la película fue genial."
       },
       "it": {
-        "q": "affrettarsi",
-        "a": "muoversi velocemente perché sei in ritardo"
+        "q": "essere d'accordo",
+        "a": "Avere la stessa opinione di qualcun altro. Io e mia sorella siamo d'accordo che il film fosse fantastico."
       },
       "pt": {
-        "q": "apressar-se",
-        "a": "mover-se rápido porque está atrasado"
+        "q": "concordar",
+        "a": "Ter a mesma opinião que outra pessoa. Minha irmã e eu concordamos que o filme foi ótimo."
       },
       "ko": {
-        "q": "서두르다",
-        "a": "늦었기 때문에 빠르게 움직이다"
+        "q": "동의하다",
+        "a": "다른 사람과 같은 의견을 가지는 것. 나와 언니는 그 영화가 훌륭했다는 데 동의한다."
       },
       "vi": {
-        "q": "vội vàng",
-        "a": "di chuyển nhanh vì bạn bị trễ"
+        "q": "đồng ý",
+        "a": "Có cùng quan điểm với người khác. Chị tôi và tôi đồng ý rằng bộ phim rất hay."
       },
       "ja": {
-        "q": "急ぐ",
-        "a": "遅れているので速く動くこと"
+        "q": "同意する",
+        "a": "他の人と同じ意見を持つこと。姉と私はその映画が素晴らしかったことに同意している。"
       },
       "zh": {
-        "q": "匆忙",
-        "a": "因为迟到而快速移动"
+        "q": "同意",
+        "a": "和别人有相同的看法。我和姐姐都同意这部电影很棒。"
       }
     },
     {
       "id": 3,
       "section": "word",
       "en": {
-        "q": "smile",
-        "a": "to make a happy expression with your mouth"
+        "q": "angry",
+        "a": "Feeling strong displeasure about something. He was angry when his bike was stolen."
       },
       "tr": {
-        "q": "gülümsemek",
-        "a": "ağzınla mutlu bir ifade oluşturmak"
+        "q": "kızgın",
+        "a": "Bir şeye karşı güçlü bir rahatsızlık duymak. Bisikleti çalınınca çok kızmıştı."
       },
       "de": {
-        "q": "lächeln",
-        "a": "mit dem Mund einen glücklichen Ausdruck machen"
+        "q": "wütend",
+        "a": "Starken Unmut über etwas empfinden. Er war wütend, als sein Fahrrad gestohlen wurde."
       },
       "nl": {
-        "q": "glimlachen",
-        "a": "een blije uitdrukking met je mond maken"
+        "q": "boos",
+        "a": "Sterke onvrede over iets voelen. Hij was boos toen zijn fiets werd gestolen."
       },
       "fr": {
-        "q": "sourire",
-        "a": "faire une expression heureuse avec la bouche"
+        "q": "en colère",
+        "a": "Ressentir un fort mécontentement à propos de quelque chose. Il était en colère quand son vélo a été volé."
       },
       "ru": {
-        "q": "улыбаться",
-        "a": "делать счастливое выражение лица ртом"
+        "q": "сердитый",
+        "a": "Чувствовать сильное недовольство чем-то. Он был зол, когда у него украли велосипед."
       },
       "ku": {
-        "q": "bişirîn",
-        "a": "bi devê xwe rewşek bextewer çêkirin"
+        "q": "hêrs",
+        "a": "Ji tiştekî gelek aciz bûn. Gava duçerxeya wî hate dizîn, ew hêrs bû."
       },
       "tt": {
-        "q": "елмаю",
-        "a": "авыз белән бәхетле кыяфәт ясау"
+        "q": "ачулы",
+        "a": "Нәрсәгәдер каты канәгатьсезлек хисе кичерү. Велосипедын урлаганда ул ачуланды."
       },
       "ar": {
-        "q": "يَبْتَسِمُ",
-        "a": "يَصْنَعُ تَعْبِيرًا سَعِيدًا بِفَمِهِ"
+        "q": "غَاضِب",
+        "a": "الشُّعُورُ بِاسْتِيَاءٍ شَدِيدٍ مِنْ شَيْءٍ مَا. كَانَ غَاضِبًا عِنْدَمَا سُرِقَتْ دَرَّاجَتُهُ."
       },
       "es": {
-        "q": "sonreír",
-        "a": "hacer una expresión feliz con la boca"
+        "q": "enojado",
+        "a": "Sentir un fuerte disgusto por algo. Estaba enojado cuando le robaron la bicicleta."
       },
       "it": {
-        "q": "sorridere",
-        "a": "fare un'espressione felice con la bocca"
+        "q": "arrabbiato",
+        "a": "Provare forte fastidio per qualcosa. Era arrabbiato quando gli hanno rubato la bicicletta."
       },
       "pt": {
-        "q": "sorrir",
-        "a": "fazer uma expressão feliz com a boca"
+        "q": "zangado",
+        "a": "Sentir forte descontentamento com algo. Ele ficou zangado quando sua bicicleta foi roubada."
       },
       "ko": {
-        "q": "미소짓다",
-        "a": "입으로 행복한 표정을 짓다"
+        "q": "화난",
+        "a": "어떤 것에 대해 강한 불만을 느끼는 것. 그는 자전거를 도둑맞았을 때 화가 났다."
       },
       "vi": {
-        "q": "mỉm cười",
-        "a": "tạo biểu cảm vui vẻ bằng miệng"
+        "q": "tức giận",
+        "a": "Cảm thấy rất khó chịu về điều gì đó. Anh ấy tức giận khi xe đạp của mình bị đánh cắp."
       },
       "ja": {
-        "q": "微笑む",
-        "a": "口で幸せな表情を作ること"
+        "q": "怒った",
+        "a": "何かに強い不満を感じること。自転車を盗まれたとき、彼は怒った。"
       },
       "zh": {
-        "q": "微笑",
-        "a": "用嘴做出快乐的表情"
+        "q": "生气",
+        "a": "对某事感到强烈的不满。他的自行车被偷时很生气。"
       }
     },
     {
       "id": 4,
-      "section": "wordExercise",
+      "section": "word",
       "en": {
-        "q": "Which word means \"to move quickly because you are late\"?",
-        "a": "hurry"
+        "q": "arrive",
+        "a": "To reach a place after traveling. The train will arrive at six o'clock."
       },
       "tr": {
-        "q": "\"Geç kaldığın için hızlı hareket etmek\" anlamına gelen kelime hangisidir?",
-        "a": "acele etmek"
+        "q": "varmak",
+        "a": "Yolculuktan sonra bir yere ulaşmak. Tren saat altıda varacak."
       },
       "de": {
-        "q": "Welches Wort bedeutet \"sich schnell bewegen, weil man spät dran ist\"?",
-        "a": "sich beeilen"
+        "q": "ankommen",
+        "a": "Nach einer Reise einen Ort erreichen. Der Zug kommt um sechs Uhr an."
       },
       "nl": {
-        "q": "Welk woord betekent \"snel bewegen omdat je laat bent\"?",
-        "a": "haasten"
+        "q": "aankomen",
+        "a": "Een plaats bereiken na een reis. De trein komt om zes uur aan."
       },
       "fr": {
-        "q": "Quel mot signifie \"bouger vite parce qu'on est en retard\" ?",
-        "a": "se dépêcher"
+        "q": "arriver",
+        "a": "Atteindre un lieu après un voyage. Le train arrivera à six heures."
       },
       "ru": {
-        "q": "Какое слово означает \"двигаться быстро, потому что ты опаздываешь\"?",
-        "a": "спешить"
+        "q": "прибывать",
+        "a": "Достичь места после путешествия. Поезд прибудет в шесть часов."
       },
       "ku": {
-        "q": "Kîjan peyv wateya \"zû livîn ji ber ku tu dereng mayî\" dide?",
-        "a": "lezê kirin"
+        "q": "gihîştin",
+        "a": "Piştî rêwîtiyê gihîştina cihekî. Trên dê saet şeş bigihîje."
       },
       "tt": {
-        "q": "\"Соңга калганга тиз хәрәкәт итү\" дигәнне аңлаткан сүз кайсы?",
-        "a": "ашыгу"
+        "q": "килеп җитү",
+        "a": "Сәяхәттән соң урынга ирешү. Поезд сәгать алтыда килеп җитәчәк."
       },
       "ar": {
-        "q": "أَيُّ كَلِمَةٍ تَعْنِي \"يَتَحَرَّكُ بِسُرْعَةٍ لِأَنَّهُ مُتَأَخِّرٌ\"؟",
-        "a": "يُسْرِعُ"
+        "q": "يَصِلُ",
+        "a": "الْوُصُولُ إِلَى مَكَانٍ بَعْدَ السَّفَرِ. سَيَصِلُ الْقِطَارُ فِي السَّاعَةِ السَّادِسَةِ."
       },
       "es": {
-        "q": "¿Qué palabra significa \"moverse rápido porque llegas tarde\"?",
-        "a": "apresurarse"
+        "q": "llegar",
+        "a": "Alcanzar un lugar después de viajar. El tren llegará a las seis."
       },
       "it": {
-        "q": "Quale parola significa \"muoversi velocemente perché sei in ritardo\"?",
-        "a": "affrettarsi"
+        "q": "arrivare",
+        "a": "Raggiungere un luogo dopo un viaggio. Il treno arriverà alle sei."
       },
       "pt": {
-        "q": "Que palavra significa \"mover-se rápido porque está atrasado\"?",
-        "a": "apressar-se"
+        "q": "chegar",
+        "a": "Alcançar um lugar depois de viajar. O trem vai chegar às seis horas."
       },
       "ko": {
-        "q": "\"늦었기 때문에 빠르게 움직이다\"를 뜻하는 단어는 무엇인가요?",
-        "a": "서두르다"
+        "q": "도착하다",
+        "a": "여행 후에 장소에 이르는 것. 기차는 여섯 시에 도착할 것이다."
       },
       "vi": {
-        "q": "Từ nào có nghĩa là \"di chuyển nhanh vì bạn bị trễ\"?",
-        "a": "vội vàng"
+        "q": "đến nơi",
+        "a": "Tới một nơi sau khi di chuyển. Tàu sẽ đến lúc sáu giờ."
       },
       "ja": {
-        "q": "「遅れているので速く動くこと」を意味する単語はどれですか?",
-        "a": "急ぐ"
+        "q": "到着する",
+        "a": "旅の後に場所に着くこと。電車は六時に到着する。"
       },
       "zh": {
-        "q": "哪个词的意思是\"因为迟到而快速移动\"？",
-        "a": "匆忙"
+        "q": "到达",
+        "a": "旅行后到达一个地方。火车将在六点到达。"
       }
     },
     {
       "id": 5,
-      "section": "story",
+      "section": "word",
       "en": {
-        "q": "The Rainy Day",
-        "a": "It was raining hard. Ali did not have an umbrella, so he had to hurry to find shelter. He stood under a tree, cold and wet. A kind woman stopped and shared her umbrella with him. Ali gave her a warm smile and thanked her."
+        "q": "attack",
+        "a": "To try to hurt someone by force. The dog began to attack the mailman."
       },
       "tr": {
-        "q": "Yağmurlu Gün",
-        "a": "Şiddetli yağmur yağıyordu. Ali'nin şemsiyesi yoktu, bu yüzden bir sığınak bulmak için acele etmesi gerekti. Bir ağacın altında durdu, üşümüş ve ıslanmıştı. Nazik bir kadın durdu ve şemsiyesini onunla paylaştı. Ali ona sıcak bir gülümseme verdi ve teşekkür etti."
+        "q": "saldırmak",
+        "a": "Birine güç kullanarak zarar vermeye çalışmak. Köpek postacıya saldırmaya başladı."
       },
       "de": {
-        "q": "Der Regentag",
-        "a": "Es regnete stark. Ali hatte keinen Regenschirm, also musste er sich beeilen, einen Unterschlupf zu finden. Er stand unter einem Baum, kalt und nass. Eine freundliche Frau blieb stehen und teilte ihren Regenschirm mit ihm. Ali lächelte sie warm an und bedankte sich."
+        "q": "angreifen",
+        "a": "Versuchen, jemandem mit Gewalt zu schaden. Der Hund begann den Briefträger anzugreifen."
       },
       "nl": {
-        "q": "De Regenachtige Dag",
-        "a": "Het regende hard. Ali had geen paraplu, dus moest hij zich haasten om een schuilplaats te vinden. Hij stond onder een boom, koud en nat. Een vriendelijke vrouw stopte en deelde haar paraplu met hem. Ali glimlachte warm naar haar en bedankte haar."
+        "q": "aanvallen",
+        "a": "Proberen iemand met geweld pijn te doen. De hond begon de postbode aan te vallen."
       },
       "fr": {
-        "q": "Le Jour de Pluie",
-        "a": "Il pleuvait fort. Ali n'avait pas de parapluie, alors il a dû se dépêcher de trouver un abri. Il s'est tenu sous un arbre, froid et mouillé. Une femme gentille s'est arrêtée et a partagé son parapluie avec lui. Ali lui a fait un sourire chaleureux et l'a remerciée."
+        "q": "attaquer",
+        "a": "Essayer de blesser quelqu'un par la force. Le chien a commencé à attaquer le facteur."
       },
       "ru": {
-        "q": "Дождливый День",
-        "a": "Шёл сильный дождь. У Али не было зонта, поэтому ему пришлось спешить, чтобы найти укрытие. Он стоял под деревом, замёрзший и мокрый. Добрая женщина остановилась и поделилась с ним зонтом. Али тепло улыбнулся ей и поблагодарил её."
+        "q": "нападать",
+        "a": "Пытаться причинить кому-то вред силой. Собака начала нападать на почтальона."
       },
       "ku": {
-        "q": "Roja Baranê",
-        "a": "Baran bi hêz dibarî. Şemsiya Alî tune bû, ji ber vê yekê lazim bû lezê bike da ku stargehek bibîne. Li bin darekê sekinî, sar û şil bû. Jinek dilovan sekinî û şemsiya xwe pê re par kir. Alî bi germî lê bişirî û spasiya wê kir."
+        "q": "êrîş kirin",
+        "a": "Hewl dayîn ku bi zorê zirarê bide kesekî. Kûçik dest bi êrîşkirina li postçî kir."
       },
       "tt": {
-        "q": "Яңгырлы Көн",
-        "a": "Көчле яңгыр ява иде. Алиның зонтигы юк иде, шуңа ул сыену урыны табар өчен ашыгырга тиеш булды. Ул агач астында, туңган һәм юешләнгән хәлдә басты. Мәрхәмәтле бер хатын туктады һәм үзенең зонтигын аның белән бүлеште. Али аңа җылы елмайды һәм рәхмәт әйтте."
+        "q": "һөҗүм итү",
+        "a": "Кемгәдер көч белән зыян китерергә тырышу. Эт почтальонга һөҗүм итә башлады."
       },
       "ar": {
-        "q": "يَوْمٌ مُمْطِرٌ",
-        "a": "كَانَتِ الْأَمْطَارُ تَهْطِلُ بِغَزَارَةٍ. لَمْ يَكُنْ لَدَى عَلِيٍّ مِظَلَّةٌ، فَاضْطُرَّ أَنْ يُسْرِعَ لِيَجِدَ مَأْوًى. وَقَفَ تَحْتَ شَجَرَةٍ، بَارِدًا وَمُبَلَّلًا. تَوَقَّفَتِ امْرَأَةٌ طَيِّبَةٌ وَشَارَكَتْهُ مِظَلَّتَهَا. ابْتَسَمَ عَلِيٌّ لَهَا بِدِفْءٍ وَشَكَرَهَا."
+        "q": "يُهَاجِمُ",
+        "a": "مُحَاوَلَةُ إِيذَاءِ شَخْصٍ بِالْقُوَّةِ. بَدَأَ الْكَلْبُ بِمُهَاجَمَةِ سَاعِي الْبَرِيدِ."
       },
       "es": {
-        "q": "El Día Lluvioso",
-        "a": "Llovía fuerte. Ali no tenía paraguas, así que tuvo que apresurarse para encontrar refugio. Se quedó bajo un árbol, frío y mojado. Una mujer amable se detuvo y compartió su paraguas con él. Ali le sonrió cálidamente y le dio las gracias."
+        "q": "atacar",
+        "a": "Intentar hacer daño a alguien por la fuerza. El perro empezó a atacar al cartero."
       },
       "it": {
-        "q": "Il Giorno di Pioggia",
-        "a": "Pioveva forte. Ali non aveva l'ombrello, quindi dovette affrettarsi a trovare riparo. Rimase sotto un albero, freddo e bagnato. Una donna gentile si fermò e condivise il suo ombrello con lui. Ali le sorrise calorosamente e la ringraziò."
+        "q": "attaccare",
+        "a": "Cercare di fare del male a qualcuno con la forza. Il cane iniziò ad attaccare il postino."
       },
       "pt": {
-        "q": "O Dia Chuvoso",
-        "a": "Chovia muito. Ali não tinha guarda-chuva, então teve que se apressar para encontrar abrigo. Ficou debaixo de uma árvore, frio e molhado. Uma mulher gentil parou e partilhou o seu guarda-chuva com ele. Ali sorriu calorosamente para ela e agradeceu."
+        "q": "atacar",
+        "a": "Tentar machucar alguém à força. O cachorro começou a atacar o carteiro."
       },
       "ko": {
-        "q": "비 오는 날",
-        "a": "비가 세차게 내리고 있었다. 알리는 우산이 없어서 대피처를 찾기 위해 서둘러야 했다. 그는 나무 아래에 서서 춥고 젖어 있었다. 친절한 한 여성이 멈춰서 자신의 우산을 그와 나눠 썼다. 알리는 그녀에게 따뜻하게 미소지으며 감사를 전했다."
+        "q": "공격하다",
+        "a": "힘으로 누군가를 해치려고 하는 것. 개가 우편배달부를 공격하기 시작했다."
       },
       "vi": {
-        "q": "Ngày Mưa",
-        "a": "Trời mưa rất to. Ali không có ô, vì vậy anh phải vội vàng tìm nơi trú ẩn. Anh đứng dưới một gốc cây, lạnh và ướt. Một người phụ nữ tốt bụng dừng lại và chia sẻ chiếc ô của mình với anh. Ali mỉm cười ấm áp và cảm ơn cô."
+        "q": "tấn công",
+        "a": "Cố gắng làm hại ai đó bằng sức mạnh. Con chó bắt đầu tấn công người đưa thư."
       },
       "ja": {
-        "q": "雨の日",
-        "a": "激しい雨が降っていた。アリは傘を持っていなかったので、急いで避難所を探さなければならなかった。彼は木の下に立ち、寒くて濡れていた。親切な女性が立ち止まり、傘を彼と分け合った。アリは彼女に温かく微笑み、感謝した。"
+        "q": "攻撃する",
+        "a": "力で誰かを傷つけようとすること。犬が郵便配達員を攻撃し始めた。"
       },
       "zh": {
-        "q": "下雨天",
-        "a": "雨下得很大。阿里没有雨伞,所以他不得不匆忙寻找避难所。他站在一棵树下,又冷又湿。一位善良的女士停下来,把她的雨伞和他分享。阿里对她温暖地微笑,并感谢了她。"
+        "q": "攻击",
+        "a": "试图用武力伤害某人。狗开始攻击邮递员。"
       }
     },
     {
       "id": 6,
-      "section": "storyExercise",
+      "section": "word",
       "en": {
-        "q": "Why did Ali smile at the end of the story?",
-        "a": "Because a kind woman shared her umbrella with him."
+        "q": "bottom",
+        "a": "The lowest part of something. There is a hole at the bottom of the box."
       },
       "tr": {
-        "q": "Ali hikayenin sonunda neden gülümsedi?",
-        "a": "Çünkü nazik bir kadın şemsiyesini onunla paylaştı."
+        "q": "dip / en alt",
+        "a": "Bir şeyin en alçak kısmı. Kutunun dibinde bir delik var."
       },
       "de": {
-        "q": "Warum lächelte Ali am Ende der Geschichte?",
-        "a": "Weil eine freundliche Frau ihren Regenschirm mit ihm teilte."
+        "q": "Boden / unterster Teil",
+        "a": "Der niedrigste Teil von etwas. Am Boden der Kiste ist ein Loch."
       },
       "nl": {
-        "q": "Waarom glimlachte Ali aan het einde van het verhaal?",
-        "a": "Omdat een vriendelijke vrouw haar paraplu met hem deelde."
+        "q": "bodem",
+        "a": "Het laagste deel van iets. Er zit een gat in de bodem van de doos."
       },
       "fr": {
-        "q": "Pourquoi Ali a-t-il souri à la fin de l'histoire ?",
-        "a": "Parce qu'une femme gentille a partagé son parapluie avec lui."
+        "q": "fond",
+        "a": "La partie la plus basse de quelque chose. Il y a un trou au fond de la boîte."
       },
       "ru": {
-        "q": "Почему Али улыбнулся в конце истории?",
-        "a": "Потому что добрая женщина поделилась с ним зонтом."
+        "q": "дно / низ",
+        "a": "Самая нижняя часть чего-либо. На дне коробки есть дыра."
       },
       "ku": {
-        "q": "Çima Alî di dawiya çîrokê de bişirî?",
-        "a": "Ji ber ku jinek dilovan şemsiya xwe pê re par kir."
+        "q": "bin",
+        "a": "Beşê herî nizm ê tiştekî. Di bin qutiyê de qulek heye."
       },
       "tt": {
-        "q": "Али хикәя ахырында ни өчен елмайды?",
-        "a": "Чөнки мәрхәмәтле бер хатын зонтигын аның белән бүлеште."
+        "q": "төп / иң түбән өлеше",
+        "a": "Нәрсәнеңдер иң түбән өлеше. Тартманың төбендә тишек бар."
       },
       "ar": {
-        "q": "لِمَاذَا ابْتَسَمَ عَلِيٌّ فِي نِهَايَةِ الْقِصَّةِ؟",
-        "a": "لِأَنَّ امْرَأَةً طَيِّبَةً شَارَكَتْهُ مِظَلَّتَهَا."
+        "q": "قَاع / أَسْفَل",
+        "a": "الْجُزْءُ الْأَسْفَلُ مِنْ شَيْءٍ مَا. يُوجَدُ ثَقْبٌ فِي قَاعِ الصُّنْدُوقِ."
       },
       "es": {
-        "q": "¿Por qué sonrió Ali al final de la historia?",
-        "a": "Porque una mujer amable compartió su paraguas con él."
+        "q": "fondo",
+        "a": "La parte más baja de algo. Hay un agujero en el fondo de la caja."
       },
       "it": {
-        "q": "Perché Ali sorrise alla fine della storia?",
-        "a": "Perché una donna gentile condivise il suo ombrello con lui."
+        "q": "fondo",
+        "a": "La parte più bassa di qualcosa. C'è un buco sul fondo della scatola."
       },
       "pt": {
-        "q": "Por que Ali sorriu no final da história?",
-        "a": "Porque uma mulher gentil partilhou o seu guarda-chuva com ele."
+        "q": "fundo",
+        "a": "A parte mais baixa de algo. Há um buraco no fundo da caixa."
       },
       "ko": {
-        "q": "이야기 끝에서 알리는 왜 미소지었나요?",
-        "a": "친절한 여성이 자신의 우산을 그와 나눠 썼기 때문이다."
+        "q": "바닥",
+        "a": "어떤 것의 가장 낮은 부분. 상자 바닥에 구멍이 있다."
       },
       "vi": {
-        "q": "Tại sao Ali mỉm cười ở cuối câu chuyện?",
-        "a": "Vì một người phụ nữ tốt bụng đã chia sẻ chiếc ô của mình với anh."
+        "q": "đáy",
+        "a": "Phần thấp nhất của thứ gì đó. Có một lỗ ở đáy hộp."
       },
       "ja": {
-        "q": "物語の最後でアリはなぜ微笑んだのですか?",
-        "a": "親切な女性が傘を彼と分け合ったから。"
+        "q": "底",
+        "a": "何かの一番低い部分。箱の底に穴がある。"
       },
       "zh": {
-        "q": "故事结尾阿里为什么微笑？",
-        "a": "因为一位善良的女士把她的雨伞和他分享。"
+        "q": "底部",
+        "a": "某物最低的部分。盒子底部有一个洞。"
+      }
+    },
+    {
+      "id": 7,
+      "section": "word",
+      "en": {
+        "q": "clever",
+        "a": "Able to think quickly and find good solutions. The clever fox found a way to open the gate."
+      },
+      "tr": {
+        "q": "zeki",
+        "a": "Hızlı düşünüp iyi çözümler bulabilen. Zeki tilki kapıyı açmanın bir yolunu buldu."
+      },
+      "de": {
+        "q": "klug",
+        "a": "Fähig, schnell zu denken und gute Lösungen zu finden. Der kluge Fuchs fand einen Weg, das Tor zu öffnen."
+      },
+      "nl": {
+        "q": "slim",
+        "a": "In staat snel te denken en goede oplossingen te vinden. De slimme vos vond een manier om het hek te openen."
+      },
+      "fr": {
+        "q": "astucieux",
+        "a": "Capable de penser vite et de trouver de bonnes solutions. Le renard astucieux a trouvé un moyen d'ouvrir la porte."
+      },
+      "ru": {
+        "q": "умный / хитрый",
+        "a": "Способный быстро думать и находить хорошие решения. Умная лиса нашла способ открыть ворота."
+      },
+      "ku": {
+        "q": "zîrek",
+        "a": "Ku bi lez difikire û çareseriyên baş dibîne. Rovîyê zîrek rêyek dît da ku deriyê deriyî veke."
+      },
+      "tt": {
+        "q": "акыллы",
+        "a": "Тиз уйлый һәм яхшы чишелешләр таба алучы. Акыллы төлке капканы ачу юлын тапты."
+      },
+      "ar": {
+        "q": "ذَكِيّ",
+        "a": "قَادِرٌ عَلَى التَّفْكِيرِ بِسُرْعَةٍ وَإِيجَادِ حُلُولٍ جَيِّدَةٍ. وَجَدَ الثَّعْلَبُ الذَّكِيُّ طَرِيقَةً لِفَتْحِ الْبَوَّابَةِ."
+      },
+      "es": {
+        "q": "astuto",
+        "a": "Capaz de pensar rápido y encontrar buenas soluciones. El zorro astuto encontró una manera de abrir la puerta."
+      },
+      "it": {
+        "q": "astuto",
+        "a": "Capace di pensare velocemente e trovare buone soluzioni. La volpe astuta trovò un modo per aprire il cancello."
+      },
+      "pt": {
+        "q": "astuto",
+        "a": "Capaz de pensar rápido e encontrar boas soluções. A raposa astuta encontrou uma forma de abrir o portão."
+      },
+      "ko": {
+        "q": "영리한",
+        "a": "빠르게 생각하고 좋은 해결책을 찾을 수 있는. 영리한 여우는 문을 여는 방법을 찾아냈다."
+      },
+      "vi": {
+        "q": "khôn ngoan",
+        "a": "Có thể suy nghĩ nhanh và tìm ra giải pháp tốt. Con cáo khôn ngoan đã tìm ra cách mở cổng."
+      },
+      "ja": {
+        "q": "賢い",
+        "a": "素早く考えて良い解決策を見つけられること。賢いキツネは門を開ける方法を見つけた。"
+      },
+      "zh": {
+        "q": "聪明的",
+        "a": "能够快速思考并找到好办法的。聪明的狐狸找到了打开大门的方法。"
+      }
+    },
+    {
+      "id": 8,
+      "section": "word",
+      "en": {
+        "q": "cruel",
+        "a": "Causing pain to others on purpose. It is cruel to leave an animal without food."
+      },
+      "tr": {
+        "q": "acımasız",
+        "a": "Bilerek başkalarına acı vermek. Bir hayvanı yemeksiz bırakmak acımasızlıktır."
+      },
+      "de": {
+        "q": "grausam",
+        "a": "Anderen absichtlich Schmerz zufügen. Es ist grausam, ein Tier ohne Futter zu lassen."
+      },
+      "nl": {
+        "q": "wreed",
+        "a": "Anderen expres pijn doen. Het is wreed om een dier zonder eten achter te laten."
+      },
+      "fr": {
+        "q": "cruel",
+        "a": "Faire souffrir les autres exprès. Il est cruel de laisser un animal sans nourriture."
+      },
+      "ru": {
+        "q": "жестокий",
+        "a": "Намеренно причинять боль другим. Жестоко оставлять животное без еды."
+      },
+      "ku": {
+        "q": "zalim",
+        "a": "Bi zanebûn êş dan kesên din. Zalimî ye ku heywanek bêyî xwarinê bihêle."
+      },
+      "tt": {
+        "q": "явыз",
+        "a": "Башкаларга атайлап газап китерү. Хайванны ашатмыйча калдыру явызлык."
+      },
+      "ar": {
+        "q": "قَاسٍ",
+        "a": "إِيذَاءُ الْآخَرِينَ عَمْدًا. مِنَ الْقَسْوَةِ تَرْكُ حَيَوَانٍ بِلَا طَعَامٍ."
+      },
+      "es": {
+        "q": "cruel",
+        "a": "Causar dolor a otros a propósito. Es cruel dejar a un animal sin comida."
+      },
+      "it": {
+        "q": "crudele",
+        "a": "Far soffrire gli altri di proposito. È crudele lasciare un animale senza cibo."
+      },
+      "pt": {
+        "q": "cruel",
+        "a": "Causar dor aos outros de propósito. É cruel deixar um animal sem comida."
+      },
+      "ko": {
+        "q": "잔인한",
+        "a": "일부러 다른 사람에게 고통을 주는 것. 동물에게 먹이를 주지 않는 것은 잔인하다."
+      },
+      "vi": {
+        "q": "tàn nhẫn",
+        "a": "Cố ý làm người khác đau khổ. Thật tàn nhẫn khi để một con vật không có thức ăn."
+      },
+      "ja": {
+        "q": "残酷な",
+        "a": "わざと他人を傷つけること。動物に餌を与えないのは残酷だ。"
+      },
+      "zh": {
+        "q": "残忍的",
+        "a": "故意让别人痛苦。让动物没有食物是残忍的。"
+      }
+    },
+    {
+      "id": 9,
+      "section": "word",
+      "en": {
+        "q": "finally",
+        "a": "After a long time; at last. After two hours, the bus finally arrived."
+      },
+      "tr": {
+        "q": "sonunda",
+        "a": "Uzun bir süre sonra; en sonunda. İki saat sonra otobüs sonunda geldi."
+      },
+      "de": {
+        "q": "schließlich",
+        "a": "Nach langer Zeit; endlich. Nach zwei Stunden kam der Bus schließlich an."
+      },
+      "nl": {
+        "q": "eindelijk",
+        "a": "Na lange tijd; ten slotte. Na twee uur kwam de bus eindelijk aan."
+      },
+      "fr": {
+        "q": "enfin",
+        "a": "Après longtemps ; finalement. Après deux heures, le bus est enfin arrivé."
+      },
+      "ru": {
+        "q": "наконец",
+        "a": "После долгого времени; в конце концов. Через два часа автобус наконец прибыл."
+      },
+      "ku": {
+        "q": "di dawiyê de",
+        "a": "Piştî demek dirêj; li dawiyê. Piştî du saetan, otobûs di dawiyê de gihîşt."
+      },
+      "tt": {
+        "q": "ниһаять",
+        "a": "Озак вакыттан соң; ахырда. Ике сәгатьтән соң автобус ниһаять килде."
+      },
+      "ar": {
+        "q": "أَخِيرًا",
+        "a": "بَعْدَ وَقْتٍ طَوِيلٍ؛ فِي النِّهَايَةِ. بَعْدَ سَاعَتَيْنِ، وَصَلَتِ الْحَافِلَةُ أَخِيرًا."
+      },
+      "es": {
+        "q": "finalmente",
+        "a": "Después de mucho tiempo; al fin. Después de dos horas, el autobús finalmente llegó."
+      },
+      "it": {
+        "q": "finalmente",
+        "a": "Dopo molto tempo; alla fine. Dopo due ore, l'autobus finalmente arrivò."
+      },
+      "pt": {
+        "q": "finalmente",
+        "a": "Depois de muito tempo; por fim. Depois de duas horas, o ônibus finalmente chegou."
+      },
+      "ko": {
+        "q": "마침내",
+        "a": "오랜 시간 후에; 결국. 두 시간 후, 버스가 마침내 도착했다."
+      },
+      "vi": {
+        "q": "cuối cùng",
+        "a": "Sau một thời gian dài; rốt cuộc. Sau hai giờ, xe buýt cuối cùng cũng đến."
+      },
+      "ja": {
+        "q": "ついに",
+        "a": "長い時間の後に;最後に。二時間後、バスがついに到着した。"
+      },
+      "zh": {
+        "q": "终于",
+        "a": "经过很长时间后;最后。两个小时后,公共汽车终于到了。"
+      }
+    },
+    {
+      "id": 10,
+      "section": "word",
+      "en": {
+        "q": "hide",
+        "a": "To put yourself where others cannot see you. The children hide behind the big tree."
+      },
+      "tr": {
+        "q": "saklanmak",
+        "a": "Kendini başkalarının göremeyeceği bir yere koymak. Çocuklar büyük ağacın arkasına saklanır."
+      },
+      "de": {
+        "q": "sich verstecken",
+        "a": "Sich so hinstellen, dass andere einen nicht sehen können. Die Kinder verstecken sich hinter dem großen Baum."
+      },
+      "nl": {
+        "q": "zich verstoppen",
+        "a": "Jezelf ergens plaatsen waar anderen je niet kunnen zien. De kinderen verstoppen zich achter de grote boom."
+      },
+      "fr": {
+        "q": "se cacher",
+        "a": "Se mettre là où les autres ne peuvent pas vous voir. Les enfants se cachent derrière le grand arbre."
+      },
+      "ru": {
+        "q": "прятаться",
+        "a": "Помещать себя туда, где другие не могут тебя видеть. Дети прячутся за большим деревом."
+      },
+      "ku": {
+        "q": "veşartin",
+        "a": "Xwe li cihekî ku kesên din nikaribin te bibînin bişkoje. Zarok li paş dara mezin veşartin."
+      },
+      "tt": {
+        "q": "яшеренү",
+        "a": "Башкалар сине күрмәсен өчен яшеренү. Балалар зур агач артына яшеренә."
+      },
+      "ar": {
+        "q": "يَخْتَبِئُ",
+        "a": "وَضْعُ نَفْسِكَ حَيْثُ لَا يَسْتَطِيعُ الْآخَرُونَ رُؤْيَتَكَ. يَخْتَبِئُ الْأَطْفَالُ خَلْفَ الشَّجَرَةِ الْكَبِيرَةِ."
+      },
+      "es": {
+        "q": "esconderse",
+        "a": "Ponerse donde otros no puedan verte. Los niños se esconden detrás del gran árbol."
+      },
+      "it": {
+        "q": "nascondersi",
+        "a": "Mettersi dove gli altri non possono vederti. I bambini si nascondono dietro il grande albero."
+      },
+      "pt": {
+        "q": "esconder-se",
+        "a": "Colocar-se onde outros não possam te ver. As crianças se escondem atrás da grande árvore."
+      },
+      "ko": {
+        "q": "숨다",
+        "a": "다른 사람이 볼 수 없는 곳에 자신을 두는 것. 아이들은 큰 나무 뒤에 숨는다."
+      },
+      "vi": {
+        "q": "trốn",
+        "a": "Đặt mình ở nơi người khác không thể thấy. Bọn trẻ trốn sau cái cây lớn."
+      },
+      "ja": {
+        "q": "隠れる",
+        "a": "他人に見えない場所に自分を置くこと。子供たちは大きな木の後ろに隠れる。"
+      },
+      "zh": {
+        "q": "躲藏",
+        "a": "把自己放在别人看不见的地方。孩子们躲在大树后面。"
+      }
+    },
+    {
+      "id": 11,
+      "section": "word",
+      "en": {
+        "q": "hunt",
+        "a": "To search for an animal in order to catch it. Wolves hunt together at night."
+      },
+      "tr": {
+        "q": "avlanmak",
+        "a": "Bir hayvanı yakalamak için aramak. Kurtlar geceleri birlikte avlanır."
+      },
+      "de": {
+        "q": "jagen",
+        "a": "Nach einem Tier suchen, um es zu fangen. Wölfe jagen nachts gemeinsam."
+      },
+      "nl": {
+        "q": "jagen",
+        "a": "Op zoek gaan naar een dier om het te vangen. Wolven jagen 's nachts samen."
+      },
+      "fr": {
+        "q": "chasser",
+        "a": "Chercher un animal pour l'attraper. Les loups chassent ensemble la nuit."
+      },
+      "ru": {
+        "q": "охотиться",
+        "a": "Искать животное, чтобы поймать его. Волки охотятся вместе по ночам."
+      },
+      "ku": {
+        "q": "nêçîr kirin",
+        "a": "Li dû heywanekê geriyan da ku wê bigire. Gur bi şev bi hev re nêçîr dikin."
+      },
+      "tt": {
+        "q": "аулау",
+        "a": "Хайванны тотар өчен эзләү. Бүреләр төнлә бергә ауларга чыга."
+      },
+      "ar": {
+        "q": "يَصْطَادُ",
+        "a": "الْبَحْثُ عَنْ حَيَوَانٍ لِلْإِمْسَاكِ بِهِ. تَصْطَادُ الذِّئَابُ مَعًا لَيْلًا."
+      },
+      "es": {
+        "q": "cazar",
+        "a": "Buscar un animal para atraparlo. Los lobos cazan juntos por la noche."
+      },
+      "it": {
+        "q": "cacciare",
+        "a": "Cercare un animale per catturarlo. I lupi cacciano insieme di notte."
+      },
+      "pt": {
+        "q": "caçar",
+        "a": "Procurar um animal para capturá-lo. Os lobos caçam juntos à noite."
+      },
+      "ko": {
+        "q": "사냥하다",
+        "a": "동물을 잡기 위해 찾는 것. 늑대들은 밤에 함께 사냥한다."
+      },
+      "vi": {
+        "q": "săn",
+        "a": "Tìm kiếm một con vật để bắt nó. Sói săn cùng nhau vào ban đêm."
+      },
+      "ja": {
+        "q": "狩る",
+        "a": "捕まえるために動物を探すこと。オオカミは夜に一緒に狩りをする。"
+      },
+      "zh": {
+        "q": "捕猎",
+        "a": "寻找动物以捕捉它。狼在夜里一起捕猎。"
+      }
+    },
+    {
+      "id": 12,
+      "section": "word",
+      "en": {
+        "q": "a lot",
+        "a": "A large amount or number of something. There are a lot of apples in this basket."
+      },
+      "tr": {
+        "q": "bir sürü",
+        "a": "Bir şeyin büyük bir miktarı veya sayısı. Bu sepette bir sürü elma var."
+      },
+      "de": {
+        "q": "viele / eine Menge",
+        "a": "Eine große Menge oder Anzahl von etwas. In diesem Korb sind viele Äpfel."
+      },
+      "nl": {
+        "q": "veel",
+        "a": "Een grote hoeveelheid of aantal van iets. Er zijn veel appels in deze mand."
+      },
+      "fr": {
+        "q": "beaucoup",
+        "a": "Une grande quantité ou un grand nombre de quelque chose. Il y a beaucoup de pommes dans ce panier."
+      },
+      "ru": {
+        "q": "много",
+        "a": "Большое количество чего-либо. В этой корзине много яблок."
+      },
+      "ku": {
+        "q": "gelek",
+        "a": "Hejmarek an mîqdarek mezin a tiştekî. Di vê selikê de gelek sêv hene."
+      },
+      "tt": {
+        "q": "күп",
+        "a": "Нәрсәнеңдер зур саны яки күләме. Бу сепеттә күп алма бар."
+      },
+      "ar": {
+        "q": "كَثِيرٌ",
+        "a": "كَمِّيَّةٌ أَوْ عَدَدٌ كَبِيرٌ مِنْ شَيْءٍ مَا. يُوجَدُ كَثِيرٌ مِنَ التُّفَّاحِ فِي هَذِهِ السَّلَّةِ."
+      },
+      "es": {
+        "q": "muchos/as",
+        "a": "Una gran cantidad o número de algo. Hay muchas manzanas en esta canasta."
+      },
+      "it": {
+        "q": "molti/e",
+        "a": "Una grande quantità o numero di qualcosa. Ci sono molte mele in questo cesto."
+      },
+      "pt": {
+        "q": "muitos/as",
+        "a": "Uma grande quantidade ou número de algo. Há muitas maçãs nesta cesta."
+      },
+      "ko": {
+        "q": "많은",
+        "a": "어떤 것의 많은 양이나 수. 이 바구니에는 사과가 많다."
+      },
+      "vi": {
+        "q": "nhiều",
+        "a": "Một số lượng lớn của thứ gì đó. Có nhiều táo trong giỏ này."
+      },
+      "ja": {
+        "q": "たくさん",
+        "a": "何かの多い量や数。このかごにはたくさんのリンゴがある。"
+      },
+      "zh": {
+        "q": "很多",
+        "a": "某物的大量或大数目。这个篮子里有很多苹果。"
+      }
+    },
+    {
+      "id": 13,
+      "section": "word",
+      "en": {
+        "q": "middle",
+        "a": "The center part of something. The lake is in the middle of the forest."
+      },
+      "tr": {
+        "q": "orta",
+        "a": "Bir şeyin merkez kısmı. Göl, ormanın ortasındadır."
+      },
+      "de": {
+        "q": "Mitte",
+        "a": "Der zentrale Teil von etwas. Der See liegt mitten im Wald."
+      },
+      "nl": {
+        "q": "midden",
+        "a": "Het centrale deel van iets. Het meer ligt midden in het bos."
+      },
+      "fr": {
+        "q": "milieu",
+        "a": "La partie centrale de quelque chose. Le lac est au milieu de la forêt."
+      },
+      "ru": {
+        "q": "середина",
+        "a": "Центральная часть чего-либо. Озеро находится в середине леса."
+      },
+      "ku": {
+        "q": "nav",
+        "a": "Beşa navendî ya tiştekî. Gol di nav daristanê de ye."
+      },
+      "tt": {
+        "q": "уртасы",
+        "a": "Нәрсәнеңдер үзәк өлеше. Күл урман уртасында урнашкан."
+      },
+      "ar": {
+        "q": "وَسَط",
+        "a": "الْجُزْءُ الْمَرْكَزِيُّ مِنْ شَيْءٍ مَا. تَقَعُ الْبُحَيْرَةُ فِي وَسَطِ الْغَابَةِ."
+      },
+      "es": {
+        "q": "medio",
+        "a": "La parte central de algo. El lago está en medio del bosque."
+      },
+      "it": {
+        "q": "mezzo",
+        "a": "La parte centrale di qualcosa. Il lago è in mezzo alla foresta."
+      },
+      "pt": {
+        "q": "meio",
+        "a": "A parte central de algo. O lago fica no meio da floresta."
+      },
+      "ko": {
+        "q": "가운데",
+        "a": "어떤 것의 중심 부분. 호수는 숲 가운데에 있다."
+      },
+      "vi": {
+        "q": "giữa",
+        "a": "Phần trung tâm của thứ gì đó. Hồ nằm ở giữa khu rừng."
+      },
+      "ja": {
+        "q": "真ん中",
+        "a": "何かの中心部分。湖は森の真ん中にある。"
+      },
+      "zh": {
+        "q": "中间",
+        "a": "某物的中心部分。湖在森林的中间。"
+      }
+    },
+    {
+      "id": 14,
+      "section": "word",
+      "en": {
+        "q": "moment",
+        "a": "A very short period of time. Wait a moment, I will be right back."
+      },
+      "tr": {
+        "q": "an",
+        "a": "Çok kısa bir zaman dilimi. Bir an bekle, hemen dönerim."
+      },
+      "de": {
+        "q": "Moment",
+        "a": "Ein sehr kurzer Zeitraum. Warte einen Moment, ich bin gleich zurück."
+      },
+      "nl": {
+        "q": "moment",
+        "a": "Een zeer korte periode. Wacht even, ik ben zo terug."
+      },
+      "fr": {
+        "q": "moment",
+        "a": "Une très courte période de temps. Attends un moment, je reviens tout de suite."
+      },
+      "ru": {
+        "q": "момент",
+        "a": "Очень короткий промежуток времени. Подожди momента, я сейчас вернусь."
+      },
+      "ku": {
+        "q": "kêliyek",
+        "a": "Demek gelek kurt. Kêliyekê bisekine, ez tavilê vedigerim."
+      },
+      "tt": {
+        "q": "мизгел",
+        "a": "Бик кыска вакыт кисәге. Бер мизгел көт, мин хәзер кайтам."
+      },
+      "ar": {
+        "q": "لَحْظَة",
+        "a": "فَتْرَةٌ زَمَنِيَّةٌ قَصِيرَةٌ جِدًّا. انْتَظِرْ لَحْظَةً، سَأَعُودُ حَالًا."
+      },
+      "es": {
+        "q": "momento",
+        "a": "Un período de tiempo muy corto. Espera un momento, ya regreso."
+      },
+      "it": {
+        "q": "momento",
+        "a": "Un periodo di tempo molto breve. Aspetta un momento, torno subito."
+      },
+      "pt": {
+        "q": "momento",
+        "a": "Um período de tempo muito curto. Espere um momento, já volto."
+      },
+      "ko": {
+        "q": "순간",
+        "a": "매우 짧은 시간. 잠깐만 기다려, 곧 돌아올게."
+      },
+      "vi": {
+        "q": "khoảnh khắc",
+        "a": "Một khoảng thời gian rất ngắn. Đợi một chút, tôi sẽ quay lại ngay."
+      },
+      "ja": {
+        "q": "瞬間",
+        "a": "とても短い時間。少し待って、すぐ戻るから。"
+      },
+      "zh": {
+        "q": "片刻",
+        "a": "非常短的一段时间。等一下,我马上回来。"
+      }
+    },
+    {
+      "id": 15,
+      "section": "word",
+      "en": {
+        "q": "pleased",
+        "a": "Feeling happy about something. She was pleased with her test results."
+      },
+      "tr": {
+        "q": "memnun",
+        "a": "Bir şeyden mutluluk duymak. Sınav sonucundan memnun kalmıştı."
+      },
+      "de": {
+        "q": "erfreut",
+        "a": "Sich über etwas freuen. Sie war erfreut über ihre Testergebnisse."
+      },
+      "nl": {
+        "q": "blij",
+        "a": "Blij zijn met iets. Ze was blij met haar testresultaten."
+      },
+      "fr": {
+        "q": "content",
+        "a": "Se sentir heureux à propos de quelque chose. Elle était contente de ses résultats."
+      },
+      "ru": {
+        "q": "довольный",
+        "a": "Чувствовать радость по поводу чего-либо. Она была довольна результатами теста."
+      },
+      "ku": {
+        "q": "kêfxweş",
+        "a": "Ji tiştekî kêfxweş bûn. Ew ji encamên ceribandinê kêfxweş bû."
+      },
+      "tt": {
+        "q": "канәгать",
+        "a": "Нәрсәдәндер шатлык хисе кичерү. Ул үз имтихан нәтиҗәләреннән канәгать иде."
+      },
+      "ar": {
+        "q": "مَسْرُور",
+        "a": "الشُّعُورُ بِالسَّعَادَةِ حِيَالَ شَيْءٍ مَا. كَانَتْ مَسْرُورَةً بِنَتَائِجِ اخْتِبَارِهَا."
+      },
+      "es": {
+        "q": "contento",
+        "a": "Sentirse feliz por algo. Estaba contenta con sus resultados del examen."
+      },
+      "it": {
+        "q": "contento",
+        "a": "Sentirsi felice per qualcosa. Era contenta dei risultati del suo test."
+      },
+      "pt": {
+        "q": "contente",
+        "a": "Sentir-se feliz com algo. Ela ficou contente com os resultados do teste."
+      },
+      "ko": {
+        "q": "기쁜",
+        "a": "어떤 것에 대해 행복함을 느끼는 것. 그녀는 시험 결과에 기뻐했다."
+      },
+      "vi": {
+        "q": "hài lòng",
+        "a": "Cảm thấy vui về điều gì đó. Cô ấy hài lòng với kết quả bài kiểm tra."
+      },
+      "ja": {
+        "q": "嬉しい",
+        "a": "何かについて幸せを感じること。彼女はテストの結果に嬉しかった。"
+      },
+      "zh": {
+        "q": "高兴",
+        "a": "对某事感到快乐。她对自己的考试成绩感到高兴。"
+      }
+    },
+    {
+      "id": 16,
+      "section": "word",
+      "en": {
+        "q": "promise",
+        "a": "To say firmly that you will do something. He promised to call her tomorrow."
+      },
+      "tr": {
+        "q": "söz vermek",
+        "a": "Bir şeyi kesinlikle yapacağını söylemek. Ona yarın arayacağına söz verdi."
+      },
+      "de": {
+        "q": "versprechen",
+        "a": "Fest sagen, dass man etwas tun wird. Er versprach, sie morgen anzurufen."
+      },
+      "nl": {
+        "q": "beloven",
+        "a": "Stellig zeggen dat je iets zult doen. Hij beloofde haar morgen te bellen."
+      },
+      "fr": {
+        "q": "promettre",
+        "a": "Dire fermement que l'on va faire quelque chose. Il a promis de l'appeler demain."
+      },
+      "ru": {
+        "q": "обещать",
+        "a": "Твёрдо сказать, что сделаешь что-то. Он обещал позвонить ей завтра."
+      },
+      "ku": {
+        "q": "soz dan",
+        "a": "Bi tund gotin ku tiştek wê bike. Wî soz da ku sibê wê telefon bike."
+      },
+      "tt": {
+        "q": "вәгъдә бирү",
+        "a": "Нәрсәдер эшләячәгеңне ныклап әйтү. Ул иртәгә аңа шалтыратырга вәгъдә бирде."
+      },
+      "ar": {
+        "q": "يَعِدُ",
+        "a": "الْقَوْلُ بِحَزْمٍ أَنَّكَ سَتَفْعَلُ شَيْئًا مَا. وَعَدَهَا بِالِاتِّصَالِ بِهَا غَدًا."
+      },
+      "es": {
+        "q": "prometer",
+        "a": "Decir con firmeza que harás algo. Prometió llamarla mañana."
+      },
+      "it": {
+        "q": "promettere",
+        "a": "Dire con fermezza che farai qualcosa. Promise di chiamarla domani."
+      },
+      "pt": {
+        "q": "prometer",
+        "a": "Dizer com firmeza que vai fazer algo. Ele prometeu ligar para ela amanhã."
+      },
+      "ko": {
+        "q": "약속하다",
+        "a": "어떤 것을 반드시 하겠다고 단호히 말하는 것. 그는 내일 그녀에게 전화하겠다고 약속했다."
+      },
+      "vi": {
+        "q": "hứa",
+        "a": "Nói chắc chắn rằng bạn sẽ làm điều gì đó. Anh ấy hứa sẽ gọi cho cô ấy vào ngày mai."
+      },
+      "ja": {
+        "q": "約束する",
+        "a": "何かを必ずすると強く言うこと。彼は明日彼女に電話すると約束した。"
+      },
+      "zh": {
+        "q": "承诺",
+        "a": "坚定地说你会做某事。他承诺明天给她打电话。"
+      }
+    },
+    {
+      "id": 17,
+      "section": "word",
+      "en": {
+        "q": "reply",
+        "a": "To answer someone in words. She did not reply to my message."
+      },
+      "tr": {
+        "q": "cevap vermek",
+        "a": "Birine sözle karşılık vermek. Mesajıma cevap vermedi."
+      },
+      "de": {
+        "q": "antworten",
+        "a": "Jemandem mit Worten antworten. Sie antwortete nicht auf meine Nachricht."
+      },
+      "nl": {
+        "q": "antwoorden",
+        "a": "Iemand met woorden antwoorden. Ze antwoordde niet op mijn bericht."
+      },
+      "fr": {
+        "q": "répondre",
+        "a": "Répondre à quelqu'un avec des mots. Elle n'a pas répondu à mon message."
+      },
+      "ru": {
+        "q": "отвечать",
+        "a": "Отвечать кому-то словами. Она не ответила на моё сообщение."
+      },
+      "ku": {
+        "q": "bersiv dan",
+        "a": "Bi peyvan bersiva kesekî dan. Wê bersiva peyama min neda."
+      },
+      "tt": {
+        "q": "җавап бирү",
+        "a": "Кемгәдер сүзләр белән җавап бирү. Ул минем хатыма җавап бирмәде."
+      },
+      "ar": {
+        "q": "يَرُدُّ",
+        "a": "الْإِجَابَةُ عَلَى شَخْصٍ بِالْكَلَامِ. لَمْ تَرُدَّ عَلَى رِسَالَتِي."
+      },
+      "es": {
+        "q": "responder",
+        "a": "Contestar a alguien con palabras. No respondió a mi mensaje."
+      },
+      "it": {
+        "q": "rispondere",
+        "a": "Rispondere a qualcuno con parole. Non ha risposto al mio messaggio."
+      },
+      "pt": {
+        "q": "responder",
+        "a": "Responder a alguém com palavras. Ela não respondeu à minha mensagem."
+      },
+      "ko": {
+        "q": "대답하다",
+        "a": "누군가에게 말로 답하는 것. 그녀는 내 메시지에 답하지 않았다."
+      },
+      "vi": {
+        "q": "trả lời",
+        "a": "Đáp lại ai đó bằng lời nói. Cô ấy không trả lời tin nhắn của tôi."
+      },
+      "ja": {
+        "q": "返事する",
+        "a": "言葉で誰かに答えること。彼女は私のメッセージに返事しなかった。"
+      },
+      "zh": {
+        "q": "回答",
+        "a": "用言语回应某人。她没有回复我的信息。"
+      }
+    },
+    {
+      "id": 18,
+      "section": "word",
+      "en": {
+        "q": "safe",
+        "a": "Not in danger; protected from harm. The children are safe inside the house."
+      },
+      "tr": {
+        "q": "güvende",
+        "a": "Tehlikede olmamak; zarardan korunmuş olmak. Çocuklar evin içinde güvende."
+      },
+      "de": {
+        "q": "sicher",
+        "a": "Nicht in Gefahr; vor Schaden geschützt. Die Kinder sind sicher im Haus."
+      },
+      "nl": {
+        "q": "veilig",
+        "a": "Niet in gevaar; beschermd tegen schade. De kinderen zijn veilig binnen in het huis."
+      },
+      "fr": {
+        "q": "en sécurité",
+        "a": "Ne pas être en danger ; protégé du mal. Les enfants sont en sécurité dans la maison."
+      },
+      "ru": {
+        "q": "в безопасности",
+        "a": "Не в опасности; защищён от вреда. Дети в безопасности внутри дома."
+      },
+      "ku": {
+        "q": "ewle",
+        "a": "Ne di xetereyê de; ji zirarê parastî. Zarok di malê de ewle ne."
+      },
+      "tt": {
+        "q": "имин",
+        "a": "Куркыныч астында түгел; зарардан сакланган. Балалар өйдә имин."
+      },
+      "ar": {
+        "q": "آمِن",
+        "a": "لَيْسَ فِي خَطَرٍ؛ مَحْمِيٌّ مِنَ الْأَذَى. الْأَطْفَالُ آمِنُونَ دَاخِلَ الْمَنْزِلِ."
+      },
+      "es": {
+        "q": "seguro",
+        "a": "No estar en peligro; protegido del daño. Los niños están seguros dentro de la casa."
+      },
+      "it": {
+        "q": "sicuro",
+        "a": "Non in pericolo; protetto dal male. I bambini sono al sicuro dentro casa."
+      },
+      "pt": {
+        "q": "seguro",
+        "a": "Fora de perigo; protegido de danos. As crianças estão seguras dentro de casa."
+      },
+      "ko": {
+        "q": "안전한",
+        "a": "위험하지 않은; 해로부터 보호받는. 아이들은 집 안에서 안전하다."
+      },
+      "vi": {
+        "q": "an toàn",
+        "a": "Không gặp nguy hiểm; được bảo vệ khỏi tổn hại. Bọn trẻ an toàn trong nhà."
+      },
+      "ja": {
+        "q": "安全な",
+        "a": "危険がない;害から守られている。子供たちは家の中で安全だ。"
+      },
+      "zh": {
+        "q": "安全",
+        "a": "没有危险;受到保护免受伤害。孩子们在屋里很安全。"
+      }
+    },
+    {
+      "id": 19,
+      "section": "word",
+      "en": {
+        "q": "trick",
+        "a": "A clever action done to fool or surprise someone. The magician's trick surprised everyone."
+      },
+      "tr": {
+        "q": "hile / numara",
+        "a": "Birini kandırmak veya şaşırtmak için yapılan zekice bir hareket. Sihirbazın hilesi herkesi şaşırttı."
+      },
+      "de": {
+        "q": "Trick",
+        "a": "Eine clevere Handlung, um jemanden zu täuschen oder zu überraschen. Der Trick des Zauberers überraschte alle."
+      },
+      "nl": {
+        "q": "truc",
+        "a": "Een slimme handeling om iemand te misleiden of te verrassen. De truc van de goochelaar verraste iedereen."
+      },
+      "fr": {
+        "q": "astuce",
+        "a": "Une action intelligente pour tromper ou surprendre quelqu'un. L'astuce du magicien a surpris tout le monde."
+      },
+      "ru": {
+        "q": "хитрость / трюк",
+        "a": "Хитрое действие, чтобы обмануть или удивить кого-то. Трюк фокусника удивил всех."
+      },
+      "ku": {
+        "q": "hîle",
+        "a": "Kirinek zîrek ku kesekî bixapîne an ecêbmayî bike. Hîleya sêrbazî hemû kes ecêbmayî kir."
+      },
+      "tt": {
+        "q": "хәйлә",
+        "a": "Кемнедер алдау яки шаккатыру өчен эшләнгән акыллы гамәл. Иллюзионистның хәйләсе барысын да шаккатырды."
+      },
+      "ar": {
+        "q": "حِيلَة",
+        "a": "عَمَلٌ ذَكِيٌّ يُقْصَدُ بِهِ خِدَاعُ أَوْ مُفَاجَأَةُ شَخْصٍ. أَدْهَشَتْ حِيلَةُ السَّاحِرِ الْجَمِيعَ."
+      },
+      "es": {
+        "q": "truco",
+        "a": "Una acción astuta para engañar o sorprender a alguien. El truco del mago sorprendió a todos."
+      },
+      "it": {
+        "q": "trucco",
+        "a": "Un'azione astuta per ingannare o sorprendere qualcuno. Il trucco del mago sorprese tutti."
+      },
+      "pt": {
+        "q": "truque",
+        "a": "Uma ação astuta feita para enganar ou surpreender alguém. O truque do mágico surpreendeu todos."
+      },
+      "ko": {
+        "q": "속임수",
+        "a": "누군가를 속이거나 놀라게 하려고 하는 영리한 행동. 마술사의 속임수는 모두를 놀라게 했다."
+      },
+      "vi": {
+        "q": "mẹo",
+        "a": "Một hành động khôn khéo để lừa hoặc làm ngạc nhiên ai đó. Mẹo của nhà ảo thuật đã làm mọi người ngạc nhiên."
+      },
+      "ja": {
+        "q": "トリック",
+        "a": "誰かをだましたり驚かせたりするための賢い行動。マジシャンのトリックはみんなを驚かせた。"
+      },
+      "zh": {
+        "q": "把戏",
+        "a": "为了欺骗或惊吓某人而做的聪明举动。魔术师的把戏让所有人都吃惊。"
+      }
+    },
+    {
+      "id": 20,
+      "section": "word",
+      "en": {
+        "q": "well",
+        "a": "In a good or skillful way. She sings very well."
+      },
+      "tr": {
+        "q": "iyi (bir şekilde)",
+        "a": "İyi ya da becerikli bir şekilde. Çok güzel şarkı söylüyor."
+      },
+      "de": {
+        "q": "gut",
+        "a": "Auf eine gute oder gekonnte Weise. Sie singt sehr gut."
+      },
+      "nl": {
+        "q": "goed",
+        "a": "Op een goede of vaardige manier. Ze zingt heel goed."
+      },
+      "fr": {
+        "q": "bien",
+        "a": "D'une bonne façon ou avec talent. Elle chante très bien."
+      },
+      "ru": {
+        "q": "хорошо",
+        "a": "Хорошим или умелым образом. Она очень хорошо поёт."
+      },
+      "ku": {
+        "q": "baş",
+        "a": "Bi awayekî baş an jîr. Ew gelek baş distirê."
+      },
+      "tt": {
+        "q": "яхшы",
+        "a": "Яхшы яки оста рәвештә. Ул бик яхшы җырлый."
+      },
+      "ar": {
+        "q": "جَيِّدًا",
+        "a": "بِطَرِيقَةٍ جَيِّدَةٍ أَوْ مَاهِرَةٍ. إِنَّهَا تُغَنِّي جَيِّدًا جِدًّا."
+      },
+      "es": {
+        "q": "bien",
+        "a": "De una manera buena o hábil. Ella canta muy bien."
+      },
+      "it": {
+        "q": "bene",
+        "a": "In modo buono o abile. Lei canta molto bene."
+      },
+      "pt": {
+        "q": "bem",
+        "a": "De uma boa forma ou com habilidade. Ela canta muito bem."
+      },
+      "ko": {
+        "q": "잘",
+        "a": "좋거나 능숙한 방식으로. 그녀는 노래를 아주 잘 부른다."
+      },
+      "vi": {
+        "q": "giỏi",
+        "a": "Theo cách tốt hoặc khéo léo. Cô ấy hát rất giỏi."
+      },
+      "ja": {
+        "q": "上手に",
+        "a": "良い、または巧みな方法で。彼女はとても上手に歌う。"
+      },
+      "zh": {
+        "q": "好",
+        "a": "以良好或熟练的方式。她唱歌唱得很好。"
+      }
+    },
+    {
+      "id": 21,
+      "section": "wordExercise",
+      "en": {
+        "q": "Which word means \"feeling scared of something\"?",
+        "a": "afraid"
+      },
+      "tr": {
+        "q": "\"Bir şeyden korku duymak\" anlamına gelen kelime hangisidir?",
+        "a": "korkmuş"
+      },
+      "de": {
+        "q": "Welches Wort bedeutet \"Angst vor etwas haben\"?",
+        "a": "ängstlich"
+      },
+      "nl": {
+        "q": "Welk woord betekent \"angst voelen voor iets\"?",
+        "a": "bang"
+      },
+      "fr": {
+        "q": "Quel mot signifie \"ressentir de la peur face à quelque chose\" ?",
+        "a": "effrayé"
+      },
+      "ru": {
+        "q": "Какое слово означает \"чувствовать страх перед чем-то\"?",
+        "a": "испуганный"
+      },
+      "ku": {
+        "q": "Kîjan peyv wateya \"ji tiştekî tirsîn\" dide?",
+        "a": "tirsiyayî"
+      },
+      "tt": {
+        "q": "\"Нәрсәдәндер курку хисе кичерү\" дигәнне аңлаткан сүз кайсы?",
+        "a": "курыккан"
+      },
+      "ar": {
+        "q": "أَيُّ كَلِمَةٍ تَعْنِي \"الشُّعُورُ بِالْخَوْفِ مِنْ شَيْءٍ مَا\"؟",
+        "a": "خَائِف"
+      },
+      "es": {
+        "q": "¿Qué palabra significa \"sentir miedo de algo\"?",
+        "a": "asustado"
+      },
+      "it": {
+        "q": "Quale parola significa \"provare paura di qualcosa\"?",
+        "a": "spaventato"
+      },
+      "pt": {
+        "q": "Que palavra significa \"sentir medo de algo\"?",
+        "a": "assustado"
+      },
+      "ko": {
+        "q": "\"어떤 것에 대해 두려움을 느끼는 것\"을 뜻하는 단어는?",
+        "a": "무서운"
+      },
+      "vi": {
+        "q": "Từ nào có nghĩa là \"cảm thấy sợ điều gì đó\"?",
+        "a": "sợ hãi"
+      },
+      "ja": {
+        "q": "「何かに恐怖を感じること」を意味する単語はどれですか?",
+        "a": "怖い"
+      },
+      "zh": {
+        "q": "哪个词的意思是\"对某事感到恐惧\"？",
+        "a": "害怕"
+      }
+    },
+    {
+      "id": 22,
+      "section": "wordExercise",
+      "en": {
+        "q": "Which word means \"to reach a place after traveling\"?",
+        "a": "arrive"
+      },
+      "tr": {
+        "q": "\"Yolculuktan sonra bir yere ulaşmak\" anlamına gelen kelime hangisidir?",
+        "a": "varmak"
+      },
+      "de": {
+        "q": "Welches Wort bedeutet \"nach einer Reise einen Ort erreichen\"?",
+        "a": "ankommen"
+      },
+      "nl": {
+        "q": "Welk woord betekent \"een plaats bereiken na een reis\"?",
+        "a": "aankomen"
+      },
+      "fr": {
+        "q": "Quel mot signifie \"atteindre un lieu après un voyage\" ?",
+        "a": "arriver"
+      },
+      "ru": {
+        "q": "Какое слово означает \"достичь места после путешествия\"?",
+        "a": "прибывать"
+      },
+      "ku": {
+        "q": "Kîjan peyv wateya \"piştî rêwîtiyê gihîştina cihekî\" dide?",
+        "a": "gihîştin"
+      },
+      "tt": {
+        "q": "\"Сәяхәттән соң урынга ирешү\" дигәнне аңлаткан сүз кайсы?",
+        "a": "килеп җитү"
+      },
+      "ar": {
+        "q": "أَيُّ كَلِمَةٍ تَعْنِي \"الْوُصُولُ إِلَى مَكَانٍ بَعْدَ السَّفَرِ\"؟",
+        "a": "يَصِلُ"
+      },
+      "es": {
+        "q": "¿Qué palabra significa \"alcanzar un lugar después de viajar\"?",
+        "a": "llegar"
+      },
+      "it": {
+        "q": "Quale parola significa \"raggiungere un luogo dopo un viaggio\"?",
+        "a": "arrivare"
+      },
+      "pt": {
+        "q": "Que palavra significa \"alcançar um lugar depois de viajar\"?",
+        "a": "chegar"
+      },
+      "ko": {
+        "q": "\"여행 후에 장소에 이르는 것\"을 뜻하는 단어는?",
+        "a": "도착하다"
+      },
+      "vi": {
+        "q": "Từ nào có nghĩa là \"tới một nơi sau khi di chuyển\"?",
+        "a": "đến nơi"
+      },
+      "ja": {
+        "q": "「旅の後に場所に着くこと」を意味する単語はどれですか?",
+        "a": "到着する"
+      },
+      "zh": {
+        "q": "哪个词的意思是\"旅行后到达一个地方\"？",
+        "a": "到达"
+      }
+    },
+    {
+      "id": 23,
+      "section": "wordExercise",
+      "en": {
+        "q": "Which word means \"after a long time, at last\"?",
+        "a": "finally"
+      },
+      "tr": {
+        "q": "\"Uzun bir süre sonra, en sonunda\" anlamına gelen kelime hangisidir?",
+        "a": "sonunda"
+      },
+      "de": {
+        "q": "Welches Wort bedeutet \"nach langer Zeit, endlich\"?",
+        "a": "schließlich"
+      },
+      "nl": {
+        "q": "Welk woord betekent \"na lange tijd, ten slotte\"?",
+        "a": "eindelijk"
+      },
+      "fr": {
+        "q": "Quel mot signifie \"après longtemps, finalement\" ?",
+        "a": "enfin"
+      },
+      "ru": {
+        "q": "Какое слово означает \"после долгого времени, в конце концов\"?",
+        "a": "наконец"
+      },
+      "ku": {
+        "q": "Kîjan peyv wateya \"piştî demek dirêj, li dawiyê\" dide?",
+        "a": "di dawiyê de"
+      },
+      "tt": {
+        "q": "\"Озак вакыттан соң, ахырда\" дигәнне аңлаткан сүз кайсы?",
+        "a": "ниһаять"
+      },
+      "ar": {
+        "q": "أَيُّ كَلِمَةٍ تَعْنِي \"بَعْدَ وَقْتٍ طَوِيلٍ، فِي النِّهَايَةِ\"؟",
+        "a": "أَخِيرًا"
+      },
+      "es": {
+        "q": "¿Qué palabra significa \"después de mucho tiempo, al fin\"?",
+        "a": "finalmente"
+      },
+      "it": {
+        "q": "Quale parola significa \"dopo molto tempo, alla fine\"?",
+        "a": "finalmente"
+      },
+      "pt": {
+        "q": "Que palavra significa \"depois de muito tempo, por fim\"?",
+        "a": "finalmente"
+      },
+      "ko": {
+        "q": "\"오랜 시간 후에, 결국\"을 뜻하는 단어는?",
+        "a": "마침내"
+      },
+      "vi": {
+        "q": "Từ nào có nghĩa là \"sau một thời gian dài, rốt cuộc\"?",
+        "a": "cuối cùng"
+      },
+      "ja": {
+        "q": "「長い時間の後に、最後に」を意味する単語はどれですか?",
+        "a": "ついに"
+      },
+      "zh": {
+        "q": "哪个词的意思是\"经过很长时间后,最后\"？",
+        "a": "终于"
+      }
+    },
+    {
+      "id": 24,
+      "section": "wordExercise",
+      "en": {
+        "q": "Which word means \"a large amount or number\"?",
+        "a": "a lot"
+      },
+      "tr": {
+        "q": "\"Büyük bir miktar veya sayı\" anlamına gelen kelime hangisidir?",
+        "a": "bir sürü"
+      },
+      "de": {
+        "q": "Welches Wort bedeutet \"eine große Menge oder Anzahl\"?",
+        "a": "viele"
+      },
+      "nl": {
+        "q": "Welk woord betekent \"een grote hoeveelheid of aantal\"?",
+        "a": "veel"
+      },
+      "fr": {
+        "q": "Quel mot signifie \"une grande quantité ou un grand nombre\" ?",
+        "a": "beaucoup"
+      },
+      "ru": {
+        "q": "Какое слово означает \"большое количество чего-либо\"?",
+        "a": "много"
+      },
+      "ku": {
+        "q": "Kîjan peyv wateya \"hejmarek mezin\" dide?",
+        "a": "gelek"
+      },
+      "tt": {
+        "q": "\"Зур сан яки күләм\" дигәнне аңлаткан сүз кайсы?",
+        "a": "күп"
+      },
+      "ar": {
+        "q": "أَيُّ كَلِمَةٍ تَعْنِي \"كَمِّيَّةٌ أَوْ عَدَدٌ كَبِيرٌ\"؟",
+        "a": "كَثِيرٌ"
+      },
+      "es": {
+        "q": "¿Qué palabra significa \"una gran cantidad o número\"?",
+        "a": "muchos"
+      },
+      "it": {
+        "q": "Quale parola significa \"una grande quantità o numero\"?",
+        "a": "molti"
+      },
+      "pt": {
+        "q": "Que palavra significa \"uma grande quantidade ou número\"?",
+        "a": "muitos"
+      },
+      "ko": {
+        "q": "\"많은 양이나 수\"를 뜻하는 단어는?",
+        "a": "많은"
+      },
+      "vi": {
+        "q": "Từ nào có nghĩa là \"một số lượng lớn\"?",
+        "a": "nhiều"
+      },
+      "ja": {
+        "q": "「多い量や数」を意味する単語はどれですか?",
+        "a": "たくさん"
+      },
+      "zh": {
+        "q": "哪个词的意思是\"大量或大数目\"？",
+        "a": "很多"
+      }
+    },
+    {
+      "id": 25,
+      "section": "wordExercise",
+      "en": {
+        "q": "Which word means \"not in danger\"?",
+        "a": "safe"
+      },
+      "tr": {
+        "q": "\"Tehlikede olmamak\" anlamına gelen kelime hangisidir?",
+        "a": "güvende"
+      },
+      "de": {
+        "q": "Welches Wort bedeutet \"nicht in Gefahr\"?",
+        "a": "sicher"
+      },
+      "nl": {
+        "q": "Welk woord betekent \"niet in gevaar\"?",
+        "a": "veilig"
+      },
+      "fr": {
+        "q": "Quel mot signifie \"ne pas être en danger\" ?",
+        "a": "en sécurité"
+      },
+      "ru": {
+        "q": "Какое слово означает \"не в опасности\"?",
+        "a": "в безопасности"
+      },
+      "ku": {
+        "q": "Kîjan peyv wateya \"ne di xetereyê de\" dide?",
+        "a": "ewle"
+      },
+      "tt": {
+        "q": "\"Куркыныч астында түгел\" дигәнне аңлаткан сүз кайсы?",
+        "a": "имин"
+      },
+      "ar": {
+        "q": "أَيُّ كَلِمَةٍ تَعْنِي \"لَيْسَ فِي خَطَرٍ\"؟",
+        "a": "آمِن"
+      },
+      "es": {
+        "q": "¿Qué palabra significa \"no estar en peligro\"?",
+        "a": "seguro"
+      },
+      "it": {
+        "q": "Quale parola significa \"non in pericolo\"?",
+        "a": "sicuro"
+      },
+      "pt": {
+        "q": "Que palavra significa \"fora de perigo\"?",
+        "a": "seguro"
+      },
+      "ko": {
+        "q": "\"위험하지 않은\"을 뜻하는 단어는?",
+        "a": "안전한"
+      },
+      "vi": {
+        "q": "Từ nào có nghĩa là \"không gặp nguy hiểm\"?",
+        "a": "an toàn"
+      },
+      "ja": {
+        "q": "「危険がない」を意味する単語はどれですか?",
+        "a": "安全な"
+      },
+      "zh": {
+        "q": "哪个词的意思是\"没有危险\"？",
+        "a": "安全"
+      }
+    },
+    {
+      "id": 26,
+      "section": "story",
+      "en": {
+        "q": "The Fox and the Farmer",
+        "a": "Every night, a clever fox came to the farmer's field and stole chickens. The farmer was angry, and he was afraid that soon he would have no chickens left.\n\nOne evening, the farmer had an idea. He decided to hide behind the barn and wait.\n\nA lot of stars filled the sky when the fox finally arrived. The fox walked straight to the middle of the field, ready to attack the chicken house.\n\nAt that moment, the farmer jumped out and shouted, \"Stop!\" The fox froze, but it did not run away. \"Please don't hurt me,\" it said. \"I only hunt because I am hungry.\"\n\nThe farmer felt sorry for the fox. \"I promise not to hurt you,\" he said, \"if you agree to stop stealing my chickens.\"\n\nThe fox thought for a moment and replied, \"I agree. But will you help me find food another way?\"\n\nThe farmer was not cruel, and he wanted the fox to be safe too. So every day after that, he left food at the bottom of the old well near the field.\n\nThe fox never stole chickens again. The animals on the farm were pleased with this clever trick, and the farmer and the fox lived well together from that day on."
+      },
+      "tr": {
+        "q": "Tilki ve Çiftçi",
+        "a": "Her gece zeki bir tilki çiftçinin tarlasına gelip tavuklarını çalıyordu. Çiftçi çok kızgındı ve yakında hiç tavuğu kalmayacağından korkuyordu.\n\nBir akşam çiftçinin aklına bir fikir geldi. Ahırın arkasına saklanıp beklemeye karar verdi.\n\nGökyüzü bir sürü yıldızla doluyken tilki sonunda geldi. Tilki, tavuk kümesine saldırmaya hazır şekilde doğruca tarlanın ortasına yürüdü.\n\nTam o anda çiftçi ortaya fırlayıp \"Dur!\" diye bağırdı. Tilki donup kaldı ama kaçmadı. \"Lütfen bana zarar verme,\" dedi. \"Sadece aç olduğum için avlanıyorum.\"\n\nÇiftçi tilkiye acıdı. \"Tavuklarımı çalmayı bırakmayı kabul edersen,\" dedi, \"sana zarar vermeyeceğime söz veriyorum.\"\n\nTilki bir an düşündü ve \"Kabul ediyorum. Ama bana başka bir şekilde yiyecek bulmama yardım eder misin?\" diye cevap verdi.\n\nÇiftçi acımasız biri değildi ve tilkinin de güvende olmasını istiyordu. Bundan sonra her gün tarlanın yanındaki eski kuyunun dibine yiyecek bırakmaya başladı.\n\nTilki bir daha hiç tavuk çalmadı. Çiftlikteki hayvanlar bu zekice hileden memnun kaldılar ve o günden sonra çiftçi ile tilki birlikte iyi bir hayat sürdüler."
+      },
+      "de": {
+        "q": "Der Fuchs und der Bauer",
+        "a": "Jede Nacht kam ein kluger Fuchs auf das Feld des Bauern und stahl Hühner. Der Bauer war wütend und hatte Angst, dass er bald keine Hühner mehr haben würde.\n\nEines Abends hatte der Bauer eine Idee. Er beschloss, sich hinter der Scheune zu verstecken und zu warten.\n\nViele Sterne füllten den Himmel, als der Fuchs schließlich ankam. Der Fuchs ging direkt zur Mitte des Feldes, bereit, das Hühnerhaus anzugreifen.\n\nIn diesem Moment sprang der Bauer heraus und rief: \"Halt!\" Der Fuchs erstarrte, lief aber nicht weg. \"Bitte tu mir nichts\", sagte er. \"Ich jage nur, weil ich hungrig bin.\"\n\nDer Bauer hatte Mitleid mit dem Fuchs. \"Ich verspreche, dir nichts zu tun\", sagte er, \"wenn du zustimmst, keine Hühner mehr zu stehlen.\"\n\nDer Fuchs dachte einen Moment nach und antwortete: \"Ich stimme zu. Aber hilfst du mir, auf andere Weise Nahrung zu finden?\"\n\nDer Bauer war nicht grausam, und er wollte, dass der Fuchs auch sicher war. Von da an legte er jeden Tag Futter am Boden des alten Brunnens neben dem Feld ab.\n\nDer Fuchs stahl nie wieder Hühner. Die Tiere auf dem Hof waren erfreut über diesen klugen Trick, und der Bauer und der Fuchs lebten von diesem Tag an gut zusammen."
+      },
+      "nl": {
+        "q": "De Vos en de Boer",
+        "a": "Elke nacht kwam een slimme vos naar het veld van de boer en stal kippen. De boer was boos en bang dat hij binnenkort geen kippen meer zou hebben.\n\nOp een avond had de boer een idee. Hij besloot zich achter de schuur te verstoppen en te wachten.\n\nVeel sterren vulden de lucht toen de vos eindelijk aankwam. De vos liep recht naar het midden van het veld, klaar om de kippenren aan te vallen.\n\nOp dat moment sprong de boer tevoorschijn en riep: \"Stop!\" De vos verstijfde, maar rende niet weg. \"Doe me alsjeblieft geen pijn,\" zei hij. \"Ik jaag alleen omdat ik honger heb.\"\n\nDe boer had medelijden met de vos. \"Ik beloof je geen pijn te doen,\" zei hij, \"als je ermee instemt geen kippen meer te stelen.\"\n\nDe vos dacht een moment na en antwoordde: \"Ik ga akkoord. Maar help je me op een andere manier voedsel te vinden?\"\n\nDe boer was niet wreed en wilde dat de vos ook veilig was. Dus legde hij vanaf die dag elke dag voedsel op de bodem van de oude put naast het veld.\n\nDe vos stal nooit meer kippen. De dieren op de boerderij waren blij met deze slimme truc, en de boer en de vos leefden vanaf die dag goed samen."
+      },
+      "fr": {
+        "q": "Le Renard et le Fermier",
+        "a": "Chaque nuit, un renard astucieux venait dans le champ du fermier et volait des poules. Le fermier était en colère et avait peur de bientôt ne plus avoir de poules.\n\nUn soir, le fermier eut une idée. Il décida de se cacher derrière la grange et d'attendre.\n\nBeaucoup d'étoiles remplissaient le ciel quand le renard arriva enfin. Le renard marcha droit vers le milieu du champ, prêt à attaquer le poulailler.\n\nÀ ce moment-là, le fermier bondit et cria : \"Arrête !\" Le renard se figea, mais ne s'enfuit pas. \"Ne me fais pas de mal, s'il te plaît,\" dit-il. \"Je chasse seulement parce que j'ai faim.\"\n\nLe fermier eut pitié du renard. \"Je promets de ne pas te faire de mal,\" dit-il, \"si tu es d'accord d'arrêter de voler mes poules.\"\n\nLe renard réfléchit un moment et répondit : \"Je suis d'accord. Mais m'aideras-tu à trouver de la nourriture autrement ?\"\n\nLe fermier n'était pas cruel, et il voulait aussi que le renard soit en sécurité. Alors, chaque jour à partir de ce moment-là, il laissa de la nourriture au fond du vieux puits près du champ.\n\nLe renard ne vola plus jamais de poules. Les animaux de la ferme étaient contents de cette astuce intelligente, et le fermier et le renard vécurent bien ensemble à partir de ce jour."
+      },
+      "ru": {
+        "q": "Лиса и Фермер",
+        "a": "Каждую ночь умная лиса приходила на поле фермера и крала кур. Фермер был зол и боялся, что скоро у него совсем не останется кур.\n\nОднажды вечером у фермера появилась идея. Он решил спрятаться за сараем и подождать.\n\nНебо было полно звёзд, когда лиса наконец пришла. Лиса пошла прямо к середине поля, готовая напасть на курятник.\n\nВ этот момент фермер выскочил и закричал: \"Стой!\" Лиса замерла, но не убежала. \"Пожалуйста, не причиняй мне вреда,\" — сказала она. \"Я охочусь только потому, что голодна.\"\n\nФермеру стало жаль лису. \"Я обещаю не причинять тебе вреда,\" — сказал он, \"если ты согласишься перестать красть моих кур.\"\n\nЛиса на момент задумалась и ответила: \"Я согласна. Но поможешь ли ты мне найти еду по-другому?\"\n\nФермер не был жестоким и хотел, чтобы лиса тоже была в безопасности. С того дня он каждый день оставлял еду на дне старого колодца рядом с полем.\n\nЛиса больше никогда не крала кур. Животные на ферме были довольны этой умной хитростью, и с того дня фермер и лиса жили хорошо вместе."
+      },
+      "ku": {
+        "q": "Rovî û Cotkar",
+        "a": "Her şev rovîyek zîrek dihat zeviya cotkar û mirîşkan didizî. Cotkar hêrs bû û ditirsiya ku zûtirîn wê êdî mirîşkên wî tune bin.\n\nÊvarekê raman ket serê cotkar. Wî biryar da ku li paş embarê veşêre û bisekine.\n\nGava rovî di dawiyê de gihîşt, ezman bi gelek stêrkan tijî bû. Rovî rasterast ber bi nav zeviyê ve meşiya, amade bû ku êrîşî mirîşkxaneyê bike.\n\nDi wê kêliyê de cotkar derket û bang kir: \"Rawestin!\" Rovî sist bû, lê nereviya. Wê got: \"Ji kerema xwe zirarê nedin min. Ez tenê ji ber ku birçî me nêçîr dikim.\"\n\nCotkar li rovî dilovan bû. Wî got: \"Ez soz didim zirarê nadim te, heke tu li hev bikî ku dev ji dizîna mirîşkên min berdî.\"\n\nRovî kêliyek fikirî û bersiv da: \"Ez li hev dikim. Lê ma tu dê alîkariya min bikî ku bi rengekî din xwarinê bibînim?\"\n\nCotkar ne zalim bû, û wî dixwest ku rovî jî ewle be. Ji wê rojê pê ve, wî her roj li bin bîra kevn a nêzî zeviyê xwarin dihişt.\n\nRovî careke din mirîşk nedizî. Heywanên li ser kotê ji vê hîleya zîrek kêfxweş bûn, û cotkar û rovî ji wê rojê pê ve bi hev re baş jiyan."
+      },
+      "tt": {
+        "q": "Төлке һәм Игенче",
+        "a": "Һәр төнне акыллы төлке игенченең кырына килеп тавыклар урлый иде. Игенче ачуланган иде һәм тиздән бөтенләй тавыгы калмаячагыннан курка иде.\n\nБер кичне игенчегә бер фикер килде. Ул амбар артына яшеренеп көтәргә булды.\n\nКүк йөзе күп йолдыз белән тулган иде, төлке ниһаять килгәндә. Төлке туры кыр уртасына китте, тавык абзарына һөҗүм итәргә әзер булып.\n\nШул мизгелдә игенче сикереп чыгып: \"Тукта!\" — дип кычкырды. Төлке катып калды, әмма качмады. \"Зинһар, миңа зыян китермә,\" — диде ул. \"Мин ач булганга гына аулыйм.\"\n\nИгенче төлкегә кызганды. \"Мин сиңа зыян китермәскә вәгъдә бирәм,\" — диде ул, \"әгәр дә минем тавыкларымны урлауны туктатырга килешсәң.\"\n\nТөлке бер мизгел уйлап торды да җавап бирде: \"Мин килешәм. Әмма син миңа ризыкны башка юл белән табарга ярдәм итәрсеңме?\"\n\nИгенче явыз түгел иде, һәм ул төлкенең дә имин булуын тели иде. Шул көннән башлап ул һәр көн кыр янындагы иске коеның төбенә ризык калдыра иде.\n\nТөлке башка беркайчан да тавык урламады. Фермадагы хайваннар бу акыллы хәйләдән канәгать калдылар, һәм шул көннән игенче белән төлке бергә яхшы яшәделәр."
+      },
+      "ar": {
+        "q": "الثَّعْلَبُ وَالْمُزَارِعُ",
+        "a": "كُلَّ لَيْلَةٍ، كَانَ ثَعْلَبٌ ذَكِيٌّ يَأْتِي إِلَى حَقْلِ الْمُزَارِعِ وَيَسْرِقُ الدَّجَاجَ. كَانَ الْمُزَارِعُ غَاضِبًا، وَكَانَ خَائِفًا مِنْ أَنْ لَا يَبْقَى لَدَيْهِ دَجَاجٌ قَرِيبًا.\n\nفِي أَحَدِ الْأَمْسِيَاتِ، خَطَرَتْ لِلْمُزَارِعِ فِكْرَةٌ. قَرَّرَ أَنْ يَخْتَبِئَ خَلْفَ الْحَظِيرَةِ وَيَنْتَظِرَ.\n\nامْتَلَأَتِ السَّمَاءُ بِكَثِيرٍ مِنَ النُّجُومِ عِنْدَمَا وَصَلَ الثَّعْلَبُ أَخِيرًا. مَشَى الثَّعْلَبُ مُبَاشَرَةً إِلَى وَسَطِ الْحَقْلِ، مُسْتَعِدًّا لِمُهَاجَمَةِ قَنِّ الدَّجَاجِ.\n\nفِي تِلْكَ اللَّحْظَةِ، قَفَزَ الْمُزَارِعُ وَصَرَخَ: \"قِفْ!\" تَجَمَّدَ الثَّعْلَبُ، لَكِنَّهُ لَمْ يَهْرُبْ. قَالَ: \"مِنْ فَضْلِكَ لَا تُؤْذِنِي. أَنَا أَصْطَادُ فَقَطْ لِأَنَّنِي جَائِعٌ.\"\n\nشَعَرَ الْمُزَارِعُ بِالشَّفَقَةِ عَلَى الثَّعْلَبِ. قَالَ: \"أَعِدُ بِأَلَّا أُؤْذِيَكَ، إِذَا وَافَقْتَ عَلَى التَّوَقُّفِ عَنْ سَرِقَةِ دَجَاجِي.\"\n\nفَكَّرَ الثَّعْلَبُ لَحْظَةً وَرَدَّ: \"أُوَافِقُ. لَكِنْ هَلْ سَتُسَاعِدُنِي فِي إِيجَادِ طَعَامٍ بِطَرِيقَةٍ أُخْرَى؟\"\n\nلَمْ يَكُنِ الْمُزَارِعُ قَاسِيًا، وَأَرَادَ أَنْ يَكُونَ الثَّعْلَبُ آمِنًا أَيْضًا. لِذَا، كُلَّ يَوْمٍ بَعْدَ ذَلِكَ، كَانَ يَتْرُكُ طَعَامًا فِي قَاعِ الْبِئْرِ الْقَدِيمَةِ بِالْقُرْبِ مِنَ الْحَقْلِ.\n\nلَمْ يَسْرِقِ الثَّعْلَبُ الدَّجَاجَ مَرَّةً أُخْرَى أَبَدًا. كَانَتِ الْحَيَوَانَاتُ فِي الْمَزْرَعَةِ مَسْرُورَةً بِهَذِهِ الْحِيلَةِ الذَّكِيَّةِ، وَعَاشَ الْمُزَارِعُ وَالثَّعْلَبُ جَيِّدًا مَعًا مُنْذُ ذَلِكَ الْيَوْمِ."
+      },
+      "es": {
+        "q": "El Zorro y el Granjero",
+        "a": "Cada noche, un zorro astuto venía al campo del granjero y robaba gallinas. El granjero estaba enojado y temía que pronto no le quedarían gallinas.\n\nUna tarde, al granjero se le ocurrió una idea. Decidió esconderse detrás del granero y esperar.\n\nMuchas estrellas llenaban el cielo cuando el zorro finalmente llegó. El zorro caminó directo al medio del campo, listo para atacar el gallinero.\n\nEn ese momento, el granjero saltó y gritó: \"¡Alto!\" El zorro se quedó quieto, pero no huyó. \"Por favor, no me hagas daño\", dijo. \"Solo cazo porque tengo hambre.\"\n\nEl granjero sintió pena por el zorro. \"Prometo no hacerte daño\", dijo, \"si estás de acuerdo en dejar de robar mis gallinas.\"\n\nEl zorro pensó un momento y respondió: \"Estoy de acuerdo. Pero ¿me ayudarás a encontrar comida de otra manera?\"\n\nEl granjero no era cruel, y también quería que el zorro estuviera seguro. Así que, desde ese día, cada día dejaba comida en el fondo del viejo pozo cerca del campo.\n\nEl zorro nunca más robó gallinas. Los animales de la granja estaban contentos con este truco astuto, y desde ese día el granjero y el zorro vivieron bien juntos."
+      },
+      "it": {
+        "q": "La Volpe e il Contadino",
+        "a": "Ogni notte, una volpe astuta veniva nel campo del contadino e rubava le galline. Il contadino era arrabbiato e temeva che presto non gli sarebbero rimaste galline.\n\nUna sera, al contadino venne un'idea. Decise di nascondersi dietro il fienile e aspettare.\n\nMolte stelle riempivano il cielo quando la volpe finalmente arrivò. La volpe camminò dritta verso il mezzo del campo, pronta ad attaccare il pollaio.\n\nIn quel momento, il contadino saltò fuori e gridò: \"Fermati!\" La volpe si bloccò, ma non scappò. \"Per favore non farmi del male\", disse. \"Caccio solo perché ho fame.\"\n\nIl contadino provò pena per la volpe. \"Prometto di non farti del male\", disse, \"se sei d'accordo a smettere di rubare le mie galline.\"\n\nLa volpe pensò un momento e rispose: \"Sono d'accordo. Ma mi aiuterai a trovare cibo in un altro modo?\"\n\nIl contadino non era crudele, e voleva che anche la volpe fosse al sicuro. Così, da quel giorno, lasciava ogni giorno del cibo sul fondo del vecchio pozzo vicino al campo.\n\nLa volpe non rubò mai più galline. Gli animali della fattoria erano contenti di questo trucco astuto, e da quel giorno il contadino e la volpe vissero bene insieme."
+      },
+      "pt": {
+        "q": "A Raposa e o Fazendeiro",
+        "a": "Toda noite, uma raposa astuta ia até o campo do fazendeiro e roubava galinhas. O fazendeiro estava zangado e com medo de que logo não teria mais galinhas.\n\nCerta noite, o fazendeiro teve uma ideia. Decidiu se esconder atrás do celeiro e esperar.\n\nMuitas estrelas enchiam o céu quando a raposa finalmente chegou. A raposa caminhou direto para o meio do campo, pronta para atacar o galinheiro.\n\nNaquele momento, o fazendeiro pulou e gritou: \"Pare!\" A raposa congelou, mas não fugiu. \"Por favor, não me machuque\", disse ela. \"Eu só caço porque estou com fome.\"\n\nO fazendeiro sentiu pena da raposa. \"Prometo não te machucar\", disse ele, \"se você concordar em parar de roubar minhas galinhas.\"\n\nA raposa pensou por um momento e respondeu: \"Concordo. Mas você vai me ajudar a encontrar comida de outra forma?\"\n\nO fazendeiro não era cruel, e também queria que a raposa estivesse segura. Então, a partir daquele dia, ele deixava comida no fundo do velho poço perto do campo todos os dias.\n\nA raposa nunca mais roubou galinhas. Os animais da fazenda ficaram contentes com esse truque astuto, e desde aquele dia o fazendeiro e a raposa viveram bem juntos."
+      },
+      "ko": {
+        "q": "여우와 농부",
+        "a": "매일 밤, 영리한 여우가 농부의 밭에 와서 닭을 훔쳐 갔다. 농부는 화가 났고, 곧 닭이 하나도 남지 않을까 봐 무서웠다.\n\n어느 날 저녁, 농부에게 좋은 생각이 떠올랐다. 그는 헛간 뒤에 숨어서 기다리기로 했다.\n\n여우가 마침내 도착했을 때, 하늘에는 별이 많이 떠 있었다. 여우는 닭장을 공격할 준비를 하며 곧장 밭 가운데로 걸어갔다.\n\n그 순간, 농부가 뛰쳐나오며 \"멈춰!\"라고 외쳤다. 여우는 얼어붙었지만 도망가지 않았다. \"제발 해치지 마세요,\" 여우가 말했다. \"저는 배가 고파서 사냥할 뿐이에요.\"\n\n농부는 여우가 안쓰러웠다. \"네가 내 닭을 훔치는 것을 그만두겠다고 동의하면, 너를 해치지 않겠다고 약속할게,\" 그가 말했다.\n\n여우는 잠시 생각하더니 대답했다. \"동의해요. 하지만 다른 방법으로 먹이를 찾도록 도와주실래요?\"\n\n농부는 잔인하지 않았고, 여우도 안전하기를 바랐다. 그래서 그날부터 매일 밭 근처 오래된 우물 바닥에 먹이를 남겨 두었다.\n\n여우는 다시는 닭을 훔치지 않았다. 농장의 동물들은 이 영리한 속임수에 기뻐했고, 그날부터 농부와 여우는 함께 잘 지냈다."
+      },
+      "vi": {
+        "q": "Cáo và Người Nông Dân",
+        "a": "Mỗi đêm, một con cáo khôn ngoan đến cánh đồng của người nông dân và trộm gà. Người nông dân tức giận và sợ rằng chẳng bao lâu nữa ông sẽ không còn con gà nào.\n\nMột buổi tối, người nông dân nảy ra một ý tưởng. Ông quyết định trốn sau kho thóc và chờ đợi.\n\nNhiều ngôi sao lấp đầy bầu trời khi con cáo cuối cùng cũng đến. Con cáo đi thẳng đến giữa cánh đồng, sẵn sàng tấn công chuồng gà.\n\nNgay khoảnh khắc đó, người nông dân nhảy ra và hét lên: \"Dừng lại!\" Con cáo đứng sững, nhưng không bỏ chạy. \"Xin đừng làm hại tôi,\" nó nói. \"Tôi chỉ săn vì tôi đói.\"\n\nNgười nông dân cảm thấy thương hại con cáo. \"Tôi hứa sẽ không làm hại ngươi,\" ông nói, \"nếu ngươi đồng ý ngừng trộm gà của ta.\"\n\nCon cáo suy nghĩ một khoảnh khắc rồi trả lời: \"Tôi đồng ý. Nhưng ông có giúp tôi tìm thức ăn bằng cách khác không?\"\n\nNgười nông dân không tàn nhẫn, và ông cũng muốn con cáo được an toàn. Vì vậy, kể từ ngày đó, mỗi ngày ông để thức ăn ở đáy cái giếng cũ gần cánh đồng.\n\nCon cáo không bao giờ trộm gà nữa. Các con vật trong trang trại hài lòng với mẹo khôn ngoan này, và từ ngày đó người nông dân và con cáo sống giỏi giang cùng nhau."
+      },
+      "ja": {
+        "q": "キツネと農夫",
+        "a": "毎晩、賢いキツネが農夫の畑にやって来て鶏を盗んでいった。農夫は怒っていて、もうすぐ鶏が一羽もいなくなってしまうのではないかと怖かった。\n\nある晩、農夫に考えが浮かんだ。彼は納屋の後ろに隠れて待つことにした。\n\nキツネがついにやって来たとき、空にはたくさんの星が輝いていた。キツネは鶏小屋を攻撃する準備をして、まっすぐ畑の真ん中へ歩いて行った。\n\nその瞬間、農夫が飛び出して「止まれ!」と叫んだ。キツネは固まったが、逃げなかった。「どうか私を傷つけないでください」とキツネは言った。「お腹が空いているから狩りをしているだけです。」\n\n農夫はキツネを気の毒に思った。「もし私の鶏を盗むのをやめると同意するなら、傷つけないと約束する」と彼は言った。\n\nキツネは少しの間考えてから答えた。「同意します。でも別の方法で食べ物を見つけるのを手伝ってくれますか?」\n\n農夫は残酷ではなく、キツネにも安全でいてほしいと思った。それでその日から、彼は毎日畑の近くの古い井戸の底に食べ物を置いた。\n\nキツネは二度と鶏を盗まなかった。農場の動物たちはこの賢いトリックに嬉しくなり、その日から農夫とキツネは仲良く暮らした。"
+      },
+      "zh": {
+        "q": "狐狸和农夫",
+        "a": "每天晚上,一只聪明的狐狸都会来到农夫的田里偷鸡。农夫很生气,也害怕很快就没有鸡了。\n\n一天晚上,农夫想到了一个办法。他决定躲在谷仓后面等着。\n\n狐狸终于来的时候,天空中布满了很多星星。狐狸径直走到田地中间,准备攻击鸡舍。\n\n就在那一刻,农夫跳出来大喊:\"站住!\"狐狸僵住了,但没有逃跑。\"请不要伤害我,\"它说。\"我只是因为饿了才捕猎的。\"\n\n农夫可怜起狐狸来。\"如果你同意不再偷我的鸡,\"他说,\"我承诺不会伤害你。\"\n\n狐狸想了片刻,回答说:\"我同意。但你能帮我用别的方法找食物吗?\"\n\n农夫并不残忍,他也希望狐狸能安全。所以从那天起,他每天都在田边那口老井的底部留下食物。\n\n狐狸再也没有偷过鸡。农场里的动物们对这个聪明的把戏感到高兴,从那天起,农夫和狐狸就好好地生活在了一起。"
+      }
+    },
+    {
+      "id": 27,
+      "section": "storyExercise",
+      "en": {
+        "q": "Why was the farmer angry at the beginning of the story?",
+        "a": "Because the fox kept stealing his chickens."
+      },
+      "tr": {
+        "q": "Çiftçi hikayenin başında neden kızgındı?",
+        "a": "Çünkü tilki sürekli tavuklarını çalıyordu."
+      },
+      "de": {
+        "q": "Warum war der Bauer am Anfang der Geschichte wütend?",
+        "a": "Weil der Fuchs ständig seine Hühner stahl."
+      },
+      "nl": {
+        "q": "Waarom was de boer boos aan het begin van het verhaal?",
+        "a": "Omdat de vos steeds zijn kippen stal."
+      },
+      "fr": {
+        "q": "Pourquoi le fermier était-il en colère au début de l'histoire ?",
+        "a": "Parce que le renard continuait à voler ses poules."
+      },
+      "ru": {
+        "q": "Почему фермер был зол в начале истории?",
+        "a": "Потому что лиса постоянно крала его кур."
+      },
+      "ku": {
+        "q": "Çima cotkar li destpêka çîrokê hêrs bû?",
+        "a": "Ji ber ku rovî mirîşkên wî didizîn."
+      },
+      "tt": {
+        "q": "Игенче хикәя башында ни өчен ачуланган иде?",
+        "a": "Чөнки төлке аның тавыкларын өзлексез урлый иде."
+      },
+      "ar": {
+        "q": "لِمَاذَا كَانَ الْمُزَارِعُ غَاضِبًا فِي بِدَايَةِ الْقِصَّةِ؟",
+        "a": "لِأَنَّ الثَّعْلَبَ كَانَ يَسْرِقُ دَجَاجَهُ بِاسْتِمْرَارٍ."
+      },
+      "es": {
+        "q": "¿Por qué estaba enojado el granjero al principio de la historia?",
+        "a": "Porque el zorro seguía robándole las gallinas."
+      },
+      "it": {
+        "q": "Perché il contadino era arrabbiato all'inizio della storia?",
+        "a": "Perché la volpe continuava a rubargli le galline."
+      },
+      "pt": {
+        "q": "Por que o fazendeiro estava zangado no início da história?",
+        "a": "Porque a raposa continuava roubando suas galinhas."
+      },
+      "ko": {
+        "q": "이야기 초반에 농부는 왜 화가 났나요?",
+        "a": "여우가 계속 그의 닭을 훔쳤기 때문이다."
+      },
+      "vi": {
+        "q": "Tại sao người nông dân tức giận ở đầu câu chuyện?",
+        "a": "Vì con cáo cứ trộm gà của ông."
+      },
+      "ja": {
+        "q": "物語の最初に農夫はなぜ怒っていましたか?",
+        "a": "キツネが彼の鶏をずっと盗んでいたから。"
+      },
+      "zh": {
+        "q": "故事开始时农夫为什么生气?",
+        "a": "因为狐狸一直在偷他的鸡。"
+      }
+    },
+    {
+      "id": 28,
+      "section": "storyExercise",
+      "en": {
+        "q": "What did the fox promise to do?",
+        "a": "It promised to stop stealing the farmer's chickens."
+      },
+      "tr": {
+        "q": "Tilki ne yapmaya söz verdi?",
+        "a": "Çiftçinin tavuklarını çalmayı bırakmaya söz verdi."
+      },
+      "de": {
+        "q": "Was versprach der Fuchs zu tun?",
+        "a": "Er versprach, keine Hühner des Bauern mehr zu stehlen."
+      },
+      "nl": {
+        "q": "Wat beloofde de vos te doen?",
+        "a": "Hij beloofde te stoppen met het stelen van de kippen van de boer."
+      },
+      "fr": {
+        "q": "Qu'a promis de faire le renard ?",
+        "a": "Il a promis d'arrêter de voler les poules du fermier."
+      },
+      "ru": {
+        "q": "Что пообещала сделать лиса?",
+        "a": "Она пообещала перестать красть кур фермера."
+      },
+      "ku": {
+        "q": "Rovî soz da ku çi bike?",
+        "a": "Wî soz da ku dev ji dizîna mirîşkên cotkar berde."
+      },
+      "tt": {
+        "q": "Төлке нәрсә эшләргә вәгъдә бирде?",
+        "a": "Ул игенченең тавыкларын урлауны туктатырга вәгъдә бирде."
+      },
+      "ar": {
+        "q": "بِمَاذَا وَعَدَ الثَّعْلَبُ؟",
+        "a": "وَعَدَ بِالتَّوَقُّفِ عَنْ سَرِقَةِ دَجَاجِ الْمُزَارِعِ."
+      },
+      "es": {
+        "q": "¿Qué prometió hacer el zorro?",
+        "a": "Prometió dejar de robar las gallinas del granjero."
+      },
+      "it": {
+        "q": "Cosa promise di fare la volpe?",
+        "a": "Promise di smettere di rubare le galline del contadino."
+      },
+      "pt": {
+        "q": "O que a raposa prometeu fazer?",
+        "a": "Prometeu parar de roubar as galinhas do fazendeiro."
+      },
+      "ko": {
+        "q": "여우는 무엇을 하겠다고 약속했나요?",
+        "a": "농부의 닭을 훔치는 것을 그만두겠다고 약속했다."
+      },
+      "vi": {
+        "q": "Con cáo đã hứa sẽ làm gì?",
+        "a": "Nó hứa sẽ ngừng trộm gà của người nông dân."
+      },
+      "ja": {
+        "q": "キツネは何をすると約束しましたか?",
+        "a": "農夫の鶏を盗むのをやめると約束した。"
+      },
+      "zh": {
+        "q": "狐狸承诺做什么?",
+        "a": "它承诺不再偷农夫的鸡。"
+      }
+    },
+    {
+      "id": 29,
+      "section": "storyExercise",
+      "en": {
+        "q": "Where did the farmer leave food for the fox?",
+        "a": "At the bottom of the old well near the field."
+      },
+      "tr": {
+        "q": "Çiftçi tilki için yiyeceği nereye bıraktı?",
+        "a": "Tarlanın yanındaki eski kuyunun dibine."
+      },
+      "de": {
+        "q": "Wo legte der Bauer Futter für den Fuchs ab?",
+        "a": "Am Boden des alten Brunnens neben dem Feld."
+      },
+      "nl": {
+        "q": "Waar legde de boer voedsel voor de vos?",
+        "a": "Op de bodem van de oude put naast het veld."
+      },
+      "fr": {
+        "q": "Où le fermier a-t-il laissé de la nourriture pour le renard ?",
+        "a": "Au fond du vieux puits près du champ."
+      },
+      "ru": {
+        "q": "Где фермер оставлял еду для лисы?",
+        "a": "На дне старого колодца рядом с полем."
+      },
+      "ku": {
+        "q": "Cotkar xwarin li ku derê ji bo rovî dihişt?",
+        "a": "Li bin bîra kevn a nêzî zeviyê."
+      },
+      "tt": {
+        "q": "Игенче төлке өчен ризыкны кайда калдыра иде?",
+        "a": "Кыр янындагы иске коеның төбенә."
+      },
+      "ar": {
+        "q": "أَيْنَ تَرَكَ الْمُزَارِعُ الطَّعَامَ لِلثَّعْلَبِ؟",
+        "a": "فِي قَاعِ الْبِئْرِ الْقَدِيمَةِ بِالْقُرْبِ مِنَ الْحَقْلِ."
+      },
+      "es": {
+        "q": "¿Dónde dejaba el granjero la comida para el zorro?",
+        "a": "En el fondo del viejo pozo cerca del campo."
+      },
+      "it": {
+        "q": "Dove lasciava il contadino il cibo per la volpe?",
+        "a": "Sul fondo del vecchio pozzo vicino al campo."
+      },
+      "pt": {
+        "q": "Onde o fazendeiro deixava comida para a raposa?",
+        "a": "No fundo do velho poço perto do campo."
+      },
+      "ko": {
+        "q": "농부는 여우를 위해 먹이를 어디에 두었나요?",
+        "a": "밭 근처 오래된 우물 바닥에."
+      },
+      "vi": {
+        "q": "Người nông dân để thức ăn cho con cáo ở đâu?",
+        "a": "Ở đáy cái giếng cũ gần cánh đồng."
+      },
+      "ja": {
+        "q": "農夫はキツネのためにどこに食べ物を置きましたか?",
+        "a": "畑の近くの古い井戸の底に。"
+      },
+      "zh": {
+        "q": "农夫把食物放在哪里给狐狸?",
+        "a": "放在田边那口老井的底部。"
       }
     }
   ]
