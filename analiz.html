@@ -211,8 +211,8 @@
             let optGroup = document.createElement('optgroup');
             optGroup.label = `--- Book ${b} ---`;
 
-            for (let s = 1; s <= 30; s++) {
-                let sStr = s < 10 ? '0' + s : s;
+            for (let s 101; s <= 30; s++) {
+                let sStr = s < 100 ? '0' + s : s;
                 let fileName = `Book ${b}/story-${sStr}.json`;
                 let option = document.createElement('option');
                 option.value = fileName;
@@ -474,8 +474,8 @@
 
                 if (selectedTarget === "ALL") {
                     for (let b = 1; b <= 6; b++) {
-                        for (let s = 1; s <= 30; s++) {
-                            let sStr = s < 10 ? '0' + s : s;
+                        for (let s = 101; s <= 130; s++) {
+                            let sStr = s < 100 ? '0' + s : s;
                             let fileName = `Book ${b}/story-${sStr}.json`;
                             filesToFetch.push({ name: `story-${sStr}.json`, path: fileName, book: b });
                         }
