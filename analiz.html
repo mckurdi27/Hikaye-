@@ -87,22 +87,27 @@
 </div>
 
 <div class="section">
-    <h3>1. Kaynak ve Kapsam Seçimi (stories.json Entegre)</h3>
+    <h3>1. Kaynak ve Kapsam Seçimi</h3>
     
     <div class="source-tabs">
-        <button type="button" class="source-tab-btn active-source" onclick="switchSourceTab(0, this)">📁 1. stories.json / Kitap Arşivi</button>
+        <button type="button" class="source-tab-btn active-source" onclick="switchSourceTab(0, this)">📁 1. JSON Arşiv Seçimi</button>
         <button type="button" class="source-tab-btn" onclick="switchSourceTab(1, this)">📷 2. Kamera / Fotoğraf OCR</button>
         <button type="button" class="source-tab-btn" onclick="switchSourceTab(2, this)">📋 3. Metin / Tüm Dosyalar (PDF, Word, Excel, TXT)</button>
     </div>
 
     <div class="source-panel active-panel" id="panel-json">
         <div class="input-box" style="margin-top: 5px; margin-bottom: 15px;">
-            <label for="jsonSelect"><strong>Hedef Kitap / Dil / Gün:</strong></label>
+            <label for="jsonSelect"><strong>Hedef JSON Dosyası / Grubu:</strong></label>
             <select id="jsonSelect">
-                <option value="ALL">📂 stories.json İçindeki TÜM Kitapları ve Günleri Tara</option>
+                <option value="ALL">📁 Tüm Kitapları Tara (Book 1 - Book 6)</option>
+                <option value="GROUP_BOOK1">📂 Book 1 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK2">📂 Book 2 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK3">📂 Book 3 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK4">📂 Book 4 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK5">📂 Book 5 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK6">📂 Book 6 (Tüm Hikayeler)</option>
             </select>
         </div>
-        <div id="masterStatus" style="font-size: 12px; color: #047857; font-weight: bold;">stories.json yükleniyor...</div>
     </div>
 
     <div class="source-panel" id="panel-camera">
@@ -148,8 +153,8 @@
             </div>
 
             <div style="margin-top: 10px;">
-                <label style="font-weight: bold; font-size: 13px; display: block; margin-bottom: 5px; color: #0369a1;">🔍 Çevrilen Metin Önizlemesi:</label>
-                <textarea id="previewExtractedTextArea" rows="6" style="width: 100%; border: 1px solid #0369a1; border-radius: 4px; padding: 8px; background: #f0f9ff; font-family: monospace; font-size: 12px;" placeholder="Dosyaları işledikten sonra buraya metin düşecek..."></textarea>
+                <label style="font-weight: bold; font-size: 13px; display: block; margin-bottom: 5px; color: #0369a1;">🔍 Çevrilen Metin Önizlemesi (Analiz Edilmeden Önce Ne Okunduğunu Gör):</label>
+                <textarea id="previewExtractedTextArea" rows="6" style="width: 100%; border: 1px solid #0369a1; border-radius: 4px; padding: 8px; background: #f0f9ff; font-family: monospace; font-size: 12px;" placeholder="Dosyaları işledikten sonra buraya metin düşecek. İsterseniz burada metni doğrudan düzenleyip silebilir, sonra analizi çalıştırabilirsiniz..."></textarea>
             </div>
         </div>
     </div>
@@ -198,64 +203,43 @@
 <script>
     let customCsvContent = "";
     let globalCsvDictionary = {};
-    let globalStoriesMaster = null; // stories.json verisi burada tutulacak
     let state = { task: 'hikaye', activeSourceType: 'json', customExtractedText: "" };
     let globalTableData = [];
     let fileCountToProcess = 1;
     let currentSortColumn = 'original';
     let currentSortOrder = 'asc';
 
-    window.addEventListener('DOMContentLoaded', async () => {
-        await loadStoriesMasterIndex();
+    window.addEventListener('DOMContentLoaded', () => {
+        const selectEl = document.getElementById('jsonSelect');
+        
+        // 6 Kitap ve her birinde 30 hikaye (story-XXYY.json) yapılandırması
+        for (let b = 1; b <= 6; b++) {
+            let optGroup = document.createElement('optgroup');
+            optGroup.label = `--- Book ${b} Dosyaları ---`;
+            
+            let groupAllOpt = document.createElement('option');
+            groupAllOpt.value = `GROUP_BOOK${b}`;
+            groupAllOpt.textContent = `📂 Book ${b} - Tüm Hikayeler (1-30)`;
+            groupAllOpt.style.fontWeight = "bold";
+            groupAllOpt.style.color = "#4f46e5";
+            optGroup.appendChild(groupAllOpt);
+
+            for (let s = 1; s <= 30; s++) {
+                let sStr = s < 10 ? '0' + s : s;
+                let bStr = '0' + b;
+                let fileName = `book-${b}/story-${bStr}${sStr}.json`;
+                let option = document.createElement('option');
+                option.value = fileName;
+                option.text = `Book ${b} - Hikaye ${s} (${fileName})`;
+                optGroup.appendChild(option);
+            }
+            selectEl.appendChild(optGroup);
+        }
 
         document.querySelectorAll('input[name="csvFile"]').forEach(cb => {
             cb.addEventListener('change', updateCsvSelectionInfo);
         });
     });
-
-    async function loadStoriesMasterIndex() {
-        const selectEl = document.getElementById('jsonSelect');
-        const masterStatus = document.getElementById('masterStatus');
-        
-        try {
-            let res = await fetch('stories.json');
-            if (!res.ok) throw new Error("stories.json dosyası okunamadı.");
-            globalStoriesMaster = await res.json();
-            
-            selectEl.innerHTML = '<option value="ALL">📂 stories.json İçindeki TÜM Kitapları ve Günleri Tara</option>';
-
-            // stories.json yapısına göre (örn. book1, book2... ve diller) dolduruyoruz
-            // Varsayalım ki stories.json içinde kitaplar ve diller yer alıyor
-            let booksKeys = Object.keys(globalStoriesMaster).filter(k => k.startsWith('book') || Array.isArray(globalStoriesMaster[k]));
-            
-            if (booksKeys.length === 0) {
-                // Eğer doğrudan dizi veya başka bir yapıdaysa genel tarama yeterlidir
-                masterStatus.innerText = "✅ stories.json başarıyla yüklendi (Genel Yapı).";
-                return;
-            }
-
-            booksKeys.forEach(bookKey => {
-                let optGroup = document.createElement('optgroup');
-                optGroup.label = `--- Kitap: ${bookKey.toUpperCase()} ---`;
-                
-                let bookObj = globalStoriesMaster[bookKey];
-                if (typeof bookObj === 'object' && bookObj !== null) {
-                    let languages = Object.keys(bookObj);
-                    languages.forEach(lang => {
-                        let option = document.createElement('option');
-                        option.value = `${bookKey}_${lang}`;
-                        option.text = `Kitap: ${bookKey.toUpperCase()} | Dil: ${lang.toUpperCase()}`;
-                        optGroup.appendChild(option);
-                    });
-                }
-                selectEl.appendChild(optGroup);
-            });
-
-            masterStatus.innerText = "✅ stories.json başarıyla yüklendi ve seçim listesi hazırlandı!";
-        } catch (err) {
-            masterStatus.innerHTML = `<span style="color: #dc2626;">❌ stories.json yükleme hatası: ${err.message}. Lütfen dosyanın dizinde olduğundan emin olun.</span>`;
-        }
-    }
 
     function switchSourceTab(index, btn) {
         document.querySelectorAll('.source-tab-btn').forEach(b => b.classList.remove('active-source'));
@@ -376,7 +360,7 @@
 
             state.customExtractedText = combinedTexts.join('\n\n');
             previewArea.value = state.customExtractedText;
-            statusEl.innerText = `✅ Dosyalar başarıyla metne çevrildi ve önizlemeye yüklendi!`;
+            statusEl.innerText = `✅ Dosyalar başarıyla metne çevrildi ve aşağıda önizlemeye yüklendi!`;
         } catch (err) {
             statusEl.innerText = "❌ Dosya Okuma Hatası: " + err.message;
         }
@@ -462,7 +446,7 @@
                 }
             });
 
-            let targetDatasets = [];
+            let rawJsonDataArray = [];
             let itemTracking = {};
             let translationTracking = {};
             let totalCheckedCount = 0;
@@ -499,61 +483,51 @@
                     }
                 });
             } else {
-                if (!globalStoriesMaster) {
-                    throw new Error("stories.json henüz yüklenmedi veya bulunamadı.");
-                }
-
                 const selectedTarget = document.getElementById('jsonSelect').value;
-                
-                // stories.json içerisindeki gün/hikaye verilerini topluyoruz
-                let extractEntries = (node, sourceLabel) => {
-                    if (!node) return;
-                    if (Array.isArray(node)) {
-                        node.forEach((item, idx) => {
-                            targetDatasets.push({ sourceName: `${sourceLabel}_item_${idx}`, data: item, defaultLevel: 'B1' });
-                        });
-                    } else if (typeof node === 'object') {
-                        // Eğer günlük dosyalar veya alt nesneler içeriyorsa tarıyoruz
-                        Object.keys(node).forEach(k => {
-                            let val = node[k];
-                            if (typeof val === 'object' && val !== null) {
-                                // Eğer içinde story_en veya words varsa doğrudan veri düğümüdür
-                                if (val.story_en || val.words || val.word) {
-                                    targetDatasets.push({ sourceName: `${sourceLabel}_${k}`, data: val, defaultLevel: 'B1' });
-                                } else {
-                                    extractEntries(val, `${sourceLabel}_${k}`);
-                                }
-                            }
-                        });
-                    }
-                };
+                let filesToFetch = [];
 
                 if (selectedTarget === "ALL") {
-                    extractEntries(globalStoriesMaster, "Master");
-                } else {
-                    let parts = selectedTarget.split('_');
-                    let bKey = parts[0];
-                    let lKey = parts[1];
-                    if (globalStoriesMaster[bKey] && globalStoriesMaster[bKey][lKey]) {
-                        extractEntries(globalStoriesMaster[bKey][lKey], `${bKey}_${lKey}`);
+                    for (let b = 1; b <= 6; b++) {
+                        for (let s = 1; s <= 30; s++) {
+                            let sStr = s < 10 ? '0' + s : s;
+                            let bStr = '0' + b;
+                            filesToFetch.push({ name: `story-${bStr}${sStr}.json`, path: `book-${b}/story-${bStr}${sStr}.json`, book: b });
+                        }
                     }
+                } else if (selectedTarget.startsWith("GROUP_BOOK")) {
+                    let bNum = selectedTarget.replace("GROUP_BOOK", "");
+                    for (let s = 1; s <= 30; s++) {
+                        let sStr = s < 10 ? '0' + s : s;
+                        let bStr = '0' + bNum;
+                        filesToFetch.push({ name: `story-${bStr}${sStr}.json`, path: `book-${bNum}/story-${bStr}${sStr}.json`, book: bNum });
+                    }
+                } else {
+                    filesToFetch.push({ name: selectedTarget.split('/').pop(), path: selectedTarget, book: 1 });
                 }
 
-                if (targetDatasets.length === 0) {
-                    throw new Error("Seçilen kriter uygun veri kümesi döndürmedi.");
+                for (let itemObj of filesToFetch) {
+                    try {
+                        let res = await fetch(itemObj.path);
+                        if (res.ok) {
+                            let jsonData = await res.json();
+                            rawJsonDataArray.push({ sourceName: itemObj.name, data: jsonData, defaultLevel: 'B1' });
+                        }
+                    } catch (e) {}
                 }
 
-                fileCountToProcess = targetDatasets.length;
+                if (rawJsonDataArray.length === 0) throw new Error("Dosya(lar) bulunamadı.");
+                fileCountToProcess = rawJsonDataArray.length;
 
-                targetDatasets.forEach(itemObj => {
+                rawJsonDataArray.forEach(itemObj => {
                     let fName = itemObj.sourceName;
                     let data = itemObj.data;
                     let jsonFileLevel = (data.level && data.level.trim() !== '') ? data.level.toUpperCase().trim() : itemObj.defaultLevel;
 
                     if (state.task === 'hikaye') {
-                        let textSource = data.story_en || data.text || (typeof data === 'string' ? data : '');
-                        if (textSource && typeof textSource === 'string') {
-                            let cleanStory = textSource.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"']/g, " ").toLowerCase();
+                        // Hikaye alanını destekler (story ya da story_en)
+                        let storyContent = data.story?.text || data.story_en || (typeof data.story === 'string' ? data.story : '');
+                        if (storyContent && typeof storyContent === 'string') {
+                            let cleanStory = storyContent.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"']/g, " ").toLowerCase();
                             let wordsArr = cleanStory.split(/\s+/);
                             
                             wordsArr.forEach((w, wordIndex) => {
@@ -577,13 +551,13 @@
                             });
                         }
                     } else if (state.task === 'kelimeler') {
-                        let list = data.words && Array.isArray(data.words) ? data.words : (Array.isArray(data) ? data : []);
+                        let list = data.words && Array.isArray(data.words) ? data.words : [];
                         list.forEach((item, itemIndex) => {
-                            let wordStr = item.word || item.Kelime || '';
+                            let wordStr = item.term || item.word || item.Kelime || '';
                             if (wordStr) {
                                 let cleanW = wordStr.trim().toLowerCase();
                                 totalCheckedCount++;
-                                let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : jsonFileLevel;
+                                let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : (item.level || jsonFileLevel);
                                 let csvMatched = !!globalCsvDictionary[cleanW];
 
                                 if (!itemTracking[cleanW]) {
@@ -599,13 +573,13 @@
                             }
                         });
                     } else {
-                        let list = data.words && Array.isArray(data.words) ? data.words : (Array.isArray(data) ? data : []);
+                        let list = data.words && Array.isArray(data.words) ? data.words : [];
                         list.forEach((item, itemIndex) => {
-                            let wordStr = item.word || item.Kelime || '';
+                            let wordStr = item.term || item.word || item.Kelime || '';
                             if (wordStr) {
                                 let cleanW = wordStr.trim().toLowerCase();
                                 totalCheckedCount++;
-                                let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : jsonFileLevel;
+                                let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : (item.level || jsonFileLevel);
                                 let csvMatched = !!globalCsvDictionary[cleanW];
 
                                 if (!translationTracking[cleanW]) {
