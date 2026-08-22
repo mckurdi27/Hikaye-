@@ -100,12 +100,12 @@
             <label for="jsonSelect"><strong>Hedef JSON Dosyası / Grubu:</strong></label>
             <select id="jsonSelect">
                 <option value="ALL">📁 Tüm Kitapları Tara (Book 1 - Book 6)</option>
-                <option value="GROUP_BOOK1">📂 Book 1 (Tüm Hikayeler)</option>
-                <option value="GROUP_BOOK2">📂 Book 2 (Tüm Hikayeler)</option>
-                <option value="GROUP_BOOK3">📂 Book 3 (Tüm Hikayeler)</option>
-                <option value="GROUP_BOOK4">📂 Book 4 (Tüm Hikayeler)</option>
-                <option value="GROUP_BOOK5">📂 Book 5 (Tüm Hikayeler)</option>
-                <option value="GROUP_BOOK6">📂 Book 6 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK1">📂 book1 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK2">📂 book2 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK3">📂 book3 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK4">📂 book4 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK5">📂 book5 (Tüm Hikayeler)</option>
+                <option value="GROUP_BOOK6">📂 book6 (Tüm Hikayeler)</option>
             </select>
         </div>
     </div>
@@ -212,25 +212,24 @@
     window.addEventListener('DOMContentLoaded', () => {
         const selectEl = document.getElementById('jsonSelect');
         
-        // 6 Kitap ve her birinde 30 hikaye (story-XXYY.json) yapılandırması
+        // GitHub deponuzdaki gerçek klasör yapısına göre düzeltildi (book1, book2 vb. tire işaretsiz)
         for (let b = 1; b <= 6; b++) {
             let optGroup = document.createElement('optgroup');
-            optGroup.label = `--- Book ${b} Dosyaları ---`;
+            optGroup.label = `--- book${b} Dosyaları ---`;
             
             let groupAllOpt = document.createElement('option');
             groupAllOpt.value = `GROUP_BOOK${b}`;
-            groupAllOpt.textContent = `📂 Book ${b} - Tüm Hikayeler (1-30)`;
+            groupAllOpt.textContent = `📂 book${b} - Tüm Hikayeler (1-30)`;
             groupAllOpt.style.fontWeight = "bold";
             groupAllOpt.style.color = "#4f46e5";
             optGroup.appendChild(groupAllOpt);
 
             for (let s = 1; s <= 30; s++) {
                 let sStr = s < 10 ? '0' + s : s;
-                let bStr = '0' + b;
-                let fileName = `book-${b}/story-${bStr}${sStr}.json`;
+                let fileName = `book${b}/story-0${b}${sStr}.json`;
                 let option = document.createElement('option');
                 option.value = fileName;
-                option.text = `Book ${b} - Hikaye ${s} (${fileName})`;
+                option.text = `book${b} - Hikaye ${s} (${fileName})`;
                 optGroup.appendChild(option);
             }
             selectEl.appendChild(optGroup);
@@ -490,16 +489,16 @@
                     for (let b = 1; b <= 6; b++) {
                         for (let s = 1; s <= 30; s++) {
                             let sStr = s < 10 ? '0' + s : s;
-                            let bStr = '0' + b;
-                            filesToFetch.push({ name: `story-${bStr}${sStr}.json`, path: `book-${b}/story-${bStr}${sStr}.json`, book: b });
+                            let fileName = `book${b}/story-0${b}${sStr}.json`;
+                            filesToFetch.push({ name: `story-0${b}${sStr}.json`, path: fileName, book: b });
                         }
                     }
                 } else if (selectedTarget.startsWith("GROUP_BOOK")) {
                     let bNum = selectedTarget.replace("GROUP_BOOK", "");
                     for (let s = 1; s <= 30; s++) {
                         let sStr = s < 10 ? '0' + s : s;
-                        let bStr = '0' + bNum;
-                        filesToFetch.push({ name: `story-${bStr}${sStr}.json`, path: `book-${bNum}/story-${bStr}${sStr}.json`, book: bNum });
+                        let fileName = `book${bNum}/story-0${bNum}${sStr}.json`;
+                        filesToFetch.push({ name: `story-0${bNum}${sStr}.json`, path: fileName, book: bNum });
                     }
                 } else {
                     filesToFetch.push({ name: selectedTarget.split('/').pop(), path: selectedTarget, book: 1 });
@@ -524,7 +523,6 @@
                     let jsonFileLevel = (data.level && data.level.trim() !== '') ? data.level.toUpperCase().trim() : itemObj.defaultLevel;
 
                     if (state.task === 'hikaye') {
-                        // Hikaye alanını destekler (story ya da story_en)
                         let storyContent = data.story?.text || data.story_en || (typeof data.story === 'string' ? data.story : '');
                         if (storyContent && typeof storyContent === 'string') {
                             let cleanStory = storyContent.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"']/g, " ").toLowerCase();
