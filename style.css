@@ -804,7 +804,7 @@ footer {
 
 
 /* Analiz Butonu Stili */
-.btn-analysis-link {
+.btn-analiz-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -818,6 +818,6 @@ footer {
   transition: background-color 0.2s ease;
 }
 
-.btn-analysis-link:hover {
+.btn-analiz-link:hover {
   background-color: #4338ca;
 }
