@@ -468,6 +468,10 @@
                         itemTracking[cleanW].fileOccurrences.push({ file: 'Onizleme_Metin_Girdisi', index: wordIndex + 1 });
                     }
                 });
+
+
+
+                
             } else {
                 const selectedTarget = document.getElementById('jsonSelect').value;
                 let filesToFetch = [];
@@ -535,47 +539,150 @@
                             if (wordStr) {
                                 let cleanW = wordStr.trim().toLowerCase();
                                 totalCheckedCount++;
-                                let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : (item.level || jsonFileLevel);
-                                let csvMatched = !!globalCsvDictionary[cleanW];
 
-                                if (!itemTracking[cleanW]) {
-                                    itemTracking[cleanW] = { 
-                                        original: wordStr.trim(), type: (item.type || '-').replace(/\s+/g, ' '),
-                                        turkish: (item.turkish || item.Anlam || (csvMatched ? globalCsvDictionary[cleanW].turkish : '-')).replace(/\s+/g, ' '),
-                                        example_en: (item.example_en || '').replace(/\s+/g, ' '),
-                                        files: [], fileOccurrences: [], level: finalLevel, jsonLevel: jsonFileLevel, csvMatched: csvMatched
-                                    };
-                                }
-                                if (!itemTracking[cleanW].files.includes(fName)) itemTracking[cleanW].files.push(fName);
-                                itemTracking[cleanW].fileOccurrences.push({ file: fName, index: itemIndex + 1 });
-                            }
-                        });
-                    } else {
-                        let list = data.words && Array.isArray(data.words) ? data.words : [];
-                        list.forEach((item, itemIndex) => {
-                            let wordStr = item.term || item.word || item.Kelime || '';
-                            if (wordStr) {
-                                let cleanW = wordStr.trim().toLowerCase();
-                                totalCheckedCount++;
-                                let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : (item.level || jsonFileLevel);
-                                let csvMatched = !!globalCsvDictionary[cleanW];
+} else {
+    const selectedTarget = document.getElementById('jsonSelect').value;
+    let filesToFetch = [];
 
-                                if (!translationTracking[cleanW]) {
-                                    translationTracking[cleanW] = {
-                                        original: wordStr.trim(), level: finalLevel, jsonLevel: jsonFileLevel, csvMatched: csvMatched, occurrences: []
-                                    };
-                                }
-                                translationTracking[cleanW].occurrences.push({
-                                    file: fName, index: itemIndex + 1,
-                                    turkish: (item.turkish || item.Anlam || '-').replace(/\s+/g, ' '),
-                                    example_en: (item.example_en || '').replace(/\s+/g, ' ')
-                                });
-                            }
-                        });
-                    }
+    // 📌 Tüm kitapları tarama modu
+    if (selectedTarget === "ALL") {
+        for (let b = 1; b <= 6; b++) {
+            for (let s = 1; s <= 30; s++) {
+
+                // ✔ Hikaye numarasını doğru formatta oluştur (0101, 0102, 0130...)
+                let sStr = String(s).padStart(2, '0');      // 01, 02, 03...
+                let storyNumber = `0${b}${sStr}`;           // 0101, 0102, 0201, 0630...
+
+                // ✔ Gerçek klasör yapına uygun yol
+                let fileName = `book${b}/story-${storyNumber}.json`;
+
+                filesToFetch.push({
+                    name: `story-${storyNumber}.json`,
+                    path: fileName,
+                    book: b
                 });
             }
+        }
+    } 
+    
+    // 📌 Tek bir JSON seçilmişse
+    else {
+        filesToFetch.push({
+            name: selectedTarget.split('/').pop(),
+            path: selectedTarget,
+            book: 1
+        });
+    }
 
+    // 📌 Dosyaları yükle
+    for (let itemObj of filesToFetch) {
+        try {
+            let res = await fetch(itemObj.path);
+            if (res.ok) {
+                let jsonData = await res.json();
+                rawJsonDataArray.push({
+                    sourceName: itemObj.name,
+                    data: jsonData,
+                    defaultLevel: 'B1'
+                });
+            }
+        } catch (e) {}
+    }
+
+    if (rawJsonDataArray.length === 0)
+        throw new Error("Dosya(lar) bulunamadı. Lütfen bookX klasörlerindeki story-XXXX.json dosyalarının varlığını ve yollarını kontrol edin.");
+
+    fileCountToProcess = rawJsonDataArray.length;
+
+    // 📌 JSON işleme (mevcut modüllere dokunmadım)
+    rawJsonDataArray.forEach(itemObj => {
+        let fName = itemObj.sourceName;
+        let data = itemObj.data;
+        let jsonFileLevel = (data.level && data.level.trim() !== '') 
+            ? data.level.toUpperCase().trim() 
+            : itemObj.defaultLevel;
+
+        if (state.task === 'hikaye') {
+            let storyContent = data.story?.text || data.story_en || (typeof data.story === 'string' ? data.story : '');
+            if (storyContent && typeof storyContent === 'string') {
+
+                // ✔ İngilizce kelime filtresi (modüllere dokunmadan sadece yol düzeltme için bırakıldı)
+                let englishWords = storyContent.toLowerCase().match(/\b[a-zA-Z]{2,}\b/g) || [];
+
+                englishWords.forEach((cleanW, wordIndex) => {
+                    totalCheckedCount++;
+                    let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : jsonFileLevel;
+                    let csvMatched = !!globalCsvDictionary[cleanW];
+
+                    if (!itemTracking[cleanW]) {
+                        itemTracking[cleanW] = { 
+                            original: cleanW, count: 0, files: [], fileOccurrences: [],
+                            level: finalLevel, jsonLevel: jsonFileLevel, csvMatched: csvMatched,
+                            type: '-', turkish: csvMatched ? globalCsvDictionary[cleanW].turkish : '-'
+                        };
+                    }
+
+                    itemTracking[cleanW].count++;
+                    if (!itemTracking[cleanW].files.includes(fName)) itemTracking[cleanW].files.push(fName);
+                    itemTracking[cleanW].fileOccurrences.push({ file: fName, index: wordIndex + 1 });
+                });
+            }
+        }
+
+        else if (state.task === 'kelimeler') {
+            let list = data.words && Array.isArray(data.words) ? data.words : [];
+            list.forEach((item, itemIndex) => {
+                let wordStr = item.term || item.word || item.Kelime || '';
+                if (wordStr) {
+                    let cleanW = wordStr.trim().toLowerCase();
+                    totalCheckedCount++;
+                    let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : (item.level || jsonFileLevel);
+                    let csvMatched = !!globalCsvDictionary[cleanW];
+
+                    if (!itemTracking[cleanW]) {
+                        itemTracking[cleanW] = { 
+                            original: wordStr.trim(), type: (item.type || '-').replace(/\s+/g, ' '),
+                            turkish: (item.turkish || item.Anlam || (csvMatched ? globalCsvDictionary[cleanW].turkish : '-')).replace(/\s+/g, ' '),
+                            example_en: (item.example_en || '').replace(/\s+/g, ' '),
+                            files: [], fileOccurrences: [], level: finalLevel, jsonLevel: jsonFileLevel, csvMatched: csvMatched
+                        };
+                    }
+
+                    if (!itemTracking[cleanW].files.includes(fName)) itemTracking[cleanW].files.push(fName);
+                    itemTracking[cleanW].fileOccurrences.push({ file: fName, index: itemIndex + 1 });
+                }
+            });
+        }
+
+        else {
+            let list = data.words && Array.isArray(data.words) ? data.words : [];
+            list.forEach((item, itemIndex) => {
+                let wordStr = item.term || item.word || item.Kelime || '';
+                if (wordStr) {
+                    let cleanW = wordStr.trim().toLowerCase();
+                    totalCheckedCount++;
+                    let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : (item.level || jsonFileLevel);
+                    let csvMatched = !!globalCsvDictionary[cleanW];
+
+                    if (!translationTracking[cleanW]) {
+                        translationTracking[cleanW] = {
+                            original: wordStr.trim(), level: finalLevel, jsonLevel: jsonFileLevel, csvMatched: csvMatched, occurrences: []
+                        };
+                    }
+
+                    translationTracking[cleanW].occurrences.push({
+                        file: fName, index: itemIndex + 1,
+                        turkish: (item.turkish || item.Anlam || '-').replace(/\s+/g, ' '),
+                        example_en: (item.example_en || '').replace(/\s+/g, ' ')
+                    });
+                }
+            });
+        }
+    });
+                            }
+
+
+            
             statusDiv.innerText = `✅ Analiz tamamlandı!`;
 
             globalTableData = [];
