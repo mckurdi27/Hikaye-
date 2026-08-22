@@ -97,15 +97,9 @@
 
     <div class="source-panel active-panel" id="panel-json">
         <div class="input-box" style="margin-top: 5px; margin-bottom: 15px;">
-            <label for="jsonSelect"><strong>Hedef JSON Dosyası / Grubu:</strong></label>
+            <label for="jsonSelect"><strong>Hedef JSON Dosyası / Kitap:</strong></label>
             <select id="jsonSelect">
-                <option value="ALL">📁 Tüm Kitapları Tara (Book 1 - Book 6)</option>
-                <option value="GROUP_BOOK1">📂 book1 (Tüm Hikayeler)</option>
-                <option value="GROUP_BOOK2">📂 book2 (Tüm Hikayeler)</option>
-                <option value="GROUP_BOOK3">📂 book3 (Tüm Hikayeler)</option>
-                <option value="GROUP_BOOK4">📂 book4 (Tüm Hikayeler)</option>
-                <option value="GROUP_BOOK5">📂 book5 (Tüm Hikayeler)</option>
-                <option value="GROUP_BOOK6">📂 book6 (Tüm Hikayeler)</option>
+                <option value="ALL">📁 Tüm Kitapları Tara (Book 1 - 6, Toplam 180 Hikaye)</option>
             </select>
         </div>
     </div>
@@ -186,8 +180,8 @@
 <div class="section">
     <h3>2. İşlem Türü (Analiz Modu)</h3>
     <div class="btn-group">
-        <button onclick="setTask('hikaye', this)" class="active-btn">📖 Hikaye Metni Analizi (story_en)</button>
-        <button onclick="setTask('kelimeler', this)">📋 50 Kelime Listesi Analizi (words)</button>
+        <button onclick="setTask('hikaye', this)" class="active-btn">📖 Hikaye Metni Analizi (story)</button>
+        <button onclick="setTask('kelimeler', this)">📋 20 Kelime Listesi Analizi (words)</button>
         <button onclick="setTask('cevir', this)">🔤 Çeviri / Sözlük Detayı</button>
     </div>
     <div id="taskDetails" style="font-size: 13px; color: #555;">Mod: Hikaye metni kelime bazlı taranır ve frekansları ölçülür.</div>
@@ -212,24 +206,17 @@
     window.addEventListener('DOMContentLoaded', () => {
         const selectEl = document.getElementById('jsonSelect');
         
-        // Kök dizindeki book1 - book6 arası, her birinde 30 story yapısı
+        // Doğrudan ana dizindeki Book 1 - Book 6 klasörleri ve içindeki story-XX.json dosyaları
         for (let b = 1; b <= 6; b++) {
             let optGroup = document.createElement('optgroup');
-            optGroup.label = `--- book${b} Dosyaları ---`;
-            
-            let groupAllOpt = document.createElement('option');
-            groupAllOpt.value = `GROUP_BOOK${b}`;
-            groupAllOpt.textContent = `📂 book${b} - Tüm Hikayeler (1-30)`;
-            groupAllOpt.style.fontWeight = "bold";
-            groupAllOpt.style.color = "#4f46e5";
-            optGroup.appendChild(groupAllOpt);
+            optGroup.label = `--- Book ${b} ---`;
 
             for (let s = 1; s <= 30; s++) {
                 let sStr = s < 10 ? '0' + s : s;
-                let fileName = `book${b}/story-0${b}${sStr}.json`;
+                let fileName = `Book ${b}/story-${sStr}.json`;
                 let option = document.createElement('option');
                 option.value = fileName;
-                option.text = `book${b} - Hikaye ${s} (${fileName})`;
+                option.text = `Book ${b} - Hikaye ${s} (${fileName})`;
                 optGroup.appendChild(option);
             }
             selectEl.appendChild(optGroup);
@@ -396,7 +383,7 @@
         state.task = t;
         const descriptions = {
             'hikaye': 'Mod: Hikaye metni kelime bazlı taranır ve frekansları ölçülür.',
-            'kelimeler': 'Mod: 50 kelimelik liste içeriği incelenir.',
+            'kelimeler': 'Mod: 20 kelimelik liste içeriği incelenir.',
             'cevir': 'Mod: Kelimeler, Türkçe karşılıkları ve örnek cümleleriyle sözlük formatında listelenir.'
         };
         document.getElementById('taskDetails').innerText = descriptions[t];
@@ -485,21 +472,13 @@
                 const selectedTarget = document.getElementById('jsonSelect').value;
                 let filesToFetch = [];
 
-                // Kök dizindeki book1 - book6 arası, her birinde 30 story yapısı
                 if (selectedTarget === "ALL") {
                     for (let b = 1; b <= 6; b++) {
                         for (let s = 1; s <= 30; s++) {
                             let sStr = s < 10 ? '0' + s : s;
-                            let fileName = `book${b}/story-0${b}${sStr}.json`;
-                            filesToFetch.push({ name: `story-0${b}${sStr}.json`, path: fileName, book: b });
+                            let fileName = `Book ${b}/story-${sStr}.json`;
+                            filesToFetch.push({ name: `story-${sStr}.json`, path: fileName, book: b });
                         }
-                    }
-                } else if (selectedTarget.startsWith("GROUP_BOOK")) {
-                    let bNum = selectedTarget.replace("GROUP_BOOK", "");
-                    for (let s = 1; s <= 30; s++) {
-                        let sStr = s < 10 ? '0' + s : s;
-                        let fileName = `book${bNum}/story-0${bNum}${sStr}.json`;
-                        filesToFetch.push({ name: `story-0${bNum}${sStr}.json`, path: fileName, book: bNum });
                     }
                 } else {
                     filesToFetch.push({ name: selectedTarget.split('/').pop(), path: selectedTarget, book: 1 });
@@ -515,7 +494,7 @@
                     } catch (e) {}
                 }
 
-                if (rawJsonDataArray.length === 0) throw new Error("Dosya(lar) bulunamadı.");
+                if (rawJsonDataArray.length === 0) throw new Error("Dosya(lar) bulunamadı. Lütfen Book X klasörlerindeki story-XX.json dosyalarının varlığını ve yollarını kontrol edin.");
                 fileCountToProcess = rawJsonDataArray.length;
 
                 rawJsonDataArray.forEach(itemObj => {
