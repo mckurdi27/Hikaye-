@@ -26,7 +26,7 @@
             <div class="source-panel active-panel">
                 <label for="jsonSelect"><strong>Taranacak Dosyayı veya Grubu Seçin:</strong></label>
                 <select id="jsonSelect" style="width:100%; padding:10px; margin-top:8px; border-radius:6px; border:1px solid #ccc;">
-                    <!-- JavaScript ile 180 gün dinamik dolacak -->
+                    <!-- JS ile dinamik dolsun -->
                 </select>
             </div>
         </div>
@@ -54,12 +54,16 @@
     <script>
         let state = { task: 'hikaye' };
 
-        // 180 Günlük Yapıyı Doldur (days/day-1.json ... days/day-180.json)
+        // Sayı Biçimlendirici (1 -> 01, 10 -> 10, 100 -> 100)
+        function formatDayNum(d) {
+            return d < 10 ? '0' + d : '' + d;
+        }
+
+        // 180 Günlük Yapıyı Doldur (day-01.json ... day-180.json)
         window.addEventListener('DOMContentLoaded', () => {
             const selectEl = document.getElementById('jsonSelect');
-            selectEl.innerHTML = '<option value="ALL">📁 Tüm Günleri Tara (Day 1 - 180)</option>';
+            selectEl.innerHTML = '<option value="ALL">📁 Tüm Günleri Tara (Day 01 - 180)</option>';
             
-            // 30'ar günlük gruplar halinde düzenleyelim
             for (let b = 1; b <= 6; b++) {
                 let optGroup = document.createElement('optgroup');
                 let startDay = (b - 1) * 30 + 1;
@@ -72,7 +76,8 @@
                 optGroup.appendChild(groupAllOpt);
 
                 for (let d = startDay; d <= endDay; d++) {
-                    let fileName = `days/day-${d}.json`;
+                    let dStr = formatDayNum(d);
+                    let fileName = `day-${dStr}.json`;
                     let option = document.createElement('option');
                     option.value = fileName;
                     option.text = `Gün ${d} (${fileName})`;
@@ -100,14 +105,14 @@
 
             if (selectedTarget === "ALL") {
                 for (let d = 1; d <= 180; d++) {
-                    filesToFetch.push(`days/day-${d}.json`);
+                    filesToFetch.push(`day-${formatDayNum(d)}.json`);
                 }
             } else if (selectedTarget.startsWith("BLOCK_")) {
                 let blockNum = parseInt(selectedTarget.replace("BLOCK_", ""));
                 let startDay = (blockNum - 1) * 30 + 1;
                 let endDay = blockNum * 30;
                 for (let d = startDay; d <= endDay; d++) {
-                    filesToFetch.push(`days/day-${d}.json`);
+                    filesToFetch.push(`day-${formatDayNum(d)}.json`);
                 }
             } else {
                 filesToFetch.push(selectedTarget);
@@ -128,16 +133,23 @@
                         let data = await res.json();
                         let textToScan = "";
 
-                        // 1. Hikaye Metni Taraması (story.en)
+                        // 1. Hikaye Metni Taraması
                         if (state.task === 'hikaye') {
                             if (data.story && data.story.en) {
                                 textToScan = data.story.en;
+                            } else if (typeof data.story === 'string') {
+                                textToScan = data.story;
                             }
                         } 
-                        // 2. Kelime Listesi Taraması (words[].term.en)
+                        // 2. Kelime Listesi Taraması
                         else if (state.task === 'kelimeler' && data.words) {
                             textToScan = data.words
-                                .map(w => (w.term && w.term.en) ? w.term.en : "")
+                                .map(w => {
+                                    if (w.term && w.term.en) return w.term.en;
+                                    if (typeof w === 'string') return w;
+                                    if (w.word) return w.word;
+                                    return "";
+                                })
                                 .filter(Boolean)
                                 .join(" ");
                         }
