@@ -478,10 +478,12 @@
 
                 if (selectedTarget === "ALL") {
                     for (let b = 1; b <= 6; b++) {
-                        for (let s = 101; s <= 130; s++) {
-                            let sStr = s < 100 ? '0' + s : s;
-                            let fileName = `Book ${b}/story-${sStr}.json`;
-                            filesToFetch.push({ name: `story-${sStr}.json`, path: fileName, book: b });
+                        for (let s = 1; s <= 30; s++) {
+                            
+                            let sStr = String(s) .padStart(2, '0');        //01, 02, 03...
+                            let storyNumber = `0${b}${sStr}`;              //0101, 0102, 020q, 0630 ...
+                            let fileName = `book ${b}/story-${sStr}.json`;
+                            filesToFetch.push({ name: `story-${storyNumber}.json`, path: fileName, book: b });
                         }
                     }
                 } else {
