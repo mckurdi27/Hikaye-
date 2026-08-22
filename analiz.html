@@ -2,8 +2,7 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>16 Dilli Günlük Hikayeler - Analiz Paneli</title>
+    <title>Gelişmiş Dil Analiz Paneli</title>
     <!-- PDF.js kütüphanesi -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
     <script>
@@ -82,30 +81,31 @@
 
 <div class="header-bar">
     <div class="header-left">
-        <h2 style="margin: 0;">16 Dilli Günlük Hikayeler - Analiz Paneli</h2>
+        <h2 style="margin: 0;">Gelişmiş Dil Analiz Paneli</h2>
     </div>
     <a href="index.html" class="btn-home">⬅️ Ana Sayfaya Dön</a>
 </div>
 
 <div class="section">
-    <h3>1. Kaynak ve Kapsam Seçimi</h3>
+    <h3>1. Kaynak ve Kapsam Seçimi (stories.json Entegre)</h3>
     
     <div class="source-tabs">
-        <button class="source-tab-btn active-source" onclick="switchSourceTab('json', this)">📁 1. Kitap/Hikaye Arşiv Seçimi</button>
-        <button class="source-tab-btn" onclick="switchSourceTab('camera', this)">📷 2. Kamera / Fotoğraf OCR</button>
-        <button class="source-tab-btn" onclick="switchSourceTab('text_pdf', this)">📋 3. Metin / Tüm Dosyalar (PDF, Word, Excel, TXT)</button>
+        <button type="button" class="source-tab-btn active-source" onclick="switchSourceTab(0, this)">📁 1. stories.json / Kitap Arşivi</button>
+        <button type="button" class="source-tab-btn" onclick="switchSourceTab(1, this)">📷 2. Kamera / Fotoğraf OCR</button>
+        <button type="button" class="source-tab-btn" onclick="switchSourceTab(2, this)">📋 3. Metin / Tüm Dosyalar (PDF, Word, Excel, TXT)</button>
     </div>
 
-    <div id="panel-json" class="source-panel active-panel">
+    <div class="source-panel active-panel" id="panel-json">
         <div class="input-box" style="margin-top: 5px; margin-bottom: 15px;">
-            <label for="jsonSelect"><strong>Hedef JSON Dosyası / Grubu:</strong></label>
+            <label for="jsonSelect"><strong>Hedef Kitap / Dil / Gün:</strong></label>
             <select id="jsonSelect">
-                <!-- Javascript ile doldurulacak -->
+                <option value="ALL">📂 stories.json İçindeki TÜM Kitapları ve Günleri Tara</option>
             </select>
         </div>
+        <div id="masterStatus" style="font-size: 12px; color: #047857; font-weight: bold;">stories.json yükleniyor...</div>
     </div>
 
-    <div id="panel-camera" class="source-panel">
+    <div class="source-panel" id="panel-camera">
         <div style="background: #f8fafc; padding: 15px; border-radius: 6px; border: 1px solid #cbd5e1;">
             <p style="margin-top: 0; font-size: 13px; color: #334155;">Telefonun kamerasıyla çektiğin veya galeriden seçeceğin bir metin fotoğrafını tarayarak analiz edebilirsin.</p>
             <input type="file" accept="image/*" capture="environment" id="cameraInput" style="font-size: 13px;" onchange="handleImageOcr(this)">
@@ -113,7 +113,7 @@
         </div>
     </div>
 
-    <div id="panel-text-pdf" class="source-panel">
+    <div class="source-panel" id="panel-text-pdf">
         <div style="background: #f8fafc; padding: 15px; border-radius: 6px; border: 1px solid #cbd5e1; display: flex; flex-direction: column; gap: 12px;">
             <div>
                 <label style="font-weight: bold; font-size: 13px; display: block; margin-bottom: 5px;">A) Doğrudan Metin Yapıştır / Yaz:</label>
@@ -126,7 +126,7 @@
                     <input type="file" id="multiFileInput" accept=".pdf,.docx,.xlsx,.txt" multiple style="font-size: 12px;" onchange="handleUniversalFileUpload(this)">
                 </div>
                 
-                <div style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap; background: #fff; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px;">
+                <div style="display: flex; gap: 15px; align-items: center; flex-wrap: row; background: #fff; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px;">
                     <label style="font-size: 12px; font-weight: bold;">PDF Sayfa Modu:</label>
                     <select id="pdfScopeMode" style="width: 160px; font-size: 12px;">
                         <option value="single">Tek Sayfa No Gir</option>
@@ -148,8 +148,8 @@
             </div>
 
             <div style="margin-top: 10px;">
-                <label style="font-weight: bold; font-size: 13px; display: block; margin-bottom: 5px; color: #0369a1;">🔍 Çevrilen Metin Önizlemesi (Analiz Edilmeden Önce Ne Okunduğunu Gör):</label>
-                <textarea id="previewExtractedTextArea" rows="6" style="width: 100%; border: 1px solid #0369a1; border-radius: 4px; padding: 8px; background: #f0f9ff; font-family: monospace; font-size: 12px;" placeholder="Dosyaları işledikten sonra buraya metin düşecek. İsterseniz burada metni doğrudan düzenleyip silebilir, sonra analizi çalıştırabilirsiniz..."></textarea>
+                <label style="font-weight: bold; font-size: 13px; display: block; margin-bottom: 5px; color: #0369a1;">🔍 Çevrilen Metin Önizlemesi:</label>
+                <textarea id="previewExtractedTextArea" rows="6" style="width: 100%; border: 1px solid #0369a1; border-radius: 4px; padding: 8px; background: #f0f9ff; font-family: monospace; font-size: 12px;" placeholder="Dosyaları işledikten sonra buraya metin düşecek..."></textarea>
             </div>
         </div>
     </div>
@@ -181,9 +181,9 @@
 <div class="section">
     <h3>2. İşlem Türü (Analiz Modu)</h3>
     <div class="btn-group">
-        <button onclick="setTask('hikaye', this)" class="active-btn">📖 Hikaye Metni Analizi (İngilizce)</button>
-        <button onclick="setTask('kelimeler', this)">📋 Hikaye Kelime Listesi Analizi</button>
-        <button onclick="setTask('cevir', this)">🔤 Çeviri / Sözlük Detayı (İng-Tr)</button>
+        <button onclick="setTask('hikaye', this)" class="active-btn">📖 Hikaye Metni Analizi (story_en)</button>
+        <button onclick="setTask('kelimeler', this)">📋 50 Kelime Listesi Analizi (words)</button>
+        <button onclick="setTask('cevir', this)">🔤 Çeviri / Sözlük Detayı</button>
     </div>
     <div id="taskDetails" style="font-size: 13px; color: #555;">Mod: Hikaye metni kelime bazlı taranır ve frekansları ölçülür.</div>
 </div>
@@ -198,53 +198,80 @@
 <script>
     let customCsvContent = "";
     let globalCsvDictionary = {};
+    let globalStoriesMaster = null; // stories.json verisi burada tutulacak
     let state = { task: 'hikaye', activeSourceType: 'json', customExtractedText: "" };
     let globalTableData = [];
     let fileCountToProcess = 1;
     let currentSortColumn = 'original';
     let currentSortOrder = 'asc';
 
-    window.addEventListener('DOMContentLoaded', () => {
-        const selectEl = document.getElementById('jsonSelect');
-        selectEl.innerHTML = '<option value="ALL">📁 Tüm Projeyi Tara (6 Kitap, 180 Hikaye)</option>';
-        
-        // 6 Kitap ve 30 Hikaye Yapısını Dinamik Oluştur
-        for(let book = 1; book <= 6; book++) {
-            let optGroup = document.createElement('optgroup');
-            optGroup.label = `--- ${book}. KİTAP HİKAYELERİ ---`;
-            
-            let groupAllOpt = document.createElement('option');
-            groupAllOpt.value = `GROUP_BOOK_${book}`;
-            groupAllOpt.textContent = `📂 Tüm ${book}. Kitap Hikayeleri (30 Adet)`;
-            groupAllOpt.style.fontWeight = "bold";
-            groupAllOpt.style.color = "#4f46e5";
-            optGroup.appendChild(groupAllOpt);
-
-            for (let story = 1; story <= 30; story++) {
-                let bookStr = book < 10 ? '0' + book : book;
-                let storyStr = story < 10 ? '0' + story : story;
-                let fileName = `data/story-${bookStr}${storyStr}.json`;
-                
-                let option = document.createElement('option');
-                option.value = fileName;
-                option.text = `${book}. Kitap - ${story}. Hikaye (${fileName})`;
-                optGroup.appendChild(option);
-            }
-            selectEl.appendChild(optGroup);
-        }
+    window.addEventListener('DOMContentLoaded', async () => {
+        await loadStoriesMasterIndex();
 
         document.querySelectorAll('input[name="csvFile"]').forEach(cb => {
             cb.addEventListener('change', updateCsvSelectionInfo);
         });
     });
 
-    function switchSourceTab(type, btn) {
+    async function loadStoriesMasterIndex() {
+        const selectEl = document.getElementById('jsonSelect');
+        const masterStatus = document.getElementById('masterStatus');
+        
+        try {
+            let res = await fetch('stories.json');
+            if (!res.ok) throw new Error("stories.json dosyası okunamadı.");
+            globalStoriesMaster = await res.json();
+            
+            selectEl.innerHTML = '<option value="ALL">📂 stories.json İçindeki TÜM Kitapları ve Günleri Tara</option>';
+
+            // stories.json yapısına göre (örn. book1, book2... ve diller) dolduruyoruz
+            // Varsayalım ki stories.json içinde kitaplar ve diller yer alıyor
+            let booksKeys = Object.keys(globalStoriesMaster).filter(k => k.startsWith('book') || Array.isArray(globalStoriesMaster[k]));
+            
+            if (booksKeys.length === 0) {
+                // Eğer doğrudan dizi veya başka bir yapıdaysa genel tarama yeterlidir
+                masterStatus.innerText = "✅ stories.json başarıyla yüklendi (Genel Yapı).";
+                return;
+            }
+
+            booksKeys.forEach(bookKey => {
+                let optGroup = document.createElement('optgroup');
+                optGroup.label = `--- Kitap: ${bookKey.toUpperCase()} ---`;
+                
+                let bookObj = globalStoriesMaster[bookKey];
+                if (typeof bookObj === 'object' && bookObj !== null) {
+                    let languages = Object.keys(bookObj);
+                    languages.forEach(lang => {
+                        let option = document.createElement('option');
+                        option.value = `${bookKey}_${lang}`;
+                        option.text = `Kitap: ${bookKey.toUpperCase()} | Dil: ${lang.toUpperCase()}`;
+                        optGroup.appendChild(option);
+                    });
+                }
+                selectEl.appendChild(optGroup);
+            });
+
+            masterStatus.innerText = "✅ stories.json başarıyla yüklendi ve seçim listesi hazırlandı!";
+        } catch (err) {
+            masterStatus.innerHTML = `<span style="color: #dc2626;">❌ stories.json yükleme hatası: ${err.message}. Lütfen dosyanın dizinde olduğundan emin olun.</span>`;
+        }
+    }
+
+    function switchSourceTab(index, btn) {
         document.querySelectorAll('.source-tab-btn').forEach(b => b.classList.remove('active-source'));
         document.querySelectorAll('.source-panel').forEach(p => p.classList.remove('active-panel'));
         
         btn.classList.add('active-source');
-        state.activeSourceType = type;
-        document.getElementById(`panel-${type}`).classList.add('active-panel');
+        if (index === 0) {
+            state.activeSourceType = 'json';
+            document.getElementById('panel-json').classList.add('active-panel');
+        } else if (index === 1) {
+            state.activeSourceType = 'camera';
+            document.getElementById('panel-camera').classList.add('active-panel');
+        } else if (index === 2) {
+            state.activeSourceType = 'text_pdf';
+            document.getElementById('panel-text-pdf').classList.add('active-panel');
+        }
     }
 
     async function handleImageOcr(input) {
@@ -349,7 +376,7 @@
 
             state.customExtractedText = combinedTexts.join('\n\n');
             previewArea.value = state.customExtractedText;
-            statusEl.innerText = `✅ Dosyalar başarıyla metne çevrildi ve aşağıda önizlemeye yüklendi!`;
+            statusEl.innerText = `✅ Dosyalar başarıyla metne çevrildi ve önizlemeye yüklendi!`;
         } catch (err) {
             statusEl.innerText = "❌ Dosya Okuma Hatası: " + err.message;
         }
@@ -385,9 +412,9 @@
     function setTask(t, btn) {
         state.task = t;
         const descriptions = {
-            'hikaye': 'Mod: İngilizce hikaye metni (story.en) kelime bazlı taranır ve frekansları ölçülür.',
-            'kelimeler': 'Mod: Günlük kelime listesi incelenir (term.en).',
-            'cevir': 'Mod: Kelimeler (term.en), Türkçe karşılıkları (term.tr) ve örnek cümleleriyle sözlük formatında listelenir.'
+            'hikaye': 'Mod: Hikaye metni kelime bazlı taranır ve frekansları ölçülür.',
+            'kelimeler': 'Mod: 50 kelimelik liste içeriği incelenir.',
+            'cevir': 'Mod: Kelimeler, Türkçe karşılıkları ve örnek cümleleriyle sözlük formatında listelenir.'
         };
         document.getElementById('taskDetails').innerText = descriptions[t];
         btn.parentElement.querySelectorAll('button').forEach(b => b.classList.remove('active-btn'));
@@ -435,7 +462,7 @@
                 }
             });
 
-            let rawJsonDataArray = [];
+            let targetDatasets = [];
             let itemTracking = {};
             let translationTracking = {};
             let totalCheckedCount = 0;
@@ -472,60 +499,61 @@
                     }
                 });
             } else {
+                if (!globalStoriesMaster) {
+                    throw new Error("stories.json henüz yüklenmedi veya bulunamadı.");
+                }
+
                 const selectedTarget = document.getElementById('jsonSelect').value;
-                let filesToFetch = [];
+                
+                // stories.json içerisindeki gün/hikaye verilerini topluyoruz
+                let extractEntries = (node, sourceLabel) => {
+                    if (!node) return;
+                    if (Array.isArray(node)) {
+                        node.forEach((item, idx) => {
+                            targetDatasets.push({ sourceName: `${sourceLabel}_item_${idx}`, data: item, defaultLevel: 'B1' });
+                        });
+                    } else if (typeof node === 'object') {
+                        // Eğer günlük dosyalar veya alt nesneler içeriyorsa tarıyoruz
+                        Object.keys(node).forEach(k => {
+                            let val = node[k];
+                            if (typeof val === 'object' && val !== null) {
+                                // Eğer içinde story_en veya words varsa doğrudan veri düğümüdür
+                                if (val.story_en || val.words || val.word) {
+                                    targetDatasets.push({ sourceName: `${sourceLabel}_${k}`, data: val, defaultLevel: 'B1' });
+                                } else {
+                                    extractEntries(val, `${sourceLabel}_${k}`);
+                                }
+                            }
+                        });
+                    }
+                };
 
                 if (selectedTarget === "ALL") {
-                    for(let book = 1; book <= 6; book++) {
-                        for(let story = 1; story <= 30; story++) {
-                            let b = book < 10 ? '0'+book : book;
-                            let s = story < 10 ? '0'+story : story;
-                            filesToFetch.push({ name: `story-${b}${s}.json`, path: `data/story-${b}${s}.json`, level: `${book}. Kitap` });
-                        }
-                    }
-                } else if (selectedTarget.startsWith("GROUP_BOOK_")) {
-                    let book = parseInt(selectedTarget.replace("GROUP_BOOK_", ""));
-                    let b = book < 10 ? '0'+book : book;
-                    for(let story = 1; story <= 30; story++) {
-                        let s = story < 10 ? '0'+story : story;
-                        filesToFetch.push({ name: `story-${b}${s}.json`, path: `data/story-${b}${s}.json`, level: `${book}. Kitap` });
-                    }
+                    extractEntries(globalStoriesMaster, "Master");
                 } else {
-                    let match = selectedTarget.match(/story-(\d{2})/);
-                    let bookLvl = match ? `${parseInt(match[1])}. Kitap` : 'Bilinmiyor';
-                    filesToFetch.push({ name: selectedTarget.split('/').pop(), path: selectedTarget, level: bookLvl });
-                }
-
-                /* YENİ JSON MİMARİSİNE UYGUN FETCH */
-                for (let itemObj of filesToFetch) {
-                    try {
-                        let res = await fetch(itemObj.path);
-                        if (res.ok) {
-                            let jsonData = await res.json();
-                            rawJsonDataArray.push({ sourceName: itemObj.name, data: jsonData, defaultLevel: itemObj.level });
-                        }
-                    } catch (e) {
-                        // Var olmayan (404) dosyalar sessizce es geçilir.
+                    let parts = selectedTarget.split('_');
+                    let bKey = parts[0];
+                    let lKey = parts[1];
+                    if (globalStoriesMaster[bKey] && globalStoriesMaster[bKey][lKey]) {
+                        extractEntries(globalStoriesMaster[bKey][lKey], `${bKey}_${lKey}`);
                     }
                 }
 
-                if (rawJsonDataArray.length === 0) throw new Error("Seçili klasörde dosya bulunamadı. Lütfen 'data' klasöründe JSON dosyalarınızın olduğundan emin olun.");
-                fileCountToProcess = rawJsonDataArray.length;
+                if (targetDatasets.length === 0) {
+                    throw new Error("Seçilen kriter uygun veri kümesi döndürmedi.");
+                }
 
-                rawJsonDataArray.forEach(itemObj => {
+                fileCountToProcess = targetDatasets.length;
+
+                targetDatasets.forEach(itemObj => {
                     let fName = itemObj.sourceName;
                     let data = itemObj.data;
-                    let jsonFileLevel = itemObj.defaultLevel; 
+                    let jsonFileLevel = (data.level && data.level.trim() !== '') ? data.level.toUpperCase().trim() : itemObj.defaultLevel;
 
                     if (state.task === 'hikaye') {
-                        // Yeni 16-Dilli Şablondaki hikaye metni (Paragraf array'ini tek metin yap)
-                        let storyText = "";
-                        if (data.story && data.story.en) {
-                            storyText = Array.isArray(data.story.en) ? data.story.en.join(" ") : data.story.en;
-                        }
-
-                        if (storyText) {
-                            let cleanStory = storyText.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"']/g, " ").toLowerCase();
+                        let textSource = data.story_en || data.text || (typeof data === 'string' ? data : '');
+                        if (textSource && typeof textSource === 'string') {
+                            let cleanStory = textSource.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"']/g, " ").toLowerCase();
                             let wordsArr = cleanStory.split(/\s+/);
                             
                             wordsArr.forEach((w, wordIndex) => {
@@ -548,44 +576,48 @@
                                 }
                             });
                         }
-                    } else if (state.task === 'kelimeler' || state.task === 'cevir') {
-                        // Yeni JSON Şablonu words objesini ayrıştır
-                        let list = data.words && Array.isArray(data.words) ? data.words : [];
+                    } else if (state.task === 'kelimeler') {
+                        let list = data.words && Array.isArray(data.words) ? data.words : (Array.isArray(data) ? data : []);
                         list.forEach((item, itemIndex) => {
-                            // Yeni şablon: item.term.en / item.term.tr ...
-                            let wordStr = item.term?.en || item.word || '';
+                            let wordStr = item.word || item.Kelime || '';
                             if (wordStr) {
                                 let cleanW = wordStr.trim().toLowerCase();
                                 totalCheckedCount++;
                                 let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : jsonFileLevel;
                                 let csvMatched = !!globalCsvDictionary[cleanW];
-                                
-                                let trMeaning = (item.term?.tr || item.turkish || (csvMatched ? globalCsvDictionary[cleanW].turkish : '-')).replace(/\s+/g, ' ');
-                                let engExample = (item.example_en || item.example || '').replace(/\s+/g, ' ');
 
-                                if (state.task === 'kelimeler') {
-                                    if (!itemTracking[cleanW]) {
-                                        itemTracking[cleanW] = { 
-                                            original: wordStr.trim(), type: '-',
-                                            turkish: trMeaning,
-                                            example_en: engExample,
-                                            files: [], fileOccurrences: [], level: finalLevel, jsonLevel: jsonFileLevel, csvMatched: csvMatched
-                                        };
-                                    }
-                                    if (!itemTracking[cleanW].files.includes(fName)) itemTracking[cleanW].files.push(fName);
-                                    itemTracking[cleanW].fileOccurrences.push({ file: fName, index: itemIndex + 1 });
-                                } else {
-                                    if (!translationTracking[cleanW]) {
-                                        translationTracking[cleanW] = {
-                                            original: wordStr.trim(), level: finalLevel, jsonLevel: jsonFileLevel, csvMatched: csvMatched, occurrences: []
-                                        };
-                                    }
-                                    translationTracking[cleanW].occurrences.push({
-                                        file: fName, index: itemIndex + 1,
-                                        turkish: trMeaning,
-                                        example_en: engExample
-                                    });
+                                if (!itemTracking[cleanW]) {
+                                    itemTracking[cleanW] = { 
+                                        original: wordStr.trim(), type: (item.type || '-').replace(/\s+/g, ' '),
+                                        turkish: (item.turkish || item.Anlam || (csvMatched ? globalCsvDictionary[cleanW].turkish : '-')).replace(/\s+/g, ' '),
+                                        example_en: (item.example_en || '').replace(/\s+/g, ' '),
+                                        files: [], fileOccurrences: [], level: finalLevel, jsonLevel: jsonFileLevel, csvMatched: csvMatched
+                                    };
                                 }
+                                if (!itemTracking[cleanW].files.includes(fName)) itemTracking[cleanW].files.push(fName);
+                                itemTracking[cleanW].fileOccurrences.push({ file: fName, index: itemIndex + 1 });
+                            }
+                        });
+                    } else {
+                        let list = data.words && Array.isArray(data.words) ? data.words : (Array.isArray(data) ? data : []);
+                        list.forEach((item, itemIndex) => {
+                            let wordStr = item.word || item.Kelime || '';
+                            if (wordStr) {
+                                let cleanW = wordStr.trim().toLowerCase();
+                                totalCheckedCount++;
+                                let finalLevel = globalCsvDictionary[cleanW] ? globalCsvDictionary[cleanW].cefr : jsonFileLevel;
+                                let csvMatched = !!globalCsvDictionary[cleanW];
+
+                                if (!translationTracking[cleanW]) {
+                                    translationTracking[cleanW] = {
+                                        original: wordStr.trim(), level: finalLevel, jsonLevel: jsonFileLevel, csvMatched: csvMatched, occurrences: []
+                                    };
+                                }
+                                translationTracking[cleanW].occurrences.push({
+                                    file: fName, index: itemIndex + 1,
+                                    turkish: (item.turkish || item.Anlam || '-').replace(/\s+/g, ' '),
+                                    example_en: (item.example_en || '').replace(/\s+/g, ' ')
+                                });
                             }
                         });
                     }
