@@ -3,206 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gelişmiş Dil Analiz Paneli</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
-    <script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';</script>
-    <script src="https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-
-    <style>
-        body { font-family: sans-serif; padding: 20px; background: #f9f9f9; color: #1e293b; }
-        .header-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; background: white; padding: 15px 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .btn-home { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; background-color: #4f46e5; color: #ffffff; border-radius: 6px; text-decoration: none; font-weight: 500; border: none; cursor: pointer; }
-        .btn-home:hover { background-color: #4338ca; }
-        .section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .btn-group { display: flex; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
-        button { padding: 10px; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: #fff; font-weight: 500; }
-        .active-btn { background: #27ae60 !important; color: white; border: none; }
-        .table-container { max-height: 480px; overflow-y: auto; margin-top: 10px; border: 1px solid #ddd; border-radius: 6px; }
-        table { width: 100%; border-collapse: collapse; background: white; }
-        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; font-size: 14px; }
-        th { background: #f1f5f9; color: #0f172a; position: sticky; top: 0; z-index: 10; }
-        .status-bar { padding: 10px; border-radius: 4px; margin-top: 10px; background: #eef2f7; }
-        .input-box { margin-top: 10px; display: flex; gap: 10px; align-items: center; }
-        select, textarea { padding: 8px; border: 1px solid #cbd5e1; border-radius: 4px; }
-        select { width: 380px; }
-        .badge-unique { background: #e0f2fe; color: #0369a1; padding: 3px 6px; border-radius: 4px; font-weight: 600; font-size: 11px; }
-        .badge-dup { background: #fee2e2; color: #dc2626; padding: 3px 6px; border-radius: 4px; font-weight: 600; font-size: 11px; }
-        .source-tabs { display: flex; gap: 10px; margin-bottom: 15px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
-        .source-tab-btn { padding: 8px 14px; background: #e2e8f0; border: none; border-radius: 6px; cursor: pointer; }
-        .source-tab-btn.active-source { background: #4f46e5; color: white; }
-        .source-panel { display: none; }
-        .source-panel.active-panel { display: block; }
-    </style>
+    <title>Metin ve Kelime Analiz Paneli</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="header-bar">
-    <h2>Gelişmiş Dil Analiz Paneli</h2>
-    <a href="index.html" class="btn-home">⬅️ Ana Sayfaya Dön</a>
-</div>
-
-<div class="section">
-    <h3>1. Kaynak ve Kapsam Seçimi</h3>
-    <div class="source-tabs">
-        <button type="button" class="source-tab-btn active-source" onclick="switchSourceTab(0, this)">📁 1. Hikaye Arşivi Seçimi</button>
-        <button type="button" class="source-tab-btn" onclick="switchSourceTab(1, this)">📷 2. Kamera / Fotoğraf OCR</button>
-        <button type="button" class="source-tab-btn" onclick="switchSourceTab(2, this)">📋 3. Metin / Tüm Dosyalar</button>
+    <div class="header">
+        <h1>📊 Metin ve Kelime Analiz Paneli</h1>
+        <p>JSON dosyalarınızdaki hikaye ve kelime sıklıklarını analiz edin.</p>
+        <a href="index.html" class="btn-analiz-link" style="display:inline-block; margin-top:10px;">🏠 Ana Sayfaya Dön</a>
     </div>
 
-    <div class="source-panel active-panel" id="panel-json">
-        <div class="input-box">
-            <label for="jsonSelect"><strong>Target Story JSON:</strong></label>
-            <select id="jsonSelect">
-                <option value="ALL">📁 Tüm Kitapları Tara (180 Hikaye)</option>
-            </select>
-        </div>
-    </div>
-
-    <div class="source-panel" id="panel-camera">
-        <input type="file" accept="image/*" capture="environment" id="cameraInput" onchange="handleImageOcr(this)">
-        <div id="ocrStatus"></div>
-    </div>
-
-    <div class="source-panel" id="panel-text-pdf">
-        <textarea id="directTextArea" rows="4" style="width:100%;" placeholder="Metninizi yapıştırın..."></textarea>
-    </div>
-</div>
-
-<div class="section">
-    <h3>2. İşlem Türü (Analiz Modu)</h3>
-    <div class="btn-group">
-        <button onclick="setTask('hikaye', this)" class="active-btn">📖 Hikaye Metni Analizi (story.en)</button>
-        <button onclick="setTask('kelimeler', this)">📋 Kelime Listesi Analizi (words)</button>
-    </div>
-</div>
-
-<div class="section" id="resultSection">
-    <h3>3. Analiz Sonucu</h3>
-    <button onclick="runAnalysis()" style="background: #4f46e5; color: white; padding: 12px 20px; border: none; border-radius: 6px; cursor:pointer;">🚀 Analizi Çalıştır</button>
-    <div id="status" class="status-bar">Sistem hazır.</div>
-    <div id="resultArea" style="margin-top:20px;"></div>
-</div>
-
-<script>
-    let state = { task: 'hikaye', activeSourceType: 'json', customExtractedText: "" };
-    let globalTableData = [];
-
-    window.addEventListener('DOMContentLoaded', () => {
-        const selectEl = document.getElementById('jsonSelect');
-        for (let b = 1; b <= 6; b++) {
-            let optGroup = document.createElement('optgroup');
-            optGroup.label = `--- Kitap ${b} ---`;
-            let groupAllOpt = document.createElement('option');
-            groupAllOpt.value = `BOOK_${b}`;
-            groupAllOpt.textContent = `📂 Tüm Kitap ${b} Hikayeleri`;
-            optGroup.appendChild(groupAllOpt);
-
-            for (let s = 1; s <= 30; s++) {
-                let sNum = s < 10 ? '0' + s : s;
-                let fileName = `data/story-0${b}${sNum}.json`;
-                let option = document.createElement('option');
-                option.value = fileName;
-                option.text = `Kitap ${b} - Hikaye ${s} (story-0${b}${sNum}.json)`;
-                optGroup.appendChild(option);
-            }
-            selectEl.appendChild(optGroup);
-        }
-    });
-
-    function switchSourceTab(index, btn) {
-        document.querySelectorAll('.source-tab-btn').forEach(b => b.classList.remove('active-source'));
-        document.querySelectorAll('.source-panel').forEach(p => p.classList.remove('active-panel'));
-        btn.classList.add('active-source');
-        if (index === 0) state.activeSourceType = 'json';
-        else if (index === 1) state.activeSourceType = 'camera';
-        else state.activeSourceType = 'text_pdf';
-        document.querySelectorAll('.source-panel')[index].classList.add('active-panel');
-    }
-
-    function setTask(t, btn) {
-        state.task = t;
-        btn.parentElement.querySelectorAll('button').forEach(b => b.classList.remove('active-btn'));
-        btn.classList.add('active-btn');
-    }
-
-    async function runAnalysis() {
-        const statusDiv = document.getElementById('status');
-        const resultArea = document.getElementById('resultArea');
-        statusDiv.innerText = "Analiz çalıştırılıyor...";
+    <div class="container">
         
-        let filesToFetch = [];
-        const selectedTarget = document.getElementById('jsonSelect').value;
-
-        if (selectedTarget === "ALL") {
-            for (let b = 1; b <= 6; b++) {
-                for (let s = 1; s <= 30; s++) {
-                    let sNum = s < 10 ? '0' + s : s;
-                    filesToFetch.push(`data/story-0${b}${sNum}.json`);
-                }
-            }
-        } else if (selectedTarget.startsWith("BOOK_")) {
-            let b = selectedTarget.replace("BOOK_", "");
-            for (let s = 1; s <= 30; s++) {
-                let sNum = s < 10 ? '0' + s : s;
-                filesToFetch.push(`data/story-0${b}${sNum}.json`);
-            }
-        } else {
-            filesToFetch.push(selectedTarget);
-        }
-
-        let itemTracking = {};
-        let totalWords = 0;
-
-        for (let path of filesToFetch) {
-            try {
-                let res = await fetch(path);
-                if (res.ok) {
-                    let data = await res.json();
-                    let textToScan = "";
-
-                    if (state.task === 'hikaye') {
-                        textToScan = data.story ? data.story.en : "";
-                    } else if (state.task === 'kelimeler' && data.words) {
-                        textToScan = data.words.map(w => w.term ? w.term.en : "").join(" ");
-                    }
-
-                    if (textToScan) {
-                        let cleanWords = textToScan.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"']/g, " ").toLowerCase().split(/\s+/);
-                        cleanWords.forEach(w => {
-                            let cleanW = w.trim();
-                            if (cleanW.length > 1 && !/^\d+$/.test(cleanW)) {
-                                totalWords++;
-                                if (!itemTracking[cleanW]) itemTracking[cleanW] = { word: cleanW, count: 0 };
-                                itemTracking[cleanW].count++;
-                            }
-                        });
-                    }
-                }
-            } catch (e) {}
-        }
-
-        statusDiv.innerText = "✅ Analiz tamamlandı!";
-        
-        let rows = Object.values(itemTracking).sort((a,b) => b.count - a.count).map((item, idx) => `
-            <tr>
-                <td>${idx + 1}</td>
-                <td><strong>${item.word}</strong></td>
-                <td>${item.count}</td>
-            </tr>
-        `).join('');
-
-        resultArea.innerHTML = `
-            <h4>Toplam Taranan Kelime: ${totalWords} | Benzersiz Kelime: ${Object.keys(itemTracking).length}</h4>
-            <div class="table-container">
-                <table>
-                    <thead><tr><th>#</th><th>Kelime (EN)</th><th>Frekans</th></tr></thead>
-                    <tbody>${rows}</tbody>
-                </table>
+        <!-- 1. Kaynak Seçimi -->
+        <div class="card">
+            <h3>1. Veri Kaynağı Seçimi</h3>
+            <div class="source-tabs">
+                <button class="source-tab-btn active-source" onclick="switchSourceTab(0, this)">📂 JSON Dosyaları (180 Gün)</button>
             </div>
-        `;
-    }
-</script>
+
+            <div class="source-panel active-panel">
+                <label for="jsonSelect"><strong>Taranacak Dosyayı veya Grubu Seçin:</strong></label>
+                <select id="jsonSelect" style="width:100%; padding:10px; margin-top:8px; border-radius:6px; border:1px solid #ccc;">
+                    <!-- JavaScript ile 180 gün dinamik dolacak -->
+                </select>
+            </div>
+        </div>
+
+        <!-- 2. İşlem Türü -->
+        <div class="card">
+            <h3>2. İşlem Türü (Analiz Modu)</h3>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+                <button class="action-btn active-btn" onclick="setTask('hikaye', this)">📖 Hikaye Metni Analizi (story.en)</button>
+                <button class="action-btn" onclick="setTask('kelimeler', this)">📋 Kelime Listesi Analizi (words)</button>
+            </div>
+        </div>
+
+        <!-- 3. Sonuç Paneli -->
+        <div class="card">
+            <h3>3. Analiz Sonucu</h3>
+            <button onclick="runAnalysis()" style="background:#4A90E2; color:white; border:none; padding:12px 20px; font-weight:bold; border-radius:6px; cursor:pointer; width:100%;">🚀 Analizi Çalıştır</button>
+            
+            <div id="status" style="margin-top:15px; font-weight:bold; color:#333;"></div>
+            <div id="resultArea" style="margin-top:15px;"></div>
+        </div>
+
+    </div>
+
+    <script>
+        let state = { task: 'hikaye' };
+
+        // 180 Günlük Yapıyı Doldur (days/day-1.json ... days/day-180.json)
+        window.addEventListener('DOMContentLoaded', () => {
+            const selectEl = document.getElementById('jsonSelect');
+            selectEl.innerHTML = '<option value="ALL">📁 Tüm Günleri Tara (Day 1 - 180)</option>';
+            
+            // 30'ar günlük gruplar halinde düzenleyelim
+            for (let b = 1; b <= 6; b++) {
+                let optGroup = document.createElement('optgroup');
+                let startDay = (b - 1) * 30 + 1;
+                let endDay = b * 30;
+                optGroup.label = `--- Blok ${b} (Gün ${startDay} - ${endDay}) ---`;
+                
+                let groupAllOpt = document.createElement('option');
+                groupAllOpt.value = `BLOCK_${b}`;
+                groupAllOpt.textContent = `📂 Blok ${b} (Gün ${startDay} - ${endDay}) Tümünü Tara`;
+                optGroup.appendChild(groupAllOpt);
+
+                for (let d = startDay; d <= endDay; d++) {
+                    let fileName = `days/day-${d}.json`;
+                    let option = document.createElement('option');
+                    option.value = fileName;
+                    option.text = `Gün ${d} (${fileName})`;
+                    optGroup.appendChild(option);
+                }
+                selectEl.appendChild(optGroup);
+            }
+        });
+
+        function setTask(t, btn) {
+            state.task = t;
+            btn.parentElement.querySelectorAll('button').forEach(b => b.classList.remove('active-btn'));
+            btn.classList.add('active-btn');
+        }
+
+        async function runAnalysis() {
+            const statusDiv = document.getElementById('status');
+            const resultArea = document.getElementById('resultArea');
+            
+            statusDiv.innerHTML = "⏳ Analiz başlatılıyor...";
+            resultArea.innerHTML = "";
+            
+            let filesToFetch = [];
+            const selectedTarget = document.getElementById('jsonSelect').value;
+
+            if (selectedTarget === "ALL") {
+                for (let d = 1; d <= 180; d++) {
+                    filesToFetch.push(`days/day-${d}.json`);
+                }
+            } else if (selectedTarget.startsWith("BLOCK_")) {
+                let blockNum = parseInt(selectedTarget.replace("BLOCK_", ""));
+                let startDay = (blockNum - 1) * 30 + 1;
+                let endDay = blockNum * 30;
+                for (let d = startDay; d <= endDay; d++) {
+                    filesToFetch.push(`days/day-${d}.json`);
+                }
+            } else {
+                filesToFetch.push(selectedTarget);
+            }
+
+            let itemTracking = {};
+            let totalWords = 0;
+            let loadedCount = 0;
+
+            for (let path of filesToFetch) {
+                loadedCount++;
+                let percent = Math.round((loadedCount / filesToFetch.length) * 100);
+                statusDiv.innerText = `⏳ Taranıyor: %${percent} (${loadedCount}/${filesToFetch.length})`;
+
+                try {
+                    let res = await fetch(path);
+                    if (res.ok) {
+                        let data = await res.json();
+                        let textToScan = "";
+
+                        // 1. Hikaye Metni Taraması (story.en)
+                        if (state.task === 'hikaye') {
+                            if (data.story && data.story.en) {
+                                textToScan = data.story.en;
+                            }
+                        } 
+                        // 2. Kelime Listesi Taraması (words[].term.en)
+                        else if (state.task === 'kelimeler' && data.words) {
+                            textToScan = data.words
+                                .map(w => (w.term && w.term.en) ? w.term.en : "")
+                                .filter(Boolean)
+                                .join(" ");
+                        }
+
+                        if (textToScan) {
+                            let cleanWords = textToScan
+                                .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'’]/g, " ")
+                                .toLowerCase()
+                                .split(/\s+/);
+
+                            cleanWords.forEach(w => {
+                                let cleanW = w.trim();
+                                if (cleanW.length > 1 && !/^\d+$/.test(cleanW)) {
+                                    totalWords++;
+                                    if (!itemTracking[cleanW]) itemTracking[cleanW] = { word: cleanW, count: 0 };
+                                    itemTracking[cleanW].count++;
+                                }
+                            });
+                        }
+                    }
+                } catch (e) {
+                    console.log("Dosya okunamadı:", path);
+                }
+            }
+
+            if (Object.keys(itemTracking).length === 0) {
+                statusDiv.innerHTML = "❌ <b>Kelime Bulunamadı!</b> Seçtiğiniz gün/dosya okunamadı veya içi boş.";
+                return;
+            }
+
+            statusDiv.innerText = "✅ Analiz başarıyla tamamlandı!";
+            
+            let rows = Object.values(itemTracking)
+                .sort((a,b) => b.count - a.count)
+                .map((item, idx) => `
+                    <tr>
+                        <td>${idx + 1}</td>
+                        <td><strong>${item.word}</strong></td>
+                        <td>${item.count}</td>
+                    </tr>
+                `).join('');
+
+            resultArea.innerHTML = `
+                <div style="margin-bottom:10px;">
+                    <strong>Toplam Taranan Kelime:</strong> ${totalWords} | 
+                    <strong>Benzersiz Kelime:</strong> ${Object.keys(itemTracking).length}
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead><tr><th>#</th><th>Kelime (EN)</th><th>Frekans</th></tr></thead>
+                        <tbody>${rows}</tbody>
+                    </table>
+                </div>
+            `;
+        }
+    </script>
 </body>
 </html>
