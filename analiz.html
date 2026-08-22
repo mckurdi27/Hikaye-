@@ -212,7 +212,7 @@
     window.addEventListener('DOMContentLoaded', () => {
         const selectEl = document.getElementById('jsonSelect');
         
-        // GitHub deponuzdaki gerçek klasör yapısına göre düzeltildi (book1, book2 vb. tire işaretsiz)
+        // Kök dizindeki book1 - book6 arası, her birinde 30 story yapısı
         for (let b = 1; b <= 6; b++) {
             let optGroup = document.createElement('optgroup');
             optGroup.label = `--- book${b} Dosyaları ---`;
@@ -485,6 +485,7 @@
                 const selectedTarget = document.getElementById('jsonSelect').value;
                 let filesToFetch = [];
 
+                // Kök dizindeki book1 - book6 arası, her birinde 30 story yapısı
                 if (selectedTarget === "ALL") {
                     for (let b = 1; b <= 6; b++) {
                         for (let s = 1; s <= 30; s++) {
