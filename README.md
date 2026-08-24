@@ -1,5 +1,5 @@
 # 📖 Her güne 1 hikaye
- 
+  
 # 16 Dilli Günlük hikayeler
 
 # Bu 16 dil ve sıralaması değişmez ama herzaman ingilzce ilk seçili dil ikinci sırada gösterilir 
